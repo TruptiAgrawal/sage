@@ -1,0 +1,116 @@
+{
+  "model_type": "lightgbm",
+  "task": "quality_predictor",
+  "timestamp": "2026-07-22T21:09:04.044821+00:00",
+  "train_rows": 991,
+  "test_rows": 248,
+  "accuracy": 0.6169354838709677,
+  "macro_f1": 0.6266646524542725,
+  "classification_report": {
+    "Bad": {
+      "precision": 0.574468085106383,
+      "recall": 0.675,
+      "f1-score": 0.6206896551724138,
+      "support": 40.0
+    },
+    "Average": {
+      "precision": 0.6697247706422018,
+      "recall": 0.6759259259259259,
+      "f1-score": 0.6728110599078341,
+      "support": 108.0
+    },
+    "Good": {
+      "precision": 0.5416666666666666,
+      "recall": 0.4875,
+      "f1-score": 0.5131578947368421,
+      "support": 80.0
+    },
+    "Excellent": {
+      "precision": 0.7,
+      "recall": 0.7,
+      "f1-score": 0.7,
+      "support": 20.0
+    },
+    "accuracy": 0.6169354838709677,
+    "macro avg": {
+      "precision": 0.6214648806038128,
+      "recall": 0.6346064814814815,
+      "f1-score": 0.6266646524542725,
+      "support": 248.0
+    },
+    "weighted avg": {
+      "precision": 0.6154932740602679,
+      "recall": 0.6169354838709677,
+      "f1-score": 0.6150960171608468,
+      "support": 248.0
+    }
+  },
+  "confusion_matrix": {
+    "labels": [
+      "Bad",
+      "Average",
+      "Good",
+      "Excellent"
+    ],
+    "matrix": [
+      [
+        27,
+        8,
+        5,
+        0
+      ],
+      [
+        9,
+        73,
+        24,
+        2
+      ],
+      [
+        11,
+        26,
+        39,
+        4
+      ],
+      [
+        0,
+        2,
+        4,
+        14
+      ]
+    ]
+  },
+  "top_features": [
+    {
+      "name": "char_count",
+      "importance": 10564.0
+    },
+    {
+      "name": "avg_word_length",
+      "importance": 10396.0
+    },
+    {
+      "name": "word_count",
+      "importance": 3646.0
+    },
+    {
+      "name": "unique_words",
+      "importance": 2829.0
+    },
+    {
+      "name": "reasoning_prompt",
+      "importance": 1192.0
+    },
+    {
+      "name": "model",
+      "importance": 1180.0
+    },
+    {
+      "name": "sentence_count",
+      "importance": 1178.0
+    },
+    {
+      "name": "creative_prompt",
+      "importance": 586.0
+    }
+  ]
+}

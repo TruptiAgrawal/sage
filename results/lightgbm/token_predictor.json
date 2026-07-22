@@ -1,0 +1,53 @@
+{
+  "model_type": "lightgbm",
+  "task": "token_predictor",
+  "timestamp": "2026-07-22T21:08:59.730581+00:00",
+  "train_rows": 991,
+  "test_rows": 248,
+  "metrics": {
+    "input_tokens": {
+      "mae": 2.3000988902838873,
+      "rmse": 5.153354010751171,
+      "r2": 0.9154013011105984
+    },
+    "output_tokens": {
+      "mae": 70.04097420959319,
+      "rmse": 120.58217197897407,
+      "r2": 0.5766430915318237
+    }
+  },
+  "top_features": [
+    {
+      "name": "char_count",
+      "importance": 2235.0
+    },
+    {
+      "name": "avg_word_length",
+      "importance": 1058.0
+    },
+    {
+      "name": "word_count",
+      "importance": 598.0
+    },
+    {
+      "name": "unique_words",
+      "importance": 525.0
+    },
+    {
+      "name": "model",
+      "importance": 238.0
+    },
+    {
+      "name": "sentence_count",
+      "importance": 204.0
+    },
+    {
+      "name": "reasoning_prompt",
+      "importance": 50.0
+    },
+    {
+      "name": "creative_prompt",
+      "importance": 23.0
+    }
+  ]
+}
