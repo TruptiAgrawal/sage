@@ -1,7 +1,7 @@
 {
   "model_type": "random_forest",
   "task": "quality_predictor",
-  "timestamp": "2026-07-22T20:36:09.828632+00:00",
+  "timestamp": "2026-07-22T21:08:48.890636+00:00",
   "train_rows": 991,
   "test_rows": 248,
   "accuracy": 0.6330645161290323,

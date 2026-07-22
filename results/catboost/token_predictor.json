@@ -1,7 +1,7 @@
 {
   "model_type": "catboost",
   "task": "token_predictor",
-  "timestamp": "2026-07-22T20:36:13.476092+00:00",
+  "timestamp": "2026-07-22T21:08:52.698915+00:00",
   "train_rows": 991,
   "test_rows": 248,
   "metrics": {
