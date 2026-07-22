@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Chat Token Analyzer</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f5f5f5; padding: 20px; }
+        .container { max-width: 1200px; margin: 0 auto; }
+        h1 { color: #333; text-align: center; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        .panel { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        textarea { width: 100%; height: 300px; padding: 10px; border: 1px solid #ddd; border-radius: 4px; }
+        button { padding: 10px 20px; background: #667eea; color: white; border: none; border-radius: 4px; cursor: pointer; margin: 5px 5px 5px 0; }
+        button:hover { background: #5568d3; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th { background: #f0f0f0; padding: 10px; text-align: left; border-bottom: 2px solid #ddd; }
+        td { padding: 10px; border-bottom: 1px solid #ddd; }
+        .badge { display: inline-block; padding: 4px 8px; border-radius: 4px; font-weight: bold; }
+        .user { background: #e8f4f8; color: #0066cc; }
+        .assistant { background: #f0e8f8; color: #7722bb; }
+        .stats { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15px; margin-top: 20px; }
+        .stat { background: #f8f8f8; padding: 15px; border-left: 4px solid #667eea; }
+        .stat-value { font-size: 2em; font-weight: bold; color: #667eea; }
+        .stat-label { color: #999; font-size: 0.9em; text-transform: uppercase; }
+        .full { grid-column: 1 / -1; }
+        .message { color: #666; max-width: 300px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+        .error { background: #fee; color: #c33; padding: 10px; border-radius: 4px; margin-top: 10px; }
+        .success { background: #efe; color: #3c3; padding: 10px; border-radius: 4px; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>💬 Chat Token Analyzer</h1>
+        <p style="text-align: center; color: #666;">Paste your chat and analyze token usage per message</p>
+
+        <div class="grid">
+            <div class="panel">
+                <h2>Input</h2>
+                <label>Chat Format:</label>
+                <select id="format" style="width: 100%; padding: 8px; margin-bottom: 15px;">
+                    <option value="generic">Generic (User:/Assistant:)</option>
+                    <option value="json">JSON array</option>
+                </select>
+                <label>Paste Chat:</label>
+                <textarea id="chat"></textarea>
+                <button onclick="analyze()">🔍 Analyze</button>
+                <button onclick="loadSample()">📋 Load Sample</button>
+                <div id="msg"></div>
+            </div>
+
+            <div class="panel">
+                <h2>Summary</h2>
+                <div id="stats"></div>
+            </div>
+
+            <div class="panel full">
+                <h2>Message Breakdown</h2>
+                <div id="table"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function estimateTokens(text) {
+            return Math.ceil(text.length / 4); // 1 token ≈ 4 chars
+        }
+
+        function parseChat(text, format) {
+            const msgs = [];
+            if (format === 'generic') {
+                const regex = /^(User|Assistant):\s*([\s\S]*?)(?=^(?:User|Assistant):|$)/gm;
+                let match;
+                while ((match = regex.exec(text)) !== null) {
+                    msgs.push({role: match[1].toLowerCase(), content: match[2].trim()});
+                }
+            } else if (format === 'json') {
+                try { return JSON.parse(text); } catch(e) { throw new Error('Invalid JSON'); }
+            }
+            return msgs;
+        }
+
+        function analyze() {
+            const format = document.getElementById('format').value;
+            const text = document.getElementById('chat').value.trim();
+
+            if (!text) {
+                document.getElementById('msg').innerHTML = '<div class="error">❌ Paste a chat first</div>';
+                return;
+            }
+
+            try {
+                const messages = parseChat(text, format);
+                if (messages.length === 0) throw new Error('No messages found');
+
+                const results = [];
+                let inputTok = 0, outputTok = 0, userCnt = 0, assistantCnt = 0;
+
+                messages.forEach((m, i) => {
+                    const tok = estimateTokens(m.content);
+                    results.push({...m, tokens: tok, preview: m.content.substring(0, 50)});
+                    if (m.role === 'user') { inputTok += tok; userCnt++; }
+                    else { outputTok += tok; assistantCnt++; }
+                });
+
+                const total = inputTok + outputTok;
+                const avgIn = userCnt > 0 ? Math.round(inputTok / userCnt) : 0;
+                const avgOut = assistantCnt > 0 ? Math.round(outputTok / assistantCnt) : 0;
+
+                let html = '<div class="stats">';
+                html += `<div class="stat"><div class="stat-label">Total Tokens</div><div class="stat-value">${total.toLocaleString()}</div></div>`;
+                html += `<div class="stat"><div class="stat-label">Input (User)</div><div class="stat-value">${inputTok.toLocaleString()}</div></div>`;
+                html += `<div class="stat"><div class="stat-label">Output (Assistant)</div><div class="stat-value">${outputTok.toLocaleString()}</div></div>`;
+                html += `<div class="stat"><div class="stat-label">Avg User Msg</div><div class="stat-value">${avgIn}</div></div>`;
+                html += `<div class="stat"><div class="stat-label">User Messages</div><div class="stat-value">${userCnt}</div></div>`;
+                html += `<div class="stat"><div class="stat-label">Assistant Messages</div><div class="stat-value">${assistantCnt}</div></div>`;
+                html += '</div>';
+                html += `<button onclick="exportJSON(${JSON.stringify(results).replaceAll('"', '&quot;')})">📥 Export JSON</button>`;
+                html += `<button onclick="exportCSV(${JSON.stringify(results).replaceAll('"', '&quot;')})">📊 Export CSV</button>`;
+
+                document.getElementById('stats').innerHTML = html;
+
+                let tbl = '<table><tr><th>#</th><th>Role</th><th>Preview</th><th style="text-align:right">Tokens</th></tr>';
+                results.forEach((r, i) => {
+                    const badge = r.role === 'user' ? 'user' : 'assistant';
+                    tbl += `<tr><td>${i+1}</td><td><span class="badge ${badge}">${r.role}</span></td>`;
+                    tbl += `<td class="message">${r.preview}${r.content.length > 50 ? '...' : ''}</td>`;
+                    tbl += `<td style="text-align:right; font-weight:bold; color:#667eea">${r.tokens}</td></tr>`;
+                });
+                tbl += '</table>';
+                document.getElementById('table').innerHTML = tbl;
+
+                document.getElementById('msg').innerHTML = '<div class="success">✓ Chat analyzed successfully</div>';
+            } catch(e) {
+                document.getElementById('msg').innerHTML = `<div class="error">❌ ${e.message}</div>`;
+            }
+        }
+
+        function exportJSON(results) {
+            const data = {
+                timestamp: new Date().toISOString(),
+                total: results.length,
+                total_tokens: results.reduce((s, r) => s + r.tokens, 0),
+                input_tokens: results.filter(r => r.role === 'user').reduce((s, r) => s + r.tokens, 0),
+                output_tokens: results.filter(r => r.role === 'assistant').reduce((s, r) => s + r.tokens, 0),
+                messages: results
+            };
+            download(JSON.stringify(data, null, 2), 'chat-analysis.json');
+        }
+
+        function exportCSV(results) {
+            let csv = 'Index,Role,Tokens,Length\n';
+            results.forEach((r, i) => {
+                csv += `${i+1},"${r.role}",${r.tokens},${r.content.length}\n`;
+            });
+            download(csv, 'chat-analysis.csv');
+        }
+
+        function download(content, filename) {
+            const blob = new Blob([content]);
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url; a.download = filename;
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+
+        function loadSample() {
+            document.getElementById('chat').value = `User: What is machine learning?

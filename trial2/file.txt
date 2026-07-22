@@ -1,0 +1,20 @@
+❯ 1. what is llm?
+
+An LLM is a Large Language Model — an artificial intelligence system trained on vast amounts of text data to understand and generate human language.
+
+Key characteristics:
+
+- Large: Trained on billions to trillions of words from diverse sources (books, websites, articles, code, etc.)
+- Language Model: Predicts the next word/token in a sequence based on previous context, learning patterns in how language works
+- Generative: Can create new text by predicting one token at a time, enabling tasks like answering questions, writing, summarizing, coding, etc.
+
+Examples: Claude (Anthropic), GPT-4 (OpenAI), Gemini (Google), Llama (Meta)
+
+Common uses:
+- Answering questions and providing explanations
+- Writing and content generation
+- Code generation and debugging
+- Summarization and analysis
+- Translation and conversation
+
+LLMs work through neural networks with "transformer" architecture, which lets them understand relationships between words across long sequences of text. They're trained to predictwhich builds up into coherent responses.

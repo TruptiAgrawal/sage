@@ -1,0 +1,11 @@
+User: What is machine learning and how does it work?
+
+Assistant: Machine learning is a subset of artificial intelligence where systems learn from data without explicit programming. It works through algorithms that identify patterns in training data and make predictions on new data.
+
+User: Can you give me an example?
+
+Assistant: Sure! A classic example is email spam filtering. The system is trained on thousands of emails labeled as spam or not spam. It learns patterns like certain words, sender addresses, and formatting that indicate spam. When you receive a new email, the trained model applies these learned patterns to decide if it's spam.
+
+User: How is that different from traditional programming?
+
+Assistant: In traditional programming, you explicitly write rules (if this keyword appears, mark as spam). In machine learning, you let the algorithm discover the rules from examples. ML is better when patterns are complex or change over time, while traditional programming works when rules are clear and fixed.
