@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Clean per-model CSVs in dataset/ (dataset1.csv..dataset6.csv).
+"""Clean per-model CSVs in dataset/raw_datasets/ (dataset1.csv..dataset6.csv).
 
 For each source file, writes a cleaned copy to cleaned/<name>.csv after:
   - Removing exact duplicate rows
@@ -16,6 +16,7 @@ import csv
 from pathlib import Path
 
 HERE = Path(__file__).parent
+RAW_DIR = HERE / "raw_datasets"
 OUT_DIR = HERE / "cleaned"
 
 SOURCE_FILES = [
@@ -57,7 +58,7 @@ def standardize_model(raw: str) -> str:
 
 
 def clean_file(filename: str) -> dict:
-    path = HERE / filename
+    path = RAW_DIR / filename
     stats = {
         "total": 0,
         "dup_removed": 0,
