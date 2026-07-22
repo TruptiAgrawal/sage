@@ -1,4 +1,4 @@
-# tokenCostGen
+# SAGE — Smart Advisor for Generative modEls
 
 Predicting LLM token usage and response quality from prompt features, and
 estimating the token/cost/quality tradeoff across models for a given prompt.
