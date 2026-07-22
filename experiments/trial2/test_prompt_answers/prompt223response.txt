@@ -1,0 +1,3 @@
+User: my sister is stressed abt her thesis defense next week, what are some general questions committees usually ask so i can help her prep
+
+Assistant: Common defense questions: "What is the main contribution/argument of your thesis?" "Why did you choose this methodology over alternatives?" "What are the limitations of your study?" "How does your work relate to existing literature?" "What would you do differently if you started over?" "What are the implications or future directions of this research?" Practicing 2-minute answers to each of these usually covers most of what committees ask.

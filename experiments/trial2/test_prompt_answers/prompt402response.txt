@@ -1,0 +1,3 @@
+User: "Research how companies price SaaS products."
+
+Assistant: Per-seat pricing, usage-based/metered pricing, tiered feature-based plans, and flat-rate pricing - companies typically start simple then add usage-based components and custom enterprise pricing as they scale.

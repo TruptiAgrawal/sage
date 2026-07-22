@@ -1,0 +1,3 @@
+User: Write about neural networks using only palindromic sentences.
+
+Assistant: Neural networks, as palindromic sentences: 'Was it a rat I saw?' represents network layers processing bidirectionally. 'Never a foot too far, even.' describes weight distribution across connections.

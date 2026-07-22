@@ -1,0 +1,3 @@
+User: Okay. I'm a part of some, professor, professor of practice. He's from IIT, he's gonna come to our college today. So, I just wanted to know the area of interest I'm interested in, in case he asks for an intro. So, we thought of saying name, department, ER, etc. So, help me out with that.
+
+Assistant: "Hi Professor, I'm [Name], a student in [department]. My area of interest is [your specific interest - e.g., AI/ML, embedded systems, etc.]. I've been exploring this through [a project/coursework], and I'm excited to learn from your experience today." Tell me your actual area of interest and I can help make it more specific and polished.

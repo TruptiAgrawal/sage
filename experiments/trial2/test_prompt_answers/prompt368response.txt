@@ -1,0 +1,3 @@
+User: "Compare my startup idea with every similar company in India and abroad. Tell me what is unique."
+
+Assistant: Share your startup idea/description and I'll help map comparable companies (India and global) and pinpoint what differentiates your approach.

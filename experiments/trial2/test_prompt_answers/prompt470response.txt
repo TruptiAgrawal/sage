@@ -1,0 +1,3 @@
+User: Generate five interview questions for a Frontend Developer role.
+
+Assistant: 1) What's the difference between `let`, `const`, and `var` in JavaScript? 2) How does the virtual DOM improve performance in frameworks like React? 3) Explain the CSS box model. 4) How would you optimize a web page's load time? 5) What's the difference between synchronous and asynchronous JavaScript, and how do Promises/async-await help manage it?

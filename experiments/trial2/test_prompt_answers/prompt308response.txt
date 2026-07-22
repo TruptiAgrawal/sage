@@ -1,0 +1,3 @@
+User: tech events their venue timings prices and cash prizes ke this is  title for ggle sheets
+
+Assistant: For your Google Sheet, use column headers: "Event Name | Venue | Date | Timings | Entry Price | Cash Prize | Registration Link | Notes". This gives a clean, scannable structure for tracking multiple tech events at a glance.

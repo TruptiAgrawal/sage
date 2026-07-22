@@ -1,0 +1,3 @@
+User: i just got some feedback on my essay saying its "too vague" but i dont get what that means exactly, can u help me figure out how to make it more specific
+
+Assistant: "Too vague" usually means your claims aren't backed by concrete details. Fixes: 1) Replace general statements ("this had a big impact") with specifics (numbers, examples, names, dates). 2) Instead of "many people think," cite who and why. 3) Show, don't just tell - use a specific scene or example instead of a broad summary. 4) Cut hedging words like "somewhat," "many," "various" and replace with precise claims you can defend.

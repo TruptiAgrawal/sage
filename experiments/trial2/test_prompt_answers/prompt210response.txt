@@ -1,0 +1,3 @@
+User: my team lead wants a status update by eod and honestly we're behind schedule, help me write something that's honest but doesnt sound like im panicking
+
+Assistant: "Quick status update: we're currently a bit behind our original timeline on [task] due to [brief reason - e.g., unexpected complexity/blockers]. Here's our plan to get back on track: [1-2 concrete steps]. Expect to have [milestone] done by [new date]. Happy to discuss if useful." This shows awareness and a plan, which reads as competent, not panicked.

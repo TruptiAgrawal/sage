@@ -1,0 +1,3 @@
+User: track transactions of the customers
+
+Assistant: This is a core feature point for your merchant tracker - it would need a data model capturing Customer ID, Transaction Date, Amount, Product/Service, and Payment Method, feeding into analytics for sales trends per merchant.

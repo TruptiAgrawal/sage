@@ -1,0 +1,3 @@
+User: "What projects should I build if I want recruiters to think I'm exceptional?"
+
+Assistant: Projects showing real-world problem-solving, end-to-end ownership (built, deployed, maintained), measurable impact, and clean documented code with a live demo. One deep project beats five shallow ones.

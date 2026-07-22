@@ -1,0 +1,3 @@
+User: How to find time complexity of a statement using step count table
+
+Assistant: For each statement, count how many times it executes as a function of input size n, assign it a step count per execution, multiply frequency × step count, then sum all statements. Loops that run n times contribute O(n); nested loops multiply (O(n) × O(n) = O(n²)). The overall time complexity is the dominant (highest-order) term in that total sum.

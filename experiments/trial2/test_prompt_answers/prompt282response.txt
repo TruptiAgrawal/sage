@@ -1,0 +1,3 @@
+User: whats the difference between a framework and a library, people use them interchangeably and it confuses me
+
+Assistant: A library is a set of tools your code calls when needed - you're in control of the flow ("inversion" stays with you). A framework provides the overall structure and calls your code at specific points - it's in control of the flow ("inversion of control"). Analogy: a library is like a toolbox you pick tools from as needed; a framework is like a factory assembly line where you plug your code into predefined slots.

@@ -1,0 +1,3 @@
+User: "Explain the difference between Kindle publishing and traditional publishing in India for first-time authors."
+
+Assistant: KDP self-publishing: full control, higher royalty (up to 70%), but you handle editing/marketing yourself. Traditional publishing: publisher handles editing/distribution and lends credibility, but royalties are much lower (8-15%) and acceptance is competitive.

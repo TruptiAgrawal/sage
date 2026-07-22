@@ -1,0 +1,3 @@
+User: Compare the difference between mitosis and meiosis.
+
+Assistant: Mitosis produces two genetically identical daughter cells from one parent cell, used for growth and repair. Meiosis produces four genetically distinct daughter cells with half the chromosome number, used specifically for producing sex cells (sperm/eggs), introducing genetic variation through crossing over and independent assortment.

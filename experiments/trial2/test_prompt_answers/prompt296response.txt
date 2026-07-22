@@ -1,0 +1,3 @@
+User: can u explain what a memory leak actually is in code terms, not just "it uses too much memory"
+
+Assistant: A memory leak happens when your program allocates memory for something but never releases it, even after it's no longer needed - the reference to it is kept alive somewhere (a global variable, an unclosed listener, a growing cache) so the garbage collector can't reclaim it. Over time, these unreleased allocations accumulate, and available memory keeps shrinking until the program slows down or crashes.

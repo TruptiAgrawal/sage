@@ -1,0 +1,4 @@
+User: Write a two-line poem about the ocean.
+
+Assistant: "Endless blue that breathes and sighs,
+Holding secrets beneath quiet skies."

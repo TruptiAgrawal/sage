@@ -1,0 +1,3 @@
+User: Describe databases using a mix of English and ancient Greek terms.
+
+Assistant: Databases (Greek: data + Greek: base) store organized collections of information, enabling efficient retrieval through systematic structure.

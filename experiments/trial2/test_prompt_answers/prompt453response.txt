@@ -1,0 +1,17 @@
+User: Write a Java program to find the second largest element in an array without sorting it. Explain each step of the code.
+
+Assistant: ```java
+public static int secondLargest(int[] arr) {
+    int first = Integer.MIN_VALUE, second = Integer.MIN_VALUE;
+    for (int num : arr) {
+        if (num > first) {
+            second = first;
+            first = num;
+        } else if (num > second && num != first) {
+            second = num;
+        }
+    }
+    return second;
+}
+```
+Steps: track two variables, `first` (largest seen so far) and `second` (second largest). For each number: if it beats `first`, the old `first` becomes the new `second`, and this number becomes the new `first`. Otherwise, if it beats `second` (and isn't equal to `first`, to handle duplicates), update `second`. Single pass, O(n) time, no sorting needed.

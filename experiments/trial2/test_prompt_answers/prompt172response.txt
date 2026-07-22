@@ -1,0 +1,3 @@
+User: Tell me about AI from the perspective of someone 100 years ago.
+
+Assistant: An AI from 100 years ago would describe as magical the notion that machines could learn from examples and make predictions, exceeding contemporary computational comprehension.

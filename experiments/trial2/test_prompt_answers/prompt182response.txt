@@ -1,0 +1,3 @@
+User: Explain machine learning as if it were a musical instrument.
+
+Assistant: Machine learning as a musical instrument: Inputs are strings tuned through training, algorithms conduct the process, and outputs create the melody of predictions.

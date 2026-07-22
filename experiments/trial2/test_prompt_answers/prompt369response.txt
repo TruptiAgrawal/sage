@@ -1,0 +1,3 @@
+User: "If someone had ₹25 lakh today, how should they build this startup from scratch?"
+
+Assistant: Share the specific idea and I'll break down realistic allocation - typically MVP development, a small founding team/contractors, minimal validation marketing, and a runway buffer, prioritized by what needs proving first.

@@ -1,0 +1,3 @@
+User: "Create a realistic CAT preparation plan while balancing engineering placements."
+
+Assistant: Dedicate consistent daily blocks (1-1.5 hrs) split across Quant, Verbal, and DILR. Use weekday evenings for concept practice and weekends for full mocks. During placement season, shift more time there temporarily but keep at least 30 min/day of CAT practice.

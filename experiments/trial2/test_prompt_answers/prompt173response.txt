@@ -1,0 +1,3 @@
+User: Describe deep learning as if you're from a universe where it was invented in 1800s.
+
+Assistant: If deep learning existed in the 1800s, the industrial revolution would have been accelerated dramatically, potentially enabling earlier automation and mechanized intelligence.

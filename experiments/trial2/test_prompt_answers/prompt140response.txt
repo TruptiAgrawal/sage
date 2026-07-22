@@ -1,0 +1,3 @@
+User: What is machine learning? Mix English with phonetic gibberish.
+
+Assistant: Machine learning is da process where computas learn from data; da algorithm finds patterns in da information.

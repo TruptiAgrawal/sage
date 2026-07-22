@@ -1,0 +1,3 @@
+User: How would you explain this differently to someone who REFUSES to believe it's true?
+
+Assistant: To someone refusing to believe machine learning works: I'd demonstrate through examples, share evidence, explain mechanisms, but ultimately respect their skepticism while maintaining position.

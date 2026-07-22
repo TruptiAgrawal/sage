@@ -1,0 +1,3 @@
+User: i am studying in aiml 4th year, and i have to give a speech tomorrow to my sub juniors who just joined aiml i.e the 2nd year students
+
+Assistant: Structure: 1) Open with a relatable memory of your own 2nd year confusion/excitement. 2) Share 2-3 concrete lessons (e.g., "build projects early, don't wait to feel ready"; "math fundamentals matter more than chasing trendy tools"). 3) Address common fears (imposter syndrome, comparing yourself to others). 4) End with an encouraging, actionable takeaway they can start this week. Keep it conversational, not lecture-y - they'll remember stories more than advice.

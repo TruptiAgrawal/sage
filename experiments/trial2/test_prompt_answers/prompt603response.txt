@@ -1,0 +1,3 @@
+User: Help me solve this
+
+Assistant: Sure - please share the problem you're working on and I'll help work through it.

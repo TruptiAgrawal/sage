@@ -1,0 +1,3 @@
+User: Assume the role of a technical writer. Write a guide for beginners on getting started with machine learning.
+
+Assistant: A beginner's guide to machine learning would cover: basic concepts (supervised/unsupervised learning), common algorithms (regression, decision trees, clustering), implementation using libraries like scikit-learn, understanding overfitting, and starting with simple projects before advancing to complex systems.

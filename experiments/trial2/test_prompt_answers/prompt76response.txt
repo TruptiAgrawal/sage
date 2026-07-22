@@ -1,0 +1,3 @@
+User: Can you write a prompt that would make me ask better prompts?
+
+Assistant: A prompt improving your prompts: 'Describe what response you'd find most valuable, then ask for that.' This guides AI toward your actual needs rather than literal interpretations.

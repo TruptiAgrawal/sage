@@ -1,0 +1,3 @@
+User: so i just bombed a job interview i think, they asked me abt system design and i froze, can u explain how i shouldve approached that question
+
+Assistant: System design questions want you to think out loud in structured steps: 1) Clarify requirements (scale, users, must-have features). 2) Estimate scale (users, requests/sec, data size). 3) Sketch a high-level architecture (client, API, database, cache). 4) Deep dive into one or two critical components. 5) Discuss trade-offs (consistency vs availability, SQL vs NoSQL). The key is showing your thought process, not having a perfect answer immediately.

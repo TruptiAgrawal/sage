@@ -1,0 +1,12 @@
+User: hey i need you to write or ddrft mil to the swiggy suppprt regrding receiving worng order nd the items we hve received re shirvd multi grin t penuts pcket nd kinder joy bueno where we hve ordered pilsbury tt of 5kg pck nd oil pckets 2 So now i wnt to esclte the issue give me strict nd cut throgh mil
+
+Assistant: "Subject: Wrong Order Received - Urgent Resolution Required
+
+Hi Swiggy Support Team,
+
+I ordered Pillsbury Atta (5kg pack) and 2 oil packets, but instead received Shirvd Multigrain Peanuts and Kinder Joy Bueno. This is a clear order fulfillment error. I request an immediate replacement of the correct items or a full refund. Please treat this as urgent and confirm resolution within 24 hours.
+
+Order ID: [insert]
+
+Regards,
+[Your Name]"

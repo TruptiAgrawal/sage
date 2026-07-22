@@ -1,0 +1,3 @@
+User: "Compare AWS, Azure and Google Cloud for students and startups. Which one should I learn first?"
+
+Assistant: AWS has the largest market share and job demand, making it the safest first choice. Azure suits enterprise/.NET-heavy companies. GCP excels in data/ML tooling. For a student, AWS gives the broadest applicability across job listings.

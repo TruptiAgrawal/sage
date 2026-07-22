@@ -1,0 +1,3 @@
+User: If algorithms were emotions, which emotion would be which algorithm?
+
+Assistant: Algorithms as emotions: Gradient descent is determination (persistent improvement); backpropagation is reflection (correcting understanding); regularization is modesty (avoiding overconfidence).

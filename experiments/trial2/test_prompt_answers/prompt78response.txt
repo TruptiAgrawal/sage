@@ -1,0 +1,3 @@
+User: What is a prompt? Explain using only prompts.
+
+Assistant: A prompt, explained through prompts: 'What question would someone ask? Why ask it? What answer would satisfy? How would satisfaction validate the question?' Prompts are recursive inquiry.

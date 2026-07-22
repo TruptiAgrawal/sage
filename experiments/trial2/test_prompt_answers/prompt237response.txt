@@ -1,0 +1,3 @@
+User: can u help me write a short bio for my linkedin, i dont wanna sound like every other generic profile
+
+Assistant: "[Your field] enthusiast who likes turning [specific problem type] into working solutions. Currently exploring [specific interest/project]. Always up for a conversation about [topic you genuinely care about]." Fill in specifics from your actual interests - the generic-ness usually comes from vague filler words, not the structure itself.

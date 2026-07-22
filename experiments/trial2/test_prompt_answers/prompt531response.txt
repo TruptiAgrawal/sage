@@ -1,0 +1,7 @@
+User: given @trial2/test_prompt_answers/ please help me develeop a
+  tool that gives me a csv of [Model name | prompt | input
+  token | output token | quality Category | Feedback] where in
+  (Model name - claude opus. you can refer other legacy
+  models under this folder.
+
+Assistant: This matches what response_analyzer.py already does - it reads all prompt*response.txt files from a folder, extracts the User/Assistant text, estimates input/output tokens, and rates quality automatically, exporting to CSV with exactly those columns: Model Name, Prompt, Input Tokens, Output Tokens, Quality Category, Feedback.

@@ -1,0 +1,3 @@
+User: What should I do if I forgot my email password?
+
+Assistant: Use the "Forgot Password" link on the login page - it'll typically send a reset link to a recovery email or phone number linked to the account, or ask security questions. If you no longer have access to the recovery method, most providers have an account recovery form requiring identity verification (old passwords you remember, account creation date, etc.).

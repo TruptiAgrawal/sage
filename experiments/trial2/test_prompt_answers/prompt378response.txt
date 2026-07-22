@@ -1,0 +1,3 @@
+User: "Research business models that make recurring revenue instead of one-time income."
+
+Assistant: SaaS subscriptions, usage-based/metered billing, membership models, marketplace take-rates on repeat transactions, and freemium-to-premium conversion.

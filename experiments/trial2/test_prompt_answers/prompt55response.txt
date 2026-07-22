@@ -1,0 +1,3 @@
+User: Keep this under 10 words but cover everything about artificial intelligence.
+
+Assistant: Artificial intelligence in 10 words: Machines learning patterns to solve problems and make decisions.

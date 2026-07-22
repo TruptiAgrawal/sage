@@ -1,0 +1,3 @@
+User: explain what cloud computing actually means, i keep telling people "it's just someone else's computer" but i feel like thats not the full picture
+
+Assistant: That's a fair starting point, but the fuller picture is: cloud computing means renting computing resources (storage, processing power, databases) on-demand over the internet instead of owning physical hardware. What makes it powerful isn't just "someone else's computer" - it's elasticity (scale up/down instantly based on demand), pay-as-you-go pricing, and managed services (the provider handles maintenance, security patches, backups) so you focus on your application instead of infrastructure.

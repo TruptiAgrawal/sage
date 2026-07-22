@@ -1,0 +1,3 @@
+User: ★ ★ ★ Explain NLP ★ ★ ★
+
+Assistant: ★ Natural Language Processing processes human language computationally ★

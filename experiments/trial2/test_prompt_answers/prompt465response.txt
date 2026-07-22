@@ -1,0 +1,3 @@
+User: Explain the time complexity of binary search.
+
+Assistant: Binary search runs in O(log n) time because it halves the search space with each comparison - to search n elements, it takes at most log₂(n) steps, since after k halvings, n/2^k reaches 1.

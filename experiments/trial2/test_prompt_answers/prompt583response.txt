@@ -1,0 +1,4 @@
+User: gowth/progress dashboard
+properties:
+
+Assistant: For a growth/progress dashboard: visualize revenue trend over time, expense vs income comparison, customer transaction volume growth, and top-performing products/services - typically as line and bar charts pulling from the underlying transaction and expense sheets.

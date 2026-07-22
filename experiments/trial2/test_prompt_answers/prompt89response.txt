@@ -1,0 +1,3 @@
+User: Describe statistics with word count doubling each sentence starting with 1 word.
+
+Assistant: Statistics studies sample, showing summary statistics. Sampling shows sample size. Size shows slight summary. Summary shows system scores. Scores shown survey studies.

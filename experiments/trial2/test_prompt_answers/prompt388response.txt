@@ -1,0 +1,3 @@
+User: "How would Apple design this product?"
+
+Assistant: Share the specific product and I'll reason through it using Apple's philosophy - radical simplicity and tight hardware-software integration.

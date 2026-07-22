@@ -1,0 +1,3 @@
+User: can i remove or edit my application in cisco code with ciscoo
+
+Assistant: I don't have direct access to Cisco's application portal, so I can't check or edit it for you. You'd need to log into the Cisco careers/application portal directly - most application systems allow edits before a certain deadline or before it moves to review status, so check the portal's application status page for an edit option.

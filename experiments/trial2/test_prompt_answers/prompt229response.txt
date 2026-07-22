@@ -1,0 +1,3 @@
+User: my friend group is planning a birthday thing for someone and i got assigned "figure out the venue" with zero budget info, what should i even ask them first
+
+Assistant: Ask: 1) What's the total budget, or budget per person? 2) How many people are we expecting? 3) What vibe - chill/casual or more of an event? 4) Any location preference (near campus, specific area)? 5) Date/time flexibility, since that affects venue availability. Getting budget and headcount first narrows your options fastest.

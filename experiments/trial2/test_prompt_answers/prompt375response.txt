@@ -1,0 +1,3 @@
+User: "Find industries where AI hasn't disrupted much yet."
+
+Assistant: Skilled trades/construction, elder care, agriculture beyond precision farming pilots, local government services, and traditional manufacturing SMEs - largely due to physical-world complexity or fragmented adoption.

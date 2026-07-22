@@ -1,0 +1,3 @@
+User: "Assume you're an investor from Sequoia or Y Combinator. Ask me every question you would before investing."
+
+Assistant: Questions like: what problem are you solving and for whom, why are you the right team, what's your traction, how big can this get, what's your moat, what's your burn rate. Share your idea and I'll turn this into a real mock Q&A.

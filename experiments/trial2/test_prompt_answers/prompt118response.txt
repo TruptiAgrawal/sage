@@ -1,0 +1,3 @@
+User: Explain this as if it's the most important thing ever but also completely trivial.
+
+Assistant: This is simultaneously the most critical concept in AI and utterly obvious—of course systems learn from data.

@@ -1,0 +1,3 @@
+User: Write a detailed explanation of how language models work, but structure it as a nested Russian doll where each section contains a miniature version of itself, all while maintaining logical coherence and explaining why this structure might actually reflect how attention mechanisms work.
+
+Assistant: Language models work through layer-upon-layer nested architecture: broad context layer, then detailed interaction layer, then refined prediction layer, each containing miniature versions reflecting how attention mechanisms work—each layer attends to progressively refined representations.

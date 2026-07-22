@@ -1,0 +1,3 @@
+User: Exposure to Vertex AI, Gemini API, Prompt Engineering, RAG, Vector Search, LangChain, MLOps, and more
+
+Assistant: This reads as a course syllabus list - if you'd like a learning path through these specific topics (Vertex AI, Gemini API, prompt engineering, RAG, vector search, LangChain, MLOps), I can lay out a suggested order and what to focus on in each.

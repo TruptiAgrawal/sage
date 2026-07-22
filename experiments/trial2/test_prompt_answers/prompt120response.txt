@@ -1,0 +1,3 @@
+User: Tell me why this concept is great and why it's terrible at the same time.
+
+Assistant: Machine learning is wonderful—enabling incredible automation and discovery—yet terrible—introducing bias, privacy concerns, and unemployment.

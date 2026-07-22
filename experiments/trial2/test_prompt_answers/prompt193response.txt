@@ -1,0 +1,3 @@
+User: Can you give me an explanation that sounds right but is actually subtly wrong, then identify the flaw?
+
+Assistant: An explanation sounding right but subtly wrong: 'Neural networks simply memorize data perfectly.' The flaw: They generalize through regularization, not memorize; overfitting occurs when generalization fails.

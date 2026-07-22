@@ -1,0 +1,3 @@
+User: "Explain this research paper like I'm a college student but don't skip technical details."
+
+Assistant: Share the paper and I'll walk through it in accessible language while keeping the technical substance intact.

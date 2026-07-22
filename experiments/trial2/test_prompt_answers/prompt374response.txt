@@ -1,0 +1,3 @@
+User: "Research whether customers actually need this or if I'm solving a fake problem."
+
+Assistant: Share the problem/product and I'll help you think through validation signals - existing workarounds, willingness-to-pay indicators, and cheap ways to test demand.

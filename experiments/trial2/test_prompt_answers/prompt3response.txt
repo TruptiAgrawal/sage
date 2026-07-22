@@ -1,0 +1,42 @@
+User: How do you make coffee?
+
+Assistant: Making great coffee is both an art and a science. Here's a comprehensive guide:
+
+**Step 1: Choose Your Equipment**
+The equipment you use significantly affects the final product. Options include:
+- Pour over (cone or flat-bottom): Simple, controllable, produces clean cups
+- French press: Full-bodied, rich flavor, but sediment in cup
+- Espresso machine: High pressure extraction, concentrated shots
+- Moka pot: Stovetop, produces strong coffee
+- Aeropress: Quick, clean, versatile
+- Turkish coffee pot: Traditional, very fine powder
+
+Each method has different extraction times and temperatures that affect flavor.
+
+**Step 2: Select and Grind Beans**
+Coffee quality starts with beans. Look for specialty-grade beans with a roast date within 2-4 weeks. Grind size matters tremendously—it affects how quickly water extracts compounds from the beans:
+- Coarse (French press): Large particles, longer steeping
+- Medium (pour over): Balanced extraction
+- Fine (espresso): Tight packing, quick high-pressure extraction
+
+Grind just before brewing; grinding exposes surface area and flavors dissipate quickly.
+
+**Step 3: Control Water Temperature**
+Ideal brewing temperature is 195-205°F (90-96°C). Water that's too hot over-extracts (bitter), too cool under-extracts (sour). If boiling water, let it sit 30 seconds after boiling.
+
+**Step 4: Maintain Ratios**
+Coffee-to-water ratio dramatically affects strength and flavor. A starting point is 1:16 (1g coffee to 16g water), but adjust to taste. Some prefer stronger (1:12), others lighter (1:18).
+
+**Step 5: Brew**
+Follow your equipment's instructions for timing and technique. Most methods take 3-5 minutes.
+
+**Step 6: Serve Immediately**
+Coffee is best consumed fresh. Holding coffee hot for extended periods degrades flavor compounds.
+
+**For Best Results:**
+- Use fresh, quality beans
+- Grind immediately before brewing
+- Use filtered water
+- Maintain consistent temperature
+- Experiment with ratios and grind sizes
+- Keep equipment clean

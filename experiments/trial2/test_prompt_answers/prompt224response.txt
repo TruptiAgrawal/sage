@@ -1,0 +1,3 @@
+User: i accidentally sent a half finished email to my manager, help me write a quick follow up that doesnt make it a bigger deal than it is
+
+Assistant: "Apologies, that last email sent before I finished it! Here's the complete version: [rest of email]." Short, no over-apologizing, just moves forward.

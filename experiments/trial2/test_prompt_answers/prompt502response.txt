@@ -1,0 +1,3 @@
+User: hey discribe the best ui for it 1st lets take a colour pallate and make a clean professional ui
+
+Assistant: For a clean professional UI: primary background in off-white/light gray (#F8F9FA), a single accent color (e.g., deep blue #2563EB or teal #0D9488) for buttons/links, dark charcoal (#1E293B) for text rather than pure black, and a light gray (#E2E8F0) for borders/dividers. Keep generous whitespace, consistent 8px spacing grid, and one clear font family (like Inter or Roboto) with just 2-3 weight variations. Let me know what "it" refers to specifically and I can tailor layout suggestions too.

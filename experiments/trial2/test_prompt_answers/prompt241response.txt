@@ -1,0 +1,3 @@
+User: can u break down what encryption actually does when i send a message, like whats really happening behind the scenes
+
+Assistant: Encryption scrambles your message using a mathematical key so it looks like gibberish to anyone without the matching key to unscramble it. In modern messaging apps (end-to-end encryption), your device encrypts the message before sending, it travels as unreadable data, and only the recipient's device has the key to decrypt it back to readable text - so even the app's servers can't read it in transit.

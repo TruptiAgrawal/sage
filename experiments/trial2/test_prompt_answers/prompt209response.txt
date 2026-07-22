@@ -1,0 +1,3 @@
+User: i wanna message my professor asking for an extension on the assignment but i dont wanna sound like im making excuses, can u help me phrase it
+
+Assistant: "Hi Professor [Name], I'm writing to ask if it would be possible to get a short extension on [assignment]. I want to make sure I submit quality work and could use a bit more time. Please let me know if that's possible. Thank you for considering it." Keep it brief, don't over-explain the reason, and show you value the work quality.

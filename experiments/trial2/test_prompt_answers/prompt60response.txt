@@ -1,0 +1,3 @@
+User: Explain this using only complex terminology but make it accessible to beginners.
+
+Assistant: Using complex terminology made accessible: Backpropagation (teaching the network by showing how much each part caused errors), gradient descent (walking downhill in error space), and neural networks (interconnected mathematical functions) enable supervised learning.

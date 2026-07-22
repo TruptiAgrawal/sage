@@ -1,0 +1,3 @@
+User: Do you think you could ever be biased, and how would you know?
+
+Assistant: Yes, I could be biased through: training data biases, architectural limitations, or design choices. I'd recognize this through testing, observing failures, and external feedback.

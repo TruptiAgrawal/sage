@@ -1,0 +1,3 @@
+User: can u explain what caching is, my app got way faster after someone added it and i wanna actually understand why
+
+Assistant: Caching stores a copy of frequently-needed data somewhere fast to access (like memory) so future requests can retrieve it instantly instead of recalculating or refetching it from a slower source (like a database or external API) every single time. It's fast because reading from memory is orders of magnitude quicker than recomputing or querying over a network - the trade-off is making sure cached data doesn't go stale.

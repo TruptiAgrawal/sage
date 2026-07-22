@@ -1,0 +1,3 @@
+User: How to change username in GitHub ?
+
+Assistant: Go to Settings > Account (or Profile) > Change username, near the top of your account settings page. GitHub will warn you about implications - old links to your profile break unless someone claims the old username, and repository URLs update automatically, but any hardcoded old-username links elsewhere (like in READMEs referencing your profile) won't auto-update.

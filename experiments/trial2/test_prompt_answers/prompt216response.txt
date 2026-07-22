@@ -1,0 +1,3 @@
+User: i keep mixing up TCP and UDP in my head, can u explain the actual difference in a way that'll stick this time
+
+Assistant: TCP is like sending a registered letter - it confirms delivery, resends if something's lost, and guarantees order, but it's slower. UDP is like shouting across a room - fast, no confirmation, packets might arrive out of order or not at all, but there's less overhead. Use TCP for things that must be complete and correct (web pages, file transfers); use UDP for speed-critical things where a little loss is fine (video calls, live streaming, gaming).

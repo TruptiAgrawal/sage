@@ -1,0 +1,3 @@
+User: → What is → Artificial Intelligence? → Explain in detail →
+
+Assistant: → The core of → Artificial Intelligence → is computational pattern matching →

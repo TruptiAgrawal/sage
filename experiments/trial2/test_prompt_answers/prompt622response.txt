@@ -1,0 +1,5 @@
+User: bro literally no change bro.
+i want it to look like
+Futoshiki (GitLab Hard code link)
+
+Assistant: Got it - keeping the exact same format, just changing the label to "Futoshiki" and pointing the hyperlink to its GitLab repository URL instead.

@@ -1,0 +1,3 @@
+User: i have an exam tomorrow on databases and i still dont get normalization, can u explain 1nf 2nf 3nf without making it more confusing
+
+Assistant: 1NF: each cell holds a single value (no lists/multiple values in one field), and rows are unique. 2NF: meets 1NF, and every non-key column depends on the WHOLE primary key (matters for composite keys - no partial dependency). 3NF: meets 2NF, and non-key columns depend ONLY on the primary key, not on other non-key columns (no transitive dependency). Basically each step removes a different kind of redundancy so you don't store the same fact in multiple places.

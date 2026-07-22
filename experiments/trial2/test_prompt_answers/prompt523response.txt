@@ -1,0 +1,3 @@
+User: Booths Algorithm
+
+Assistant: Booth's Algorithm is a method for multiplying two signed binary numbers efficiently. It works by examining pairs of bits in the multiplier and deciding whether to add, subtract, or do nothing to a running product, based on the transition between consecutive bits (0→1 means subtract, 1→0 means add, same bits mean shift only). This reduces the number of addition operations needed compared to naive binary multiplication, especially for numbers with long runs of consecutive 1s or 0s.

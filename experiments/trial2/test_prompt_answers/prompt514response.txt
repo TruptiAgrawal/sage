@@ -1,0 +1,3 @@
+User: main.pack(fill='both', expand=True, padx=20, pady=20) explain this in detail
+
+Assistant: This is Tkinter's `pack()` geometry manager. `fill='both'` makes the widget expand to fill available space in both x and y directions. `expand=True` allows the widget to grow and take up extra space if the parent window is resized. `padx=20, pady=20` add 20 pixels of external padding on the horizontal and vertical sides respectively, creating spacing between this widget and its container's edges.

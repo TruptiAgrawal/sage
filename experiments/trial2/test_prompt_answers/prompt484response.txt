@@ -1,0 +1,3 @@
+User: How do I improve my home's Wi-Fi security?
+
+Assistant: 1) Change the default admin password on your router. 2) Use WPA3 (or WPA2 if WPA3 isn't available) encryption, never WEP. 3) Set a strong, unique Wi-Fi password. 4) Disable WPS (vulnerable to brute-force attacks). 5) Keep router firmware updated. 6) Set up a separate guest network for visitors/IoT devices. 7) Disable remote management access unless you specifically need it.

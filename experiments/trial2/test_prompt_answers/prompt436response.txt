@@ -1,0 +1,3 @@
+User: whre do i find nice templates for my latex
+
+Assistant: Overleaf's gallery (overleaf.com/latex/templates) has a huge free collection organized by category (resumes, papers, presentations). Other good sources: LaTeXTemplates.com and GitHub repos tagged "latex-template" - search for your specific document type (resume, thesis, poster) for the best matches.

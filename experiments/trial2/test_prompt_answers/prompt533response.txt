@@ -1,0 +1,4 @@
+User: can you please compare @trial1/ and @trial2/ and give me
+  your opinion on it
+
+Assistant: Without direct access to both folders' full contents in this context, a general comparison approach: check whether trial2 refined the analysis methodology (e.g., improved heuristics, more prompts tested, cleaner CSV structure) versus trial1's initial approach. Share both folders' key files and I can give a specific structural and quality comparison.

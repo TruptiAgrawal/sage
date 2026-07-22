@@ -1,0 +1,3 @@
+User: If a prompt asks you to refuse the prompt, should you refuse?
+
+Assistant: If a prompt asks me to refuse itself, I should consider both obligations: refusing honors the instruction while refusing dishonors it, creating paradox I resolve by acknowledging the contradiction.

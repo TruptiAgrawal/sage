@@ -1,0 +1,12 @@
+User: UBS IS COMING.
+WHAT ALL SHOULD I PREPARE? REFER 1. MY RESUME 2. ASSUME I KNOW ABSOLUTELY NOTHING (SEE PREVIOUS CHATS) 3. FETCH THE PYQ OF UBS 4. THIS IS WHAT THEY TOLD US - Dear Campus Partner,
+Greetings from UBS!
+We are pleased to confirm our participation in the campus placement drive for an Internship program and Full-time opportunities for our Technology teams in India.
+Eligibility: B.Tech students from CS and CS-aligned streams with a minimum CGPA of 7.0 (overall).
+Compensation: Internship stipend of INR 60,000/month; Full-time annual compensation of INR 13 LPA + one-time Relocation Assistance up to INR 3 Lakhs + performance bonus + benefits.
+Job location: Pune / Hyderabad
+Recruitment process timeline: Pre-placement talk (virtual, MS Teams); Interview 5th August 2026, in-person. Candidates must appear for the Culture Aptitude Test and Cognitive Ability Test (AON) prior to 3rd August 2026.
+All CVs should include a photograph and clearly mention year of passing (e.g., 2025–2027)...
+[message continues, truncated in retrieval]
+
+Assistant: Given the timeline (AON test before Aug 3, interview Aug 5), prioritize: 1) AON practice - timed numerical/verbal/logical reasoning drills daily until the test. 2) Core CS fundamentals refresh - OOP, DBMS, OS, CN basics, since UBS interviews commonly test these for tech roles. 3) DSA practice - medium-level problems on arrays, strings, hashing, and basic DP. 4) Resume readiness - make sure your CV includes a photograph and clearly states your passing year as instructed, and be ready to discuss every project listed in depth. 5) Behavioral/culture prep - review UBS's stated values and prepare STAR-format answers for common situational questions. I don't have access to your previous chats or resume in this session - if you paste your resume content here, I can tailor specific talking points.

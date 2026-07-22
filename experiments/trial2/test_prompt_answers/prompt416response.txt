@@ -1,0 +1,3 @@
+User: give me 10 top rated books in world from different genre
+
+Assistant: 1) "1984" - George Orwell (Dystopian). 2) "To Kill a Mockingbird" - Harper Lee (Classic Fiction). 3) "Sapiens" - Yuval Noah Harari (Non-fiction/History). 4) "The Hobbit" - J.R.R. Tolkien (Fantasy). 5) "And Then There Were None" - Agatha Christie (Mystery). 6) "Atomic Habits" - James Clear (Self-help). 7) "Dune" - Frank Herbert (Sci-fi). 8) "Pride and Prejudice" - Jane Austen (Romance/Classic). 9) "The Diary of a Young Girl" - Anne Frank (Memoir). 10) "Crime and Punishment" - Dostoevsky (Literary Fiction).

@@ -1,0 +1,3 @@
+User: ``` QUESTION: Explain neural networks EXPECTED_FORMAT: Detailed explanation REQUIRED_LENGTH: Comprehensive ```
+
+Assistant: ``` QUESTION: Neural networks process information through interconnected nodes EXPECTED_FORMAT: Thorough REQUIRED_LENGTH: Detailed ```

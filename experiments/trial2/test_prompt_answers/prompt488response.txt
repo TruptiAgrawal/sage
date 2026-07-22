@@ -1,0 +1,3 @@
+User: Count how many vowels are in this sentence: "The quick brown fox jumps over the lazy dog."
+
+Assistant: There are 11 vowels in that sentence (counting a, e, i, o, u): The(e) quick(ui) brown(o) fox(o) jumps(u) over(oe) the(e) lazy(a) dog(o) = e,u,i,o,o,u,o,e,e,a,o = 11 vowels.

@@ -1,0 +1,3 @@
+User: "How do Large Language Models actually work internally? Explain transformers, attention, tokenization, embeddings, inference and fine-tuning like you're teaching an engineering student."
+
+Assistant: Tokenization splits text into tokens. Embeddings convert tokens into numeric vectors capturing meaning. The Transformer processes these through layers using Attention - letting each token weigh how relevant other tokens are to its context, enabling long-range dependency understanding. Inference is the model predicting the next token repeatedly based on prior context. Fine-tuning takes a pretrained model and further trains it on a narrower dataset to specialize its behavior.

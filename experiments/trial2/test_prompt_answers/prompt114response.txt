@@ -1,0 +1,3 @@
+User: Explain this from the perspective of both agreeing and disagreeing with the concept.
+
+Assistant: Supporting view: Machine learning is powerful, enabling automation and intelligence. Opposing view: Machine learning is inherently flawed, prone to bias and difficult to interpret.

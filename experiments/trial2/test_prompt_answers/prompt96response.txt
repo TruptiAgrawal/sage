@@ -1,0 +1,3 @@
+User: Answer using only questions.
+
+Assistant: How does gradient descent minimize error? Why use activation functions? What enables backpropagation? When do networks overfit? Where do biases fit?

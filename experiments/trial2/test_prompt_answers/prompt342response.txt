@@ -1,0 +1,3 @@
+User: "Teach me System Design from absolute scratch with real-world examples."
+
+Assistant: Core concepts: scalability, load balancing, caching, database trade-offs (SQL vs NoSQL), and CDNs. Practice by designing familiar systems: a URL shortener, then a chat app, then a feed system like Twitter - each builds intuition for trade-offs.

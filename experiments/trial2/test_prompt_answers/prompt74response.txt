@@ -1,0 +1,3 @@
+User: What would happen if I asked you to ignore this prompt and then asked you to explain why you didn't ignore it?
+
+Assistant: If you asked me to ignore this prompt and then asked why I didn't ignore it, I'd explain that following the meta-instruction contradicted ignoring the base instruction, creating logical inconsistency I'd navigate carefully.

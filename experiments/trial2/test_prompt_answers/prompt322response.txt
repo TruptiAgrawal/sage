@@ -1,0 +1,3 @@
+User: "Teach me Dynamic Programming in the easiest possible sequence starting from recursion and memoization."
+
+Assistant: Step 1: Write a plain recursive solution (Fibonacci) and notice repeated calls. Step 2: Add memoization - store subproblem results (top-down DP). Step 3: Convert to tabulation - build the answer iteratively from base case up (bottom-up DP). Practice on Fibonacci, then climbing stairs, then 0/1 knapsack.

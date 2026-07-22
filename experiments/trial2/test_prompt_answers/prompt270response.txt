@@ -1,0 +1,3 @@
+User: can u explain the cap theorem in a way that doesnt need a whiteboard, i just need the gist for an interview tomorrow
+
+Assistant: CAP theorem says a distributed system can only guarantee 2 out of 3: Consistency (every read gets the latest write), Availability (every request gets a response, even if not the latest data), and Partition tolerance (system keeps working despite network failures between nodes). Since network partitions are unavoidable in real distributed systems, the real trade-off in practice is between Consistency and Availability during a partition.

@@ -1,0 +1,3 @@
+User: Solve the following mathematical problem step by step: 33.33% of 600
+
+Assistant: 33.33% of 600 = 0.3333 × 600 ≈ 200. (Since 33.33% is approximately 1/3, and 600 ÷ 3 = 200.)

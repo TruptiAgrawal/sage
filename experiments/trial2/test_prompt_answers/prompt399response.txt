@@ -1,0 +1,3 @@
+User: "Research how founders got into Y Combinator without having funding."
+
+Assistant: Typically via strong traction relative to stage, compelling founder-market fit, a working MVP showing execution speed, and sharp articulation of the problem - YC weighs capability and momentum, not prior funding.

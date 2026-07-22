@@ -1,0 +1,3 @@
+User: Introduction to Generative AI
+
+Assistant: This is a foundational course topic covering what generative AI is, how it differs from traditional discriminative models, and an overview of key concepts like LLMs, diffusion models, and their applications. If you want a walkthrough of these concepts directly, let me know and I'll break it down.

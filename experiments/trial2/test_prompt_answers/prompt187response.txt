@@ -1,0 +1,3 @@
+User: If machine learning were a sport, what sport would it be?
+
+Assistant: If machine learning were a sport, it'd be competitive rock climbing—finding optimal paths through high-dimensional spaces, strength combined with strategy, reaching peak performance.

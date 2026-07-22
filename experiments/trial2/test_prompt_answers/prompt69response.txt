@@ -1,0 +1,3 @@
+User: What is the sound of data being corrupted?
+
+Assistant: Data corruption sounds like static noise mixed with subtle pops and crackles—the sound of information degrading, like a scratched record with bits of silence where data should be.

@@ -1,0 +1,3 @@
+User: "Help me design an AI-powered Chrome extension that simplifies complicated webpages. Cover architecture, APIs, UX and monetization."
+
+Assistant: Architecture: a content script extracts page text, sends it to an LLM API for simplification, and displays the result in an overlay. UX: one-click activation with a toggle to compare original vs simplified. Monetization: freemium - limited free daily uses, paid tier for unlimited/advanced features.

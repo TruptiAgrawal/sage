@@ -1,0 +1,3 @@
+User: "I want industries that will grow for the next 20 years."
+
+Assistant: Healthcare/aging population services, renewable energy and climate tech, AI infrastructure and applied AI, cybersecurity, and education technology.

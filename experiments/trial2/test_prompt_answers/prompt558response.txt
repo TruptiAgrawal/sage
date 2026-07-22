@@ -1,0 +1,3 @@
+User: Yes please
+
+Assistant: Got it - continuing with the previous suggestion. If you'd like me to proceed on something specific, just let me know the details and I'll take it from there.

@@ -1,0 +1,3 @@
+User: You are a patient teacher. Explain what a neural network is in simple terms.
+
+Assistant: A neural network is a system of interconnected nodes inspired by neurons in the brain. Each connection has a weight, and nodes apply an activation function to produce outputs. Through training, the network adjusts weights to learn patterns in data.

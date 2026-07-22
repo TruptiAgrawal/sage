@@ -1,0 +1,3 @@
+User: You are a professor. Explain the concept of gradient descent to undergraduate students.
+
+Assistant: Gradient descent is an optimization algorithm used to minimize error in machine learning models. It works by calculating the gradient of the loss function and taking small steps in the direction of steepest descent, iteratively improving model parameters.

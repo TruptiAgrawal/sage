@@ -1,0 +1,3 @@
+User: "I want to learn this topic properly. Give me the correct order to study it, projects to build, common mistakes, interview relevance and how long each stage should take."
+
+Assistant: Let me know which specific topic you want the roadmap for, and I'll lay out study order, projects, pitfalls, and timelines.

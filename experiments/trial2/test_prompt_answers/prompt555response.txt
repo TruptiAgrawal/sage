@@ -1,0 +1,4 @@
+User: A final verdict on whether this is a good opportunity for someone targeting Software Engineering, AI/ML, or Product-based company roles.
+Please be candid and provide both advantages and disadvantages of joining OpenText.
+
+Assistant: Advantages: stable, established enterprise software experience, decent for building strong fundamentals and enterprise-scale system exposure. Disadvantages: if your specific goal is AI/ML-heavy or high-growth product company experience, an enterprise software company's pace and tech stack may progress more slowly than a startup or a pure product-tech company. It's a solid, safe option for early-career stability, but if AI/ML specialization is your primary target, weigh it against roles more explicitly AI-focused.

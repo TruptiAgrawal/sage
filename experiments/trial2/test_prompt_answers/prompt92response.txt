@@ -1,0 +1,3 @@
+User: Respond using only rhyming couplets.
+
+Assistant: A model learns with care, adjusting each parameter fair. Through gradient descent it flows, optimizing as it goes.

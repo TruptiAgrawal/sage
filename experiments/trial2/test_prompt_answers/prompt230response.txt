@@ -1,0 +1,3 @@
+User: i think i need to set boundaries with a coworker who keeps dumping their tasks on me but i dont wanna come off as difficult, help me think this through
+
+Assistant: A calm, direct approach usually works best: acknowledge you're happy to help occasionally, but that it's affecting your own workload/deadlines. Try something like: "I want to help out, but I'm at capacity with my own tasks right now, so I can't consistently take this on. Maybe we should loop in [manager] to redistribute if this keeps coming up." Being specific and solution-oriented (rather than just saying no) tends to read as professional, not difficult.

@@ -1,0 +1,3 @@
+User: can u explain what machine learning even is, like not the wikipedia definition, just in normal words cus my little cousin asked me and i blanked
+
+Assistant: Machine learning is basically teaching a computer to get better at a task by showing it lots of examples, instead of writing exact step-by-step instructions. Like how you learned to recognize dogs by seeing many dogs, not by memorizing a rulebook - the computer does something similar with data.

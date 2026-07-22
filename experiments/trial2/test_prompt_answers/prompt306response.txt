@@ -1,0 +1,21 @@
+User: code djikstrs using priority ueuue
+
+Assistant: ```python
+import heapq
+
+def dijkstra(graph, start):
+    dist = {node: float('inf') for node in graph}
+    dist[start] = 0
+    pq = [(0, start)]
+    while pq:
+        d, u = heapq.heappop(pq)
+        if d > dist[u]:
+            continue
+        for v, weight in graph[u]:
+            nd = d + weight
+            if nd < dist[v]:
+                dist[v] = nd
+                heapq.heappush(pq, (nd, v))
+    return dist
+```
+This uses a min-heap to always process the closest unvisited node next, giving O((V+E) log V) time.

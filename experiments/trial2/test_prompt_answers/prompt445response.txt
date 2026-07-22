@@ -1,0 +1,12 @@
+User: Explain how reinforcement learning works. Give one real-world example and one Python implementation using a simple environment.
+
+Assistant: Reinforcement learning trains an agent to make decisions by interacting with an environment, receiving rewards or penalties based on its actions, and learning a policy that maximizes cumulative reward over time - through trial and error rather than labeled examples. Real-world example: training a robot to walk, where it gets positive reward for forward progress and penalty for falling. Simple Python example using OpenAI Gym's CartPole:
+```python
+import gym
+env = gym.make('CartPole-v1')
+state = env.reset()
+for _ in range(100):
+    action = env.action_space.sample()  # random policy
+    state, reward, done, _, _ = env.step(action)
+    if done: state = env.reset()
+```

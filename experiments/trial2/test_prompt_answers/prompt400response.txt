@@ -1,0 +1,3 @@
+User: "Give me every possible monetization strategy for this product."
+
+Assistant: Share what the product does and I'll map relevant monetization options - subscription, freemium, usage-based, one-time purchase, marketplace commission, ads, or B2B licensing.

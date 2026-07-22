@@ -1,0 +1,3 @@
+User: "I'm confused between multiple career paths. Compare them based on salary growth, work-life balance, learning opportunities, long-term stability and future demand."
+
+Assistant: Share the specific career paths you're weighing and I'll compare them across salary trajectory, work-life balance, growth, stability, and future demand.

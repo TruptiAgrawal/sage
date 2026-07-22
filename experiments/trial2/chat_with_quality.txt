@@ -1,0 +1,15 @@
+User: What is machine learning?
+Quality: 9/10
+Model: claude-opus-4-8
+
+Assistant: Machine learning is a subset of artificial intelligence where systems learn patterns from data.
+Quality: 8/10
+Model: claude-opus-4-8
+
+User: Give me an example
+Quality: 8/10
+Model: claude-opus-4-8
+
+Assistant: Email spam filtering is a classic example - trained on labeled emails to detect spam patterns.
+Quality: 9/10
+Model: claude-opus-4-8

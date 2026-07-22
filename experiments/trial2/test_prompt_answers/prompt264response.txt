@@ -1,0 +1,3 @@
+User: whats the actual difference between sql and nosql databases, when would someone actually pick one over the other
+
+Assistant: SQL (relational) databases use structured tables with fixed schemas and enforce relationships - great when data is highly structured and consistency matters (banking, inventory). NoSQL databases are more flexible (documents, key-value, graphs) and scale horizontally more easily - good for unstructured or rapidly changing data, high write volume, or when schema flexibility matters more than strict consistency (social feeds, logging, real-time analytics).

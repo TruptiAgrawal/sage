@@ -1,0 +1,3 @@
+User: Provide the most complex answer possible but use only simple words.
+
+Assistant: Most complex, simplest words: Math moves data through many numbers, making models change answers slowly, step by step, until right.

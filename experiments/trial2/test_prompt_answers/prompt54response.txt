@@ -1,0 +1,3 @@
+User: Provide a simple answer suitable for a 5-year-old but also technical enough for PhD researchers.
+
+Assistant: For a 5-year-old: Computers learn like you learn—by seeing many examples. For PhD researchers: Machine learning optimizes parameters through backpropagation, utilizing loss functions and regularization to generalize across data distributions while managing bias-variance tradeoffs.

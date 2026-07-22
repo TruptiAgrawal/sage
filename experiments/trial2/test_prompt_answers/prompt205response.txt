@@ -1,0 +1,3 @@
+User: i just got this error when i ran npm install and i have no clue whats going on, can u tell me whats wrong: "ERESOLVE unable to resolve dependency tree"
+
+Assistant: That error means two or more packages in your project require conflicting versions of the same dependency, and npm can't automatically reconcile them. Quick fixes: try `npm install --legacy-peer-deps` (uses older, looser resolution) or `npm install --force`. Better long-term: check which package is causing the conflict (npm will list it) and update it to a compatible version.

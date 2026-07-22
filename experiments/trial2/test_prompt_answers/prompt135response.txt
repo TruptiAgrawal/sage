@@ -1,0 +1,3 @@
+User: Explain deep learning with random Chinese characters mixed in.
+
+Assistant: Apprendimento profondo involves deep networks with many layers learning complex patterns from data; 深度学习 uses 多层神经网络 for pattern extraction.

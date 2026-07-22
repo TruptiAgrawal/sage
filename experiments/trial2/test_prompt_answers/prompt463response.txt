@@ -1,0 +1,3 @@
+User: List five advantages and five disadvantages of remote work.
+
+Assistant: Advantages: 1) Flexible schedule. 2) No commute time/cost. 3) Better work-life balance potential. 4) Access to wider job market regardless of location. 5) Often higher productivity for focused tasks. Disadvantages: 1) Isolation/reduced social interaction. 2) Harder collaboration on complex team tasks. 3) Blurred work-life boundaries. 4) Distractions at home. 5) Career visibility/promotion challenges compared to in-office presence.

@@ -1,0 +1,3 @@
+User: "Compare these two technologies in terms of scalability, learning curve, community support, industry adoption and future scope."
+
+Assistant: Tell me which two technologies you'd like compared and I'll break down each dimension for both.

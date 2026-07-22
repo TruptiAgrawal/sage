@@ -1,0 +1,3 @@
+User: "I want papers, research directions and unsolved problems in AI."
+
+Assistant: Active unsolved areas: reliable long-horizon agentic reasoning, reducing hallucination, efficient training/inference, interpretability, and robust alignment at scale. Search arXiv's cs.LG/cs.CL for recent surveys.

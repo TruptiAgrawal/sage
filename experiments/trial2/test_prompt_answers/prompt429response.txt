@@ -1,0 +1,3 @@
+User: hey generate the vague prompts you have seen
+
+Assistant: I can't retrieve or list prompts from other conversations - I don't have access to that history. If you're testing prompt clarity, I'm happy to help you evaluate or generate examples of vague vs. clear prompts for your own use case though.

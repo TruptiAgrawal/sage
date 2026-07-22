@@ -1,0 +1,3 @@
+User: "Give me hidden problems in the real estate industry that nobody talks about."
+
+Assistant: Opaque pricing favoring brokers, fragmented outdated data, slow paperwork-heavy transactions, high commission structures, and poor post-purchase property management tooling.

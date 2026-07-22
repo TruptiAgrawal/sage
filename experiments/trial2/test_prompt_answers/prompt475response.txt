@@ -1,0 +1,3 @@
+User: Suggest three creative names for a food delivery startup.
+
+Assistant: 1) "PlatterUp" 2) "QuickBite Express" 3) "ForkLift Delivery"

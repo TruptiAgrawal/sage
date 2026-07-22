@@ -1,0 +1,3 @@
+User: main.pack(fill='both', expand=True, padx=20, pady=20) explain this to a non coder
+
+Assistant: This is a line of Python code that tells a window or box on screen how to stretch and how much empty space to leave around it - "fill both" means it stretches to fill all available space in both directions (width and height), "expand" lets it grow if the window gets bigger, and the padding numbers add a 20-pixel gap of empty space around its edges so things don't look cramped.

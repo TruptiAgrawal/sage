@@ -1,0 +1,5 @@
+User: # QUERY ## What is deep learning? ### Provide elaborate response
+
+Assistant: # QUERY
+## Deep learning requires multiple network layers
+### These layers create hierarchical feature representations automatically

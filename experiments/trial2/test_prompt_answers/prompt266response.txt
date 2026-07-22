@@ -1,0 +1,3 @@
+User: can u explain what containers are (like docker), i keep hearing "it works on my machine" jokes and now i get why but not really how
+
+Assistant: A container packages your app along with everything it needs to run - code, dependencies, system libraries, configuration - into one isolated unit. That unit behaves identically no matter where it runs (your laptop, a colleague's machine, a server), because it's not relying on whatever happens to be installed on the host system. Docker is the tool that builds, runs, and shares these containers, which is why it fixes the "works on my machine" problem.

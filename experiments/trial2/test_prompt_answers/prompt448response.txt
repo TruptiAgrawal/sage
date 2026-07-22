@@ -1,0 +1,3 @@
+User: Design an algorithm to find duplicate values in a list containing one million integers while minimizing memory usage.
+
+Assistant: If values fit a known bounded range, use a bit array (bitset) - one bit per possible value, flip it on first occurrence, flag as duplicate if already set. This uses far less memory than a hash set. If the range is unbounded, sort the array in-place (O(n log n)) then scan for adjacent duplicates - this avoids extra memory beyond the sort itself, trading some time for lower memory compared to a hash set approach.

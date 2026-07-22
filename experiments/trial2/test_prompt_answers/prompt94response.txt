@@ -1,0 +1,7 @@
+User: Answer as if you're writing code documentation.
+
+Assistant: ```python
+def explain_neural_networks():
+    '''Explains neural network architecture and backpropagation'''
+    return 'Interconnected nodes process data through layers...'
+```

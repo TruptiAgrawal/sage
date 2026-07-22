@@ -1,0 +1,3 @@
+User: Tell me what you should NOT say about this topic, then explain why you shouldn't say it.
+
+Assistant: You should NOT say: 'Machine learning always gives correct answers' because models have limitations, biases, and errors. This misconception could lead to over-reliance on flawed systems.

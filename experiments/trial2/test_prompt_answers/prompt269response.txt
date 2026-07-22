@@ -1,0 +1,3 @@
+User: i wanna give feedback to a junior teammate on their code without sounding harsh, they're new and i remember how that felt
+
+Assistant: Lead with something specific they did well, then frame issues as suggestions: "This works well overall! One thing worth considering - [specific issue] could cause [specific consequence], so you might try [alternative]. Happy to pair on it if useful." Being specific and offering the "why" behind feedback (not just "this is wrong") makes it feel like mentoring, not criticism.

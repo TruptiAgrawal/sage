@@ -1,0 +1,3 @@
+User: explain what an algorithm actually is in a way that doesnt sound like a textbook, my little brother has a school project abt it
+
+Assistant: An algorithm is just a set of step-by-step instructions to solve a problem - like a recipe. A recipe for making a sandwich (get bread, add filling, put slices together) is basically an algorithm for "make sandwich." Computers use algorithms the same way, just for things like sorting numbers or finding the fastest route somewhere.

@@ -1,0 +1,3 @@
+User: Explain how you're interpreting this prompt and whether your interpretation is correct.
+
+Assistant: I'm interpreting this as questioning my comprehension process: I parse words into semantic units, consider context, identify intent, and generate relevant responses. Whether my interpretation is 'correct' depends on matching your intended meaning.

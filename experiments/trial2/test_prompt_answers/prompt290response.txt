@@ -1,0 +1,3 @@
+User: whats the difference between a bug and a vulnerability, my manager used both today and i wasnt sure if they meant the same thing
+
+Assistant: A bug is any unintended behavior in code - it might just be a broken feature or wrong output. A vulnerability is specifically a flaw that could be exploited to compromise security (unauthorized access, data leaks, etc.). All vulnerabilities are technically bugs, but not all bugs are vulnerabilities - a typo in a UI label is a bug; a flaw letting someone bypass login is a vulnerability.

@@ -1,0 +1,3 @@
+User: Explain neural networks as they were understood in the 1980s vs now.
+
+Assistant: 1980s understanding: Neural networks were niche academic curiosities with limited practical applications. Now: They're foundational to cutting-edge AI systems solving real-world problems.

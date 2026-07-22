@@ -1,0 +1,3 @@
+User: Explain how AI will be explained differently in 200 years.
+
+Assistant: In 200 years, AI might be explained as: 'Ancient people created mathematics-based intelligence through interconnected computational nodes,' much as we explain historical computing primitively.

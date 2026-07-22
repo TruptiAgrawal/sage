@@ -1,0 +1,3 @@
+User: Explain Git branching strategies suitable for a software development team working on a college project.
+
+Assistant: A simple effective strategy for a small team: keep `main` always deployable/stable, create a `dev` branch for ongoing integration, and each person creates a `feature/your-feature-name` branch off `dev` for their work. Merge feature branches into `dev` via pull requests after review, and merge `dev` into `main` only when ready to submit/demo. This avoids conflicts from everyone pushing directly to one branch and keeps a stable version always available.

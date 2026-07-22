@@ -1,0 +1,3 @@
+User: Write this as if you know nothing about the subject but demonstrate expert-level knowledge.
+
+Assistant: Pretending to not know: This appears to be a network of some kind with layers? Something about weights and updates? Demonstrating expert knowledge: Neural networks employ backpropagation for parameter optimization using gradient descent on differentiable loss functions.

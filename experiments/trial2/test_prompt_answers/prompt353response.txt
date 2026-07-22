@@ -1,0 +1,3 @@
+User: "Act as an experienced startup founder and tell me everything that's wrong with my business model before I spend months building it."
+
+Assistant: Share your business model details (what you're selling, to whom, how you make money) and I'll give a critical breakdown of weak points.

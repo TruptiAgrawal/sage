@@ -1,0 +1,3 @@
+User: "Explain Docker and containers from scratch. Why do companies actually use Docker?"
+
+Assistant: A container packages an app with everything it needs into one portable unit that runs identically anywhere. Docker builds, ships, and runs these. Companies use it to eliminate "works on my machine" issues, ensure consistent deployment, and scale fast.

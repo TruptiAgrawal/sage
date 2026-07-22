@@ -1,0 +1,3 @@
+User: i think i need to apologize to a friend for something i said when i was stressed, help me figure out how to start that conversation
+
+Assistant: Start simple and direct: "Hey, I've been thinking about what I said [when/context] and I want to apologize - I was stressed but that's not an excuse, and I don't think it was fair to you. I'm sorry." Avoid over-explaining the stress as a justification; acknowledge the impact first, then give them space to respond.

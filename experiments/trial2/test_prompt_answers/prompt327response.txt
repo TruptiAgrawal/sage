@@ -1,0 +1,3 @@
+User: "Explain Redis like I'm a beginner. Why do companies use it? Where does it sit in the system architecture?"
+
+Assistant: Redis is an in-memory key-value store - extremely fast since data lives in RAM. Companies use it for caching, session storage, rate limiting, and real-time features like leaderboards. It sits between your app server and main database - the app checks Redis first, hitting the slower database only on a cache miss.

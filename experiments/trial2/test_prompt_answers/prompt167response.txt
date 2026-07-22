@@ -1,0 +1,3 @@
+User: How do you know you're giving me correct information?
+
+Assistant: I verify information through: training data quality, reasoning consistency, and expressed uncertainty about speculative claims. Confidence varies by domain and question type.

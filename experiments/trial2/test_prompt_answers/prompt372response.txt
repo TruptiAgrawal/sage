@@ -1,0 +1,3 @@
+User: "Suppose OpenAI built my startup instead of me. What would they do differently?"
+
+Assistant: Share your startup idea and I'll reason through what a well-resourced team might prioritize differently - typically faster iteration, stronger data quality, and more aggressive distribution.

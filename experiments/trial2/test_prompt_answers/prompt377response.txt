@@ -1,0 +1,3 @@
+User: "Give me startup ideas that are difficult to copy."
+
+Assistant: Ones with proprietary data that improves with usage, deep domain/regulatory expertise as a moat, strong brand/community lock-in, or unique hardware+software integration - defensibility comes from data or relationships, not the initial feature set.

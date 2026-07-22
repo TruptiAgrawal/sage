@@ -1,0 +1,3 @@
+User: i think my resume is too long at 2 pages but i dont know what to cut, can u help me think through what actually matters
+
+Assistant: Cut in this order: 1) Anything older than 10 years unless highly relevant. 2) Generic bullet points that don't show measurable impact. 3) Redundant skills already implied by your job titles. 4) Basic tools everyone in your field is expected to know. Keep: anything with quantified impact, your most recent/relevant roles in detail, and skills that differentiate you specifically for the job you're targeting.

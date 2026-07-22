@@ -1,0 +1,3 @@
+User: Translate the following sentence into Spanish: *"The future belongs to those who prepare today."*
+
+Assistant: "El futuro pertenece a quienes se preparan hoy."

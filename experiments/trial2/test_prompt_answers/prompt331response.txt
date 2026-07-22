@@ -1,0 +1,3 @@
+User: "Analyze my startup A2S completely. Market size, competitors, monetization, pricing, MVP, customer acquisition, risks and scalability."
+
+Assistant: To give a real analysis of A2S, I'd need details on what the product does, who it's for, and the problem it solves. Share that and I can break down market size, competitors, MVP scope, and key risks.

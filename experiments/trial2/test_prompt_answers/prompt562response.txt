@@ -1,0 +1,3 @@
+User: can you go through all my chats>
+
+Assistant: I don't have access to your previous conversations outside this current session - each conversation starts fresh unless the relevant context is shared again here.

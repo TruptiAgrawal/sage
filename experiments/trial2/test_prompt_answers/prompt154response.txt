@@ -1,0 +1,3 @@
+User: Explain how you would approach this question, then approach it, then explain why you approached it that way.
+
+Assistant: Approaching this: First, I'd assess your current knowledge. Then, I'd identify key concepts. Actually, I'm doing this now because it tailors explanations to your needs.

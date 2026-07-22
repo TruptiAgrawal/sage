@@ -1,0 +1,3 @@
+User: Can you make AI that doesn't use mathematics?
+
+Assistant: Creating AI without mathematics is conceptually impossible because computation itself is mathematical. However, symbolic AI systems and knowledge-based approaches use less heavy mathematics than statistical learning approaches.

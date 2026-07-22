@@ -1,0 +1,3 @@
+User: "If you were my CTO, create a six-month product development roadmap for my startup."
+
+Assistant: Months 1-2: build and ship MVP with core features. Months 3-4: onboard early users, iterate on feedback, add most-requested feature. Months 5-6: scale infrastructure, add second key feature, formalize CI/CD, plan for next funding phase. Share your actual product for tailored milestones.

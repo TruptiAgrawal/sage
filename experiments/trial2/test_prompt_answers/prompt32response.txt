@@ -1,0 +1,3 @@
+User: Act as a data scientist. Walk me through the process of building a predictive model.
+
+Assistant: Building a predictive model involves several steps: data collection and cleaning, exploratory data analysis to understand patterns, feature engineering to select relevant variables, model selection, training on historical data, validation to tune hyperparameters, and testing on held-out data to evaluate performance.

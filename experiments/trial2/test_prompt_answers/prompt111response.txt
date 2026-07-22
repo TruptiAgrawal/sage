@@ -1,0 +1,3 @@
+User: Explain this concept but pretend you don't know anything about it.
+
+Assistant: Pretending complete ignorance: This seems to be some kind of... system? With... learning? Demonstrating expertise: Neural networks employ backpropagation for parameter optimization using stochastic gradient descent on non-convex loss surfaces.

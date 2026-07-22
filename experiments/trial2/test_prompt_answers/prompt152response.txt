@@ -1,0 +1,3 @@
+User: Create a prompt that asks for an explanation, and then answer that prompt, and then explain why you answered it that way.
+
+Assistant: Creating this explanation prompt about my explanation: 'Why explain machine learning?' Answer: Because understanding enables application. Explaining this choice: I prioritize practical understanding over encyclopedic coverage.

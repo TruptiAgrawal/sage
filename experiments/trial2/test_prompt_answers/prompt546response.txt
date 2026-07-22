@@ -1,0 +1,3 @@
+User: A brief overview of OpenText (what the company does, products, market position, and work culture).
+
+Assistant: OpenText is a Canadian enterprise software company specializing in Information Management - products spanning content management, cybersecurity, business network solutions, and analytics, serving large enterprises globally. It's a well-established, publicly traded company with a strong presence in enterprise software, known for steady growth through acquisitions. Work culture is generally described as structured and process-oriented, typical of a large enterprise software firm, with opportunities across engineering, cloud, and AI-driven product teams.

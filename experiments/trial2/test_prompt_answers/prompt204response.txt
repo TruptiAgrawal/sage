@@ -1,0 +1,3 @@
+User: ngl i dont fully get the difference between supervised and unsupervised learning, my prof explained it today but i kinda zoned out, can u break it down like im explaining it to a friend
+
+Assistant: Supervised learning is like studying with an answer key - you give the model labeled examples (input + correct output) and it learns to map one to the other, like spam vs not-spam emails. Unsupervised learning is like being handed a pile of stuff with no labels and told to find patterns yourself - like grouping customers into clusters based on similar behavior, without being told what the groups should be.

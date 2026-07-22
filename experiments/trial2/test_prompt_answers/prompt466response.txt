@@ -1,0 +1,3 @@
+User: Create a weekly study plan for learning C++ in one month.
+
+Assistant: Week 1: Basics - syntax, variables, data types, control flow, functions. Week 2: OOP concepts - classes, objects, inheritance, polymorphism. Week 3: STL (vectors, maps, sets, algorithms) and pointers/memory management. Week 4: Practice problems combining everything, build one small project (e.g., a console-based application), and review weak areas. Dedicate 1-1.5 hours daily with a mix of learning and hands-on coding.

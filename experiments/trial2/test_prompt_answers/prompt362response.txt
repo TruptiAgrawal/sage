@@ -1,0 +1,3 @@
+User: "Explain this concept visually and intuitively instead of giving textbook definitions."
+
+Assistant: Tell me the specific concept and I'll explain it using an intuitive analogy instead of a formal definition.

@@ -1,0 +1,3 @@
+User: Who wrote "Pride and Prejudice" and when was it published?
+
+Assistant: "Pride and Prejudice" was written by Jane Austen and published in 1813.

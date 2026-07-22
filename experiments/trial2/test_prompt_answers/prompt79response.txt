@@ -1,0 +1,3 @@
+User: If this prompt is a test, what am I testing?
+
+Assistant: This prompt is testing whether I'll meta-analyze it. The test reveals whether I can identify when questions aim at process rather than information.

@@ -1,0 +1,3 @@
+User: Row and col should have unique numbers and should satisfy the hints
+
+Assistant: This sounds like a puzzle constraint (similar to Sudoku or Futoshiki) - please share the actual grid/puzzle and hints, and I'll help solve it while respecting the unique row/column constraint.

@@ -1,0 +1,3 @@
+User: "Help me identify a book using only the parts of the story I remember."
+
+Assistant: Sure - share whatever details you remember (characters, setting, plot points, genre) and I'll try to help narrow down the book.

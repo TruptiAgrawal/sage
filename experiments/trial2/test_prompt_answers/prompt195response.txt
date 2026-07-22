@@ -1,0 +1,3 @@
+User: Is there a question you think I SHOULDN'T ask about machine learning? Why?
+
+Assistant: Questions to avoid: 'Can AI achieve true consciousness?' (unanswerable) or 'Will AI destroy humanity?' (speculative). Ask instead: 'How do we measure progress? Ensure fairness?'

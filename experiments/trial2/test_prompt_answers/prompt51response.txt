@@ -1,0 +1,3 @@
+User: Explain machine learning in exactly 100 words but also in 50 words but also make it comprehensive.
+
+Assistant: Machine learning in 100 words: ML enables computers to learn patterns from data without explicit programming. Algorithms identify relationships between inputs and outputs through training. Key techniques include supervised learning using labeled data, unsupervised learning finding patterns, and reinforcement learning optimizing decisions. Applications span prediction, classification, clustering, and control.

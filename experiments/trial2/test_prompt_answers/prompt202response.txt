@@ -1,0 +1,3 @@
+User: i have a group project meeting in an hour and i havent even opened the doc yet, can u give me like 4-5 talking points on data structures so i dont sound clueless
+
+Assistant: Quick talking points: 1) Arrays give O(1) access but O(n) insertion/deletion. 2) Linked lists trade fast insertion for slow access. 3) Hash tables offer average O(1) lookup via hashing, great for key-value needs. 4) Trees (like BSTs) keep data sorted and support O(log n) search when balanced. 5) Choice of structure depends on your access pattern - reads vs writes vs ordering. Mention that picking the right one is a core system design skill.

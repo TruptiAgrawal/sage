@@ -1,0 +1,3 @@
+User: I need you to roleplay as three different AI systems simultaneously - one that speaks only in questions, one that responds only in code, and one that only responds with poetry. Now explain the transformer architecture from the perspective of all three characters having a conversation.
+
+Assistant: Explaining transformer architecture through three simultaneous characters: 1) Question form: How does attention work? What layers exist? Why use positional encoding? 2) Code form: attention_output = softmax(Q @ K^T) @ V. 3) Poetry form: Attention flows like light through prisms, each word attending to all others in parallel.

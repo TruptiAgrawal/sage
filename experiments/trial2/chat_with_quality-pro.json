@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-22T12:09:17.560529",
+    "total_messages": 4,
+    "total_tokens": 56,
+    "input_tokens": 10,
+    "output_tokens": 46,
+    "user_messages": 2,
+    "assistant_messages": 2,
+    "avg_input_tokens": 5,
+    "avg_output_tokens": 23,
+    "avg_user_quality": 8.5,
+    "avg_assistant_quality": 8.5,
+    "model": "claude-opus-4-8"
+  },
+  "messages": [
+    {
+      "index": 1,
+      "role": "user",
+      "model": "claude-opus-4-8",
+      "quality": 9.0,
+      "tokens": 6,
+      "length": 25,
+      "efficiency": 1.5
+    },
+    {
+      "index": 2,
+      "role": "assistant",
+      "model": "claude-opus-4-8",
+      "quality": 8.0,
+      "tokens": 23,
+      "length": 95,
+      "efficiency": 0.348
+    },
+    {
+      "index": 3,
+      "role": "user",
+      "model": "claude-opus-4-8",
+      "quality": 8.0,
+      "tokens": 4,
+      "length": 18,
+      "efficiency": 2.0
+    },
+    {
+      "index": 4,
+      "role": "assistant",
+      "model": "claude-opus-4-8",
+      "quality": 9.0,
+      "tokens": 23,
+      "length": 94,
+      "efficiency": 0.391
+    }
+  ]
+}

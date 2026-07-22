@@ -1,0 +1,3 @@
+User: Hands-on learning using Google Cloud Generative AI tools
+
+Assistant: This looks like a program feature/course listing rather than a question - if you'd like specifics on Google Cloud's Generative AI hands-on offerings (Vertex AI labs, Gemini API tutorials, etc.), let me know what you want to learn more about.

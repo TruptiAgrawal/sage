@@ -1,0 +1,3 @@
+User: Describe different types of interconnection structures used in multiprocessors. Answer these
+
+Assistant: Common multiprocessor interconnection structures: 1) Bus-based - all processors share a single communication bus (simple, cheap, but becomes a bottleneck as processor count grows). 2) Crossbar switch - allows any processor to connect to any memory module simultaneously without contention (fast but expensive/complex to scale). 3) Multistage networks (like Omega network) - use multiple switching stages to connect processors to memory, balancing cost and performance. 4) Hypercube - processors connected in a cube-like topology, offering good scalability with relatively short communication paths.

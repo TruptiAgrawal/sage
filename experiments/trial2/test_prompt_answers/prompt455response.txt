@@ -1,0 +1,3 @@
+User: Compare Python lists and tuples. Include syntax, performance, mutability, and practical use cases.
+
+Assistant: Syntax: lists use `[1,2,3]`, tuples use `(1,2,3)`. Mutability: lists are mutable (can change elements after creation), tuples are immutable (fixed once created). Performance: tuples are slightly faster to create and iterate over due to immutability, and use less memory. Use cases: use lists when data needs to change (dynamic collections, appending items); use tuples for fixed data that shouldn't change (coordinates, function returns with multiple values, dictionary keys since they're hashable while lists aren't).

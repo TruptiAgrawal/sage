@@ -1,0 +1,7 @@
+User: \item Built a full-stack task management application with a \textbf{Java Spring Boot} backend, implementing \textbf{JWT-based authentication} and role-based access control.
+\item Designed a normalized \textbf{PostgreSQL} schema with proper relationships between users, projects, and tasks, using Spring Data JPA for persistence.
+\item Integrated an \textbf{AI-assisted task creation} feature, parsing natural language input into structured tasks via an LLM API call
+instead of this give ytwo points that would strongly represent the project also in simple words and buzz words too
+
+Assistant: \item Engineered a secure, full-stack task management platform (Java Spring Boot, PostgreSQL) with JWT authentication and role-based access control, enabling scalable multi-user collaboration.
+\item Integrated LLM-powered natural language task creation, transforming unstructured user input into structured, actionable tasks - showcasing applied AI/ML integration in a production-style system.

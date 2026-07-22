@@ -1,0 +1,3 @@
+User: The locations where this role is typically based and the major OpenText offices in India.
+
+Assistant: OpenText has significant India offices in Bangalore, Pune, and Hyderabad, which are common bases for software engineering and R&D roles. Exact location depends on the specific role/team, so check the job description or offer letter for the confirmed office.

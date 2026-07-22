@@ -1,0 +1,3 @@
+User: "Explain how Stripe works behind the scenes. Cover payment flow, subscriptions, webhooks, refunds and security."
+
+Assistant: Payment flow: your app collects card details via Stripe's secure hosted fields, sends a token to Stripe which processes the charge and returns success/failure. Subscriptions are recurring billing objects auto-charged on a schedule. Webhooks notify your backend asynchronously about events. Refunds reverse a specific charge via API. Security relies on PCI compliance handled by Stripe plus API keys and webhook signature verification.

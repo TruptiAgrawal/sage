@@ -1,0 +1,3 @@
+User: What causes a solar eclipse?
+
+Assistant: A solar eclipse happens when the Moon passes directly between the Earth and the Sun, blocking some or all of the Sun's light from reaching a specific part of Earth. This only happens during a new moon, and only when the Moon's orbit aligns precisely enough with the Sun-Earth line (which doesn't happen every month due to the Moon's slightly tilted orbit).

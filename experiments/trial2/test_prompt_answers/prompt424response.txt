@@ -1,0 +1,3 @@
+User: Compare programming languages.
+
+Assistant: Which languages would you like compared specifically? In general: Python favors readability and rapid development (data science, scripting, ML). Java/C# favor large-scale enterprise applications with strong typing and tooling. C/C++ favor performance-critical and systems-level programming. JavaScript dominates web frontend (and increasingly backend via Node.js). Let me know the specific pair and I'll give a detailed comparison.

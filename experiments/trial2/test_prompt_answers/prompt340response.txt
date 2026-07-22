@@ -1,0 +1,3 @@
+User: "Build me a cybersecurity roadmap for beginners covering networking, Linux, web security and penetration testing."
+
+Assistant: Month 1: Networking basics + Linux fundamentals. Month 2: Web security (OWASP Top 10, HTTP). Month 3: Hands-on tools (Burp Suite, Nmap, Wireshark) on legal practice platforms. Month 4+: Pen testing methodology, CTF challenges, beginner cert (Security+ or eJPT).

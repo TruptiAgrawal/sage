@@ -1,0 +1,3 @@
+User: Hey currently I have access to a black board to tell a topic or subject which helps me later to learn now which looks and feels super cool to learn through black board
+
+Assistant: Graph theory and tree traversal algorithms work great on a blackboard - visually drawing nodes/edges and tracing BFS/DFS step by step makes the concept click far better than reading code. Recursion trees (drawing out call stacks) are also very visual and satisfying on a board. Either would give you a strong "looks cool while teaching" topic.

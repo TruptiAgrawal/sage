@@ -1,0 +1,3 @@
+User: explain the difference between latency and bandwidth, i always get them backwards
+
+Assistant: Latency is how long it takes for data to start arriving - the delay, measured in time (ms). Bandwidth is how much data can be transferred at once - the capacity, measured in data per second (Mbps). Analogy: latency is how long it takes water to start flowing through a pipe after you turn the tap; bandwidth is how wide the pipe is (how much water flows once it's going).

@@ -1,0 +1,3 @@
+User: Tell me about deep learning as if time moves backwards.
+
+Assistant: If time moved backwards, we'd perceive learning as forgetting—starting with predictions and gradually unlearning patterns until reaching raw data, reversing the causality direction.

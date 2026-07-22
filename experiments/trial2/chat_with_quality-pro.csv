@@ -1,0 +1,5 @@
+Index,Model,Role,Prompt,Tokens,Quality,Efficiency
+1,claude-opus-4-8,user,What is machine learning?,6,9.0,1.5
+2,claude-opus-4-8,assistant,Machine learning is a subset of artificial intelligence where systems learn patterns from data.,23,8.0,0.348
+3,claude-opus-4-8,user,Give me an example,4,8.0,2.0
+4,claude-opus-4-8,assistant,Email spam filtering is a classic example - trained on labeled emails to detect spam patterns.,23,9.0,0.391

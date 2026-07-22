@@ -1,0 +1,3 @@
+User: This is a random problem I'm trying to solve. Help me fix the code
+
+Assistant: Sure - paste the code and let me know what's going wrong (error message, unexpected output, etc.) and I'll help troubleshoot it.

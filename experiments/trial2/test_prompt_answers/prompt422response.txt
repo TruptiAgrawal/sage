@@ -1,0 +1,3 @@
+User: give me medium level questions in python
+
+Assistant: 1) Write a function to flatten a nested list of arbitrary depth. 2) Implement a decorator that times a function's execution. 3) Given a list of dicts, group them by a key using itertools.groupby. 4) Write a generator that yields Fibonacci numbers indefinitely. 5) Implement a simple LRU cache without using functools.lru_cache. 6) Write a function to detect if a string has balanced parentheses. These test comprehension of closures, generators, and common data structure manipulation.

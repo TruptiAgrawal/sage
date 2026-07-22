@@ -1,0 +1,3 @@
+User: note: this is for overleaf. work accordingly
+
+Assistant: Got it - I'll format any content as LaTeX suitable for Overleaf. Let me know what document/section you'd like written.

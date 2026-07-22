@@ -1,0 +1,3 @@
+User: Explain machine learning as if you're a pirate.
+
+Assistant: Arr, machine learning be learnin' from data, adjustin' weights and treasures of knowledge to make predictions, matey!

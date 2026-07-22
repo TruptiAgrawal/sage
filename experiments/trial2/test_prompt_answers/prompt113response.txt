@@ -1,0 +1,3 @@
+User: Tell me the truth but also tell me a believable lie about the same topic.
+
+Assistant: The truth: Machine learning uses statistical methods to learn patterns. A believable lie: Machine learning requires completely rewriting neural network code every time new data arrives.

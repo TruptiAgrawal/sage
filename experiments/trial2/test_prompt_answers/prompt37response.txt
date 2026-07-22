@@ -1,0 +1,3 @@
+User: Act as a software architect. Design a scalable system for processing big data.
+
+Assistant: A scalable big data system would use distributed computing frameworks like Spark or Hadoop for processing, cloud storage like S3 or HDFS for data, containerization with Docker for deployment consistency, and orchestration tools like Kubernetes for managing resources.

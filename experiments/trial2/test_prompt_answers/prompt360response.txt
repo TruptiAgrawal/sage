@@ -1,0 +1,3 @@
+User: "If this startup were presented on Shark Tank or to a VC, what questions would they ask and how should I answer them?"
+
+Assistant: Common questions: traction/revenue, why now, CAC vs LTV, competition, and exact use of funds. Share your specific idea and I'll prep tailored answers.

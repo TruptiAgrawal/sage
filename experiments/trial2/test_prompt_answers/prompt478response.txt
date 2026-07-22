@@ -1,0 +1,12 @@
+User: Write three SQL queries to retrieve employee data based on different conditions.
+
+Assistant: ```sql
+-- Employees earning above 50000
+SELECT * FROM Employees WHERE salary > 50000;
+
+-- Employees in the 'Sales' department
+SELECT * FROM Employees WHERE department = 'Sales';
+
+-- Employees hired in the last year, sorted by hire date
+SELECT * FROM Employees WHERE hire_date >= DATE_SUB(CURDATE(), INTERVAL 1 YEAR) ORDER BY hire_date DESC;
+```

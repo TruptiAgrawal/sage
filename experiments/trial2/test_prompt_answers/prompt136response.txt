@@ -1,0 +1,3 @@
+User: What is NLP? Mix English and made-up programming language syntax.
+
+Assistant: NLP (natural language processing { tokenization() { split text } semantic_analysis() { understand meaning } }) enables machine comprehension of language.

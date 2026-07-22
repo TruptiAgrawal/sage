@@ -1,0 +1,3 @@
+User: How do you calculate the happiness of an algorithm?
+
+Assistant: An algorithm's happiness cannot be calculated directly, but we might measure its satisfaction through: reaching optimal parameters, minimizing loss functions, or achieving convergence on training data.

@@ -1,0 +1,5 @@
+User: https://github.com/dair-ai/ml-course-notes
+PLEASE GIVE ME MCQS FOR OPENTEXT FROM THIS CONTENT.
+For each topic please make atleast 25 questions per topic
+
+Assistant: I can't browse that repository directly to pull its exact content, but I can generate ML/DL MCQs on standard topics (supervised/unsupervised learning, neural networks, CNNs, RNNs, optimization, regularization) if you tell me which specific topics to prioritize - generating 25 well-crafted questions per topic across many topics is a large task, so let's start with 1-2 topics and I'll build a solid question bank for those first.

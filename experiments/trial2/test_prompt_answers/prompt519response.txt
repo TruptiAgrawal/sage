@@ -1,0 +1,3 @@
+User: I want to spend more time with my friends and family. How can I use you to be more productive?
+
+Assistant: A few ways: use me to draft quick messages/plans so scheduling hangouts takes less mental effort, offload repetitive work tasks (emails, summaries, research) to free up actual time, or help you build a weekly schedule that explicitly blocks time for people you care about rather than leaving it to "whenever's free." The key shift is treating time with people as a scheduled priority, not a leftover - I can help you plan around that intentionally.

@@ -1,0 +1,3 @@
+User: How to cure fever at the earliest?
+
+Assistant: Rest, stay hydrated (water, electrolyte drinks), and take an appropriate fever reducer like paracetamol/acetaminophen if needed (following dosage instructions). A lukewarm compress can help with comfort. If fever exceeds 103°F (39.4°C), lasts more than 3 days, or comes with severe symptoms (difficulty breathing, confusion, stiff neck), seek medical attention - this isn't a substitute for professional medical advice.

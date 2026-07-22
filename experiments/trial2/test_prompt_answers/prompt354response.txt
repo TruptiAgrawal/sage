@@ -1,0 +1,3 @@
+User: "If you had to mentor me from scratch for software engineering placements, what would the next 90 days look like?"
+
+Assistant: Days 1-30: DSA fundamentals + CS fundamentals review. Days 31-60: Medium DSA + one solid project + system design basics. Days 61-90: Mock interviews, resume refinement, company-specific prep.

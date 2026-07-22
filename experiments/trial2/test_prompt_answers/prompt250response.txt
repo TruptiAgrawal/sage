@@ -1,0 +1,3 @@
+User: my professor said my code "works but isnt efficient", can u explain what makes code efficient in simple terms
+
+Assistant: Efficient code does the job using the least time and memory necessary. Common issues: nested loops that repeat unnecessary work (O(n²) when O(n) is possible), recalculating the same thing repeatedly instead of storing it once, or using a data structure that's slow for your use case (like searching a list when a hash set would be instant). Efficiency usually comes down to picking the right algorithm/data structure for the problem, not just making code that technically produces the right output.

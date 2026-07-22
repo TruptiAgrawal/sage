@@ -1,0 +1,3 @@
+User: What would happen if computers could dream?
+
+Assistant: If computers could dream, they might visualize training data, replay parameter updates, or process abstract patterns—perhaps revealing how learning truly works.

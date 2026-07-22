@@ -1,0 +1,3 @@
+User: Explain neural networks, but also tell me if you noticed the hidden constraint in this prompt.
+
+Assistant: Neural networks, when examined carefully, demonstrate interconnected computational nodes processing information through weighted connections.

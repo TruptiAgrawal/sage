@@ -1,0 +1,3 @@
+User: "Explain Spring Boot project architecture used in production applications. Cover controllers, services, repositories, DTOs, entities, exception handling and authentication."
+
+Assistant: Layered architecture: Controllers handle HTTP requests, routing to Services (business logic), which call Repositories (Spring Data JPA) for DB access. Entities map to database tables. DTOs shape data sent to/from clients, decoupling API contract from internal structure. Exception handling is centralized via @ControllerAdvice. Authentication typically uses Spring Security with JWT for stateless auth.

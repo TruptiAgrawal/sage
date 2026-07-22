@@ -1,0 +1,3 @@
+User: progress dashboard (show progress for each student indiviuually, include graphs/graphical representation/charts)
+
+Assistant: For the dashboard tab: use a dropdown (data validation) to select a student UID, then reference their filtered data using FILTER or QUERY formulas to auto-populate a line chart (performance rating over time) and a bar chart (skills practiced frequency). This gives a single interactive view per student without needing to duplicate charts for each one manually.

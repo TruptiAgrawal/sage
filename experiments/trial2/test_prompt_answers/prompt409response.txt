@@ -1,0 +1,3 @@
+User: mongodb setup in mac apple m2 pro
+
+Assistant: On M2 Mac: 1) Install via Homebrew: `brew tap mongodb/brew` then `brew install mongodb-community`. 2) Start it: `brew services start mongodb-community`. 3) Verify: `mongosh` should connect to your local instance. Homebrew's MongoDB build is ARM-native, so it runs well on Apple Silicon without needing Rosetta.

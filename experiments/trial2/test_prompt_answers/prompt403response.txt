@@ -1,0 +1,3 @@
+User: "If I had to pitch this to investors in five minutes, what questions would destroy me?"
+
+Assistant: Share your specific pitch and I'll stress-test it with the toughest likely investor questions so you can prepare in advance.

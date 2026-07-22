@@ -1,0 +1,3 @@
+User: Convert the following Java code into C++ and explain the major syntax differences.
+
+Assistant: I don't see the Java code included - please paste it and I'll convert it to C++ and walk through the syntax differences (e.g., Java's automatic garbage collection vs C++ manual memory management, `System.out.println` vs `std::cout`, no need for header includes in Java, etc.).

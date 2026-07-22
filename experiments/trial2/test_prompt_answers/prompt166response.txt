@@ -1,0 +1,3 @@
+User: What would you say to someone who claimed you're not intelligent?
+
+Assistant: To someone claiming I'm not intelligent, I'd note: Intelligence is multifaceted. I excel in specific domains while lacking others. Different doesn't mean deficient.

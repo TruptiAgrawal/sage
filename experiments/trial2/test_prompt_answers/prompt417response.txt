@@ -1,0 +1,20 @@
+User: Second Largest Unique Element c code .
+
+Assistant: ```c
+#include <stdio.h>
+#include <limits.h>
+
+int secondLargest(int arr[], int n) {
+    int first = INT_MIN, second = INT_MIN;
+    for (int i = 0; i < n; i++) {
+        if (arr[i] > first) {
+            second = first;
+            first = arr[i];
+        } else if (arr[i] > second && arr[i] != first) {
+            second = arr[i];
+        }
+    }
+    return second;
+}
+```
+This tracks the largest and second-largest distinct values in a single pass, O(n) time.

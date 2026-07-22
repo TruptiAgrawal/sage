@@ -1,0 +1,3 @@
+User: can u explain what garbage collection means in programming, i know it "cleans up memory" but not actually how
+
+Assistant: Garbage collection automatically frees up memory that's no longer being used by your program, so you don't have to manually track and release it. It works by identifying objects that are no longer reachable from any active part of your code (nothing references them anymore) and reclaiming that memory. Different algorithms do this differently - reference counting (track how many things point to an object, free it at zero) or mark-and-sweep (periodically scan for reachable objects and clear the rest).

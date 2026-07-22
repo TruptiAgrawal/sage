@@ -1,0 +1,3 @@
+User: can u explain what a load balancer does, in my interview prep it keeps coming up and i just skip past it every time
+
+Assistant: A load balancer sits in front of multiple servers and distributes incoming traffic across them, so no single server gets overwhelmed. It also improves reliability - if one server goes down, traffic is automatically routed to the healthy ones. Common strategies include round-robin (rotate evenly) and least-connections (send to the least busy server).

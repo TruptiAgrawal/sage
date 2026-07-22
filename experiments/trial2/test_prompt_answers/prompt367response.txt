@@ -1,0 +1,3 @@
+User: "I don't want generic market research. I want actual numbers, TAM, SAM, SOM, CAGR, competitors, revenue models and future trends."
+
+Assistant: Share your specific product/industry and I'll walk through how to estimate TAM/SAM/SOM with real methodology and where to find CAGR/competitor data (note: I can outline the framework but can't pull live current-web numbers without browsing).

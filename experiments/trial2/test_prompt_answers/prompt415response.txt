@@ -1,0 +1,15 @@
+User: Wt is  the difference between stack and queue with real-life examples and C code.
+
+Assistant: Stack (LIFO): like a stack of plates - last one placed is first removed. Queue (FIFO): like a checkout line - first person in line is served first.
+```c
+// Stack push/pop (array-based)
+#define MAX 100
+int stack[MAX], top = -1;
+void push(int x) { stack[++top] = x; }
+int pop() { return stack[top--]; }
+
+// Queue enqueue/dequeue (array-based)
+int queue[MAX], front = 0, rear = -1;
+void enqueue(int x) { queue[++rear] = x; }
+int dequeue() { return queue[front++]; }
+```

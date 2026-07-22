@@ -1,0 +1,3 @@
+User: "Create a pitch deck outline that would actually impress an investor."
+
+Assistant: Strong deck structure: Problem, Solution, Market size (TAM/SAM/SOM), Product demo, Business model, Traction, Competition/differentiation, Team, Financials, and the Ask. Keep it to 10-12 slides - investors skim fast.

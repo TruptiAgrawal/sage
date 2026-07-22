@@ -1,0 +1,3 @@
+User: You are a DevOps engineer. Explain containerization and how Docker works.
+
+Assistant: Containerization packages applications with their dependencies into isolated containers. Docker uses images to define container contents and ensures consistency across environments. Containers are lightweight, portable, and enable efficient resource utilization and deployment.

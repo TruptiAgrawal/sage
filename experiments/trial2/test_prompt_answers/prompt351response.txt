@@ -1,0 +1,3 @@
+User: "Prepare a complete market research report for this startup idea including TAM, SAM, SOM, competitors, trends and barriers to entry."
+
+Assistant: I'd need the actual startup idea/product description to build a real TAM/SAM/SOM breakdown and competitor analysis.

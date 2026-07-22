@@ -1,0 +1,3 @@
+User: "Act like an investor and brutally evaluate my startup idea. Tell me whether it's worth building or not."
+
+Assistant: I'd need you to describe the actual startup idea for a real evaluation - once shared, I'll assess market size, competition, differentiation, and feasibility with an honest verdict.

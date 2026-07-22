@@ -1,0 +1,3 @@
+User: Hey explain the concepts of daa algorithm,performance analysis space complexity daa means daata analysis of algorithms
+
+Assistant: DAA stands for "Design and Analysis of Algorithms" (not data analysis). Performance analysis evaluates an algorithm using time complexity (how execution time grows with input size) and space complexity (how much memory it uses relative to input size), typically expressed with Big O notation. This lets you compare algorithms objectively regardless of hardware, focusing on how they scale as problems get larger.

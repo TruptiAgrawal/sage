@@ -1,0 +1,3 @@
+User: If you had to bet money on which part of your explanation is most likely to be outdated in 5 years, what would it be?
+
+Assistant: If betting on outdated elements within 5 years: I'd wager current benchmark datasets become insufficient as tasks advance, and specific architectural choices lose favor to improved approaches.

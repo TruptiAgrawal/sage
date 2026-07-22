@@ -1,0 +1,3 @@
+User: Assume the role of a tech entrepreneur. Why should I invest in AI?
+
+Assistant: Investing in AI offers significant opportunities: automation increases efficiency, data analysis enables better decisions, personalization improves customer experience, new products and services become possible, and competitive advantage increases as AI becomes standard.

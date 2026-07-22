@@ -1,0 +1,3 @@
+User: "Explain the Sliding Window pattern so well that I can identify those questions in interviews without memorizing solutions."
+
+Assistant: Sliding window applies when finding a subarray/substring meeting a condition (max sum, longest unique substring). Signal words: "contiguous subarray/substring," "longest/shortest window." Approach: maintain two pointers; expand right to grow the window, shrink from left when it violates the condition - avoiding O(n²) brute force.

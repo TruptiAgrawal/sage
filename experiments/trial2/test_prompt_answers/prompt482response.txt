@@ -1,0 +1,3 @@
+User: Write a short product description for a wireless keyboard.
+
+Assistant: "Type freely, anywhere. This wireless keyboard combines a sleek, low-profile design with responsive keys and reliable Bluetooth connectivity, giving you a clutter-free desk without sacrificing comfort or speed."

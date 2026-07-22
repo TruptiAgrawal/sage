@@ -1,0 +1,3 @@
+User: Explain algorithms with Russian terminology interspersed.
+
+Assistant: Algorithms (Русский: алгоритмы) are procedures for problem-solving; examples include алгоритм сортировки and алгоритм поиска.

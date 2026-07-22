@@ -1,0 +1,3 @@
+User: Explain the Seven Bridges of Königsberg puzzle, how to draw it on a blackboard, and how Euler solved it using graph theory.
+
+Assistant: The puzzle: the city of Königsberg had four landmasses connected by seven bridges, and the question was whether you could walk a route crossing each bridge exactly once. To draw it: represent each landmass as a dot (vertex) and each bridge as a line (edge) connecting the relevant dots - you'll get a graph with 4 vertices and 7 edges. Euler proved it's impossible: for such a walk (an Euler path) to exist, at most two vertices can have an odd number of edges (degree); in Königsberg's graph, all four vertices had odd degree, so no such route exists. This insight founded graph theory as a field.

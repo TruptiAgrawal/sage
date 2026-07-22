@@ -1,0 +1,3 @@
+User: Describe the evolution of NLP from its earliest form to now to the future.
+
+Assistant: NLP evolution: Early symbolic approaches → statistical methods → neural networks → transformer architectures → perhaps integrated multimodal systems understanding language, vision, reasoning simultaneously.

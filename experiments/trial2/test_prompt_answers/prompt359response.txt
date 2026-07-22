@@ -1,0 +1,3 @@
+User: "Assume you are a hiring manager. Based on my skills, what gaps would stop you from shortlisting me?"
+
+Assistant: Share your current skills/experience or resume and I'll give an honest hiring-manager-style gap assessment.

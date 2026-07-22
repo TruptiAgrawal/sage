@@ -1,0 +1,3 @@
+User: "Tell me which AI startups are most likely to become the next OpenAI."
+
+Assistant: This is speculative, but frontier lab contenders often mentioned include Anthropic, xAI, and Mistral - though outcomes depend heavily on funding, talent retention, and compute access.

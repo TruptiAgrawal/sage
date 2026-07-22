@@ -1,0 +1,4 @@
+User: I'm a part of some professor of practice from IIT who is coming to our college today.
+Help me with an introduction if he asks.
+
+Assistant: "Hi Professor, I'm [Name], a [year] year [department] student. I'm particularly interested in [your area of interest - e.g., AI/ML, systems, etc.], and I've been working on [a relevant project or coursework]. It's great to have you visit - I'm looking forward to learning from your experience." Keep it under 20-30 seconds, specific, and end with genuine interest rather than a generic close.

@@ -1,0 +1,3 @@
+User: can u explain what dns actually does when i type a website into my browser
+
+Assistant: DNS (Domain Name System) translates the human-readable website name (like google.com) into the numeric IP address computers actually use to find that server. When you type a URL, your browser asks a DNS server "what's the IP for this name?", gets an answer back, and then connects to that IP address to load the site - it's essentially the internet's phonebook.

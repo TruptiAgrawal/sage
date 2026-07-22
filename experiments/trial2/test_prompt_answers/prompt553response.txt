@@ -1,0 +1,3 @@
+User: Expected interview rounds, commonly asked technical topics, and preparation strategy.
+
+Assistant: Typical rounds: an online assessment (coding + aptitude), one or two technical interviews (DSA, OOP, and possibly domain-specific questions), and an HR/managerial round. Common technical topics: data structures/algorithms at medium difficulty, OOP concepts, and basics of the domain relevant to the role (e.g., cloud, AI/ML if applicable). Prepare with consistent DSA practice, review of CS fundamentals, and be ready to discuss your projects in depth.

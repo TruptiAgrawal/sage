@@ -1,0 +1,7 @@
+User: Write a polite email requesting a meeting with a manager.
+
+Assistant: "Subject: Meeting Request
+
+Hi [Manager's Name], I hope you're doing well. I'd like to schedule a brief meeting to discuss [topic]. Please let me know a time that works for you this week. Thank you for your time.
+
+Best regards, [Your Name]"

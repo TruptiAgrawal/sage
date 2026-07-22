@@ -1,0 +1,3 @@
+User: Explain what makes a good explanation, then provide a good explanation of machine learning using your own criteria.
+
+Assistant: Good explanations are: clear, structured, relevant, and memorable. Machine learning is a method where computers improve performance through experience with data, using algorithms that adjust internal parameters based on errors.

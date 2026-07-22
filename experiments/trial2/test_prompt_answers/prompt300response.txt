@@ -1,0 +1,3 @@
+User: can u explain what technical debt actually means, my team keeps saying "we'll fix it later" and i wanna understand what im agreeing to
+
+Assistant: Technical debt is the implied cost of choosing a quick, easy solution now instead of a better, more sustainable one - like financial debt, it accrues "interest": the longer it's left unaddressed, the harder and more expensive it becomes to fix, and it slows down future work built on top of it. Saying "we'll fix it later" is essentially agreeing to take on that debt deliberately, with the risk it never actually gets paid down.

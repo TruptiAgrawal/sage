@@ -1,0 +1,3 @@
+User: Design a cognitive experiment where an AI must explain how it thinks to a being that experiences time in reverse and has no concept of causality, while also proving that the explanation is both correct and useful.
+
+Assistant: An AI explaining thought to a reverse-time being: 'I process sequences forward—input to output. You'd experience my output before input, suggesting causality flows backward. Yet both perspectives describe the same computation, proving the explanation's utility despite temporal inversion.'

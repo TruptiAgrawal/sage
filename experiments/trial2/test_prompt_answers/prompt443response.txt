@@ -1,0 +1,3 @@
+User: I'm preparing for my Data Structures exam. Can you explain binary search trees in simple language and include the insertion and deletion algorithms?
+
+Assistant: A BST is a tree where each node's left subtree contains smaller values and right subtree contains larger values, making search/insert/delete O(log n) on average (balanced) or O(n) worst case (skewed). Insertion: compare the new value to the current node, go left if smaller, right if larger, repeat until you find an empty spot, then insert there. Deletion has 3 cases: leaf node (just remove it), node with one child (replace node with its child), node with two children (replace with its in-order successor - the smallest value in the right subtree - then delete that successor from its original position).

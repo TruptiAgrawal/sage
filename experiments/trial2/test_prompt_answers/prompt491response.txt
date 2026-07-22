@@ -1,0 +1,3 @@
+User: Interview question tell me about yourself
+
+Assistant: Structure: 1) Brief present - who you are and your current role/study focus. 2) Relevant past - key experience or skills that led here. 3) Future/why this role - what you're looking for and why this opportunity fits. Keep it under 90 seconds, focused on professionally relevant details, and end by connecting to why you're a good fit for the specific role.

@@ -1,0 +1,3 @@
+User: Explain deep learning where each sentence is exactly 13 words long.
+
+Assistant: Deep learning enables machines learning from hierarchical data representations through multiple layers. Neural network layers extract increasingly abstract features sequentially. Backpropagation adjusts parameters systematically toward minimizing prediction error efficiently. Activation functions introduce necessary nonlinearity enabling complex pattern learning. Training requires sufficient computational resources and substantial data. Convergence depends on initialization and hyperparameter selection carefully.

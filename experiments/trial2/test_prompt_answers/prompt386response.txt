@@ -1,0 +1,3 @@
+User: "Pretend you're BCG. Find every weakness in my business."
+
+Assistant: Share your business details and I'll give a structured, critical breakdown of weaknesses across strategy, operations, and market positioning.

@@ -1,0 +1,3 @@
+User: How to convert to lower or upper other thing and how to check if it is lower upper or other thing
+
+Assistant: In Python: `s.lower()` converts to lowercase, `s.upper()` converts to uppercase. To check: `s.islower()` returns True if all cased characters are lowercase, `s.isupper()` for uppercase, and `s.istitle()` checks title case. For a single character, `c.isalpha()` checks if it's a letter at all before checking case.

@@ -1,0 +1,3 @@
+User: "What billion-dollar startups can still be built in India using AI?"
+
+Assistant: AI-powered vernacular language services, AI for agricultural yield optimization at scale, AI-driven SME financial infrastructure, and AI-native healthcare diagnostics for underserved regions.

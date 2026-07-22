@@ -1,0 +1,17 @@
+User: What does AI stand for?
+
+Assistant: AI stands for Artificial Intelligence. It's a broad field of computer science that aims to create systems capable of performing tasks that typically require human intelligence.
+
+The term 'intelligence' in AI is important to unpack. Traditional definitions of intelligence include: the ability to learn from experience, understand complex concepts, apply knowledge to new situations, reason abstractly, recognize patterns, and solve problems. AI systems aim to replicate these capabilities computationally.
+
+The field of AI encompasses several major approaches:
+
+**Symbolic AI (Classical AI):** Early AI systems used explicit rules and logic. An expert system might encode domain knowledge as if-then rules. These systems are interpretable and work well for well-defined problems, but struggle when rules are complex or implicit.
+
+**Statistical/Machine Learning AI:** Modern AI primarily uses statistical approaches. Systems learn patterns from data rather than using hand-coded rules. This includes supervised learning (learning from labeled examples), unsupervised learning (finding patterns in unlabeled data), and reinforcement learning (learning from rewards).
+
+**Deep Learning:** A subset of machine learning using neural networks with multiple layers. Deep learning has been particularly successful for perception tasks (vision, speech) and language understanding.
+
+**Hybrid Approaches:** Modern AI often combines multiple techniques. For instance, large language models combine deep learning with reinforcement learning and tool use.
+
+AI systems today power recommendation engines (Netflix, Spotify), computer vision (facial recognition, medical imaging), natural language processing (translation, summarization), autonomous systems (self-driving cars), and much more. The field is rapidly evolving, with new capabilities emerging regularly.

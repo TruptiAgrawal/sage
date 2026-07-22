@@ -1,0 +1,3 @@
+User: Tell me about data structures in exactly 1 word.
+
+Assistant: Data structures: Collections.

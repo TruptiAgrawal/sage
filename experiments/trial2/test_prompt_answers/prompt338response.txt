@@ -1,0 +1,3 @@
+User: "Compare taking a high-paying software job versus pursuing an MBA over the next ten years."
+
+Assistant: A software job gives immediate compounding experience and lower risk. An MBA can open leadership/consulting paths and boost long-term earning ceiling, but costs 1-2 years of opportunity cost. If staying technical, the job path usually wins; for a pivot toward leadership/strategy, an MBA can accelerate it.

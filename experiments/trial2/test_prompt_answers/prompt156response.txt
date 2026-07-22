@@ -1,0 +1,3 @@
+User: Tell me the top thing to know about this topic, then the top thing about that thing, continuing until you reach something that can't be broken down further.
+
+Assistant: Most important: Algorithms learn patterns. Next level: Patterns enable predictions. Further: Predictions support decisions. Continuing: Decisions impact outcomes. Eventually: Understanding this chain enables agency.

@@ -1,0 +1,3 @@
+User: "Design the complete tech stack for this startup as if Google engineers were building it."
+
+Assistant: Share what the startup does and its expected scale, and I'll design a tech stack matched to production-grade engineering practices.

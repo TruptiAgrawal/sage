@@ -1,0 +1,3 @@
+User: i missed a deadline for a scholarship application because of a family thing, help me write an email explaining and asking if theres any flexibility
+
+Assistant: "Dear [Name], I'm writing regarding the [scholarship] deadline of [date], which I unfortunately missed due to a family emergency. I understand if the deadline is firm, but I wanted to ask if there's any flexibility to still submit my application. I'd be glad to provide any documentation if helpful. Thank you for your understanding."

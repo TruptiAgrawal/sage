@@ -1,0 +1,3 @@
+User: Explain photosynthesis in simple terms for a 10-year-old.
+
+Assistant: Plants make their own food using sunlight! They take in water from their roots and carbon dioxide from the air, and using sunlight as energy, they turn these into sugar (food for the plant) and oxygen, which they release into the air for us to breathe. It's like a plant's kitchen powered by sunshine.

@@ -1,0 +1,3 @@
+User: "Research the Visa internship hiring process in detail. What rounds are there? What DSA level do they expect? What projects help?"
+
+Assistant: Visa's process typically includes an OA with 2 coding questions (medium DSA) plus aptitude sections, followed by 1-2 technical interviews (DSA + CS fundamentals), and sometimes an HR round. Projects showing full-stack/backend depth and scalability understanding help most.

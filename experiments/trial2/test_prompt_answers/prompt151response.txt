@@ -1,0 +1,3 @@
+User: Explain machine learning, and while doing that, explain why you're explaining it that way, and while doing that, explain why you chose that explanation method.
+
+Assistant: Explaining machine learning requires understanding: why I explain (to convey understanding), which led me explaining via patterns (because understanding happens through connected examples), and the choice reflects learning theory—pattern recognition facilitates comprehension.

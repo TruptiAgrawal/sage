@@ -1,0 +1,4 @@
+User: If a person is wearing a watch in their right hand instead of left (they are right handed).
+What does it say about them?
+
+Assistant: There's no scientifically validated meaning behind this - it's mostly a matter of personal comfort or habit. Some casual/pop-psychology claims associate right-hand watch wearing with creativity or non-conformity, but there's no real evidence behind these interpretations. Often it's simply practical: some people prefer keeping their dominant hand free of anything that could scratch or get in the way during tasks.

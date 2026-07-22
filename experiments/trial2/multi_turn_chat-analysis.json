@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-22T11:58:14.677836",
+    "format": "messages",
+    "total_messages": 6,
+    "total_tokens": 237,
+    "input_tokens": 29,
+    "output_tokens": 208,
+    "user_messages": 3,
+    "assistant_messages": 3,
+    "avg_input_per_msg": 9,
+    "avg_output_per_msg": 69
+  },
+  "messages": [
+    {
+      "index": 1,
+      "role": "user",
+      "tokens": 11,
+      "length": 46,
+      "preview": "What is machine learning and how does it work?"
+    },
+    {
+      "index": 2,
+      "role": "assistant",
+      "tokens": 54,
+      "length": 217,
+      "preview": "Machine learning is a subset of artificial intelli..."
+    },
+    {
+      "index": 3,
+      "role": "user",
+      "tokens": 6,
+      "length": 27,
+      "preview": "Can you give me an example?"
+    },
+    {
+      "index": 4,
+      "role": "assistant",
+      "tokens": 79,
+      "length": 317,
+      "preview": "Sure! A classic example is email spam filtering. T..."
+    },
+    {
+      "index": 5,
+      "role": "user",
+      "tokens": 12,
+      "length": 51,
+      "preview": "How is that different from traditional programming..."
+    },
+    {
+      "index": 6,
+      "role": "assistant",
+      "tokens": 75,
+      "length": 300,
+      "preview": "In traditional programming, you explicitly write r..."
+    }
+  ]
+}

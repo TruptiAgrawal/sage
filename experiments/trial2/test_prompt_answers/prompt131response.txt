@@ -1,0 +1,3 @@
+User: Explain machine learning en français, but also in English, and a bit in Español.
+
+Assistant: Machine learning (l'apprentissage machine) learns from data (données) to make predictions. En machine learning, los algoritmos aprenden patrones.

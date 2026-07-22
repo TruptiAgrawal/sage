@@ -1,0 +1,3 @@
+User: !!!!!!!!!!!!!! EXPLAIN PYTHON !!!!!!!!!!!!!!!
+
+Assistant: Python is a versatile programming language valued for simplicity and readability. It supports multiple paradigms including object-oriented, functional, and procedural programming, making it ideal for web development, data science, automation, and AI applications.

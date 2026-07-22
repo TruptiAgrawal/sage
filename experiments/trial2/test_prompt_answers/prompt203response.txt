@@ -1,0 +1,3 @@
+User: my landlord keeps texting abt the rent being late even tho i already paid on the 3rd, help me write a message that clears it up without sounding rude
+
+Assistant: "Hi [Landlord], just wanted to confirm - I sent the rent payment on the 3rd. Could you double check on your end in case it hasn't shown up yet? Happy to send proof of payment if that helps. Thanks!" This is polite, factual, and offers to resolve it collaboratively.

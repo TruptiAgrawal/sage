@@ -1,0 +1,7 @@
+User: - Request: Tell me about data science
+  - Subpoint: From basics
+  - Subpoint: To advanced topics
+
+Assistant: - Concept: Data science encompasses multiple disciplines
+  - Element: Statistical analysis
+  - Element: Programming and engineering

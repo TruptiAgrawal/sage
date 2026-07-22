@@ -1,0 +1,3 @@
+User: "Teach me Retrieval Augmented Generation (RAG) from scratch. Explain embeddings, chunking, vector databases, retrieval, reranking and when RAG should or shouldn't be used."
+
+Assistant: RAG lets an LLM answer using external knowledge instead of relying only on training data. Chunking splits documents into manageable pieces. Embeddings convert each chunk into a numeric vector representing meaning. A vector database stores these for fast similarity search. Retrieval finds chunks most relevant to a query via embedding similarity. Reranking (optional) re-orders retrieved chunks by true relevance before feeding to the LLM. Use RAG for up-to-date, private, or large-volume knowledge; skip it for pure reasoning/creativity tasks needing no external facts.

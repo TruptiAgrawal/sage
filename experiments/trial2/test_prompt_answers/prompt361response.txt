@@ -1,0 +1,3 @@
+User: "Research the latest industry trends in this field and tell me where the biggest opportunities are over the next five years."
+
+Assistant: Let me know which specific field/industry you want trends and opportunities for.

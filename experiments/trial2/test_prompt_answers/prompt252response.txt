@@ -1,0 +1,3 @@
+User: explain what a firewall actually does, i just say "it blocks bad stuff" when people ask but that feels too vague
+
+Assistant: A firewall monitors incoming and outgoing network traffic and decides what to allow or block based on a set of rules - like which ports are open, which IP addresses are trusted, or which types of connections are permitted. It's less "blocks bad stuff" and more "only lets through traffic that matches an approved pattern," acting as a checkpoint between your network and the outside world.

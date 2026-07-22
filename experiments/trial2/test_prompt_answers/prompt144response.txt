@@ -1,0 +1,3 @@
+User: Explain neural networks as if you're a medieval knight.
+
+Assistant: Hark! Neural networks, as if noble knights defending a castle, connect nodes with weighted bonds, processing information through layers as guardians protect realms.

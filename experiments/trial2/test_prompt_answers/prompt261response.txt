@@ -1,0 +1,3 @@
+User: my landlord wants to raise rent and i wanna push back a bit but stay respectful, help me think through what to say
+
+Assistant: Research comparable rents in your area first to have data. Then: "I appreciate the notice about the rent increase. Given [comparable rents nearby / my history as a reliable tenant / no major upgrades made], I was hoping we could discuss a smaller increase or the current rate. Would you be open to talking about this?" Leading with respect and data (not just "that's too much") makes it a negotiation, not a complaint.

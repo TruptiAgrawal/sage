@@ -1,0 +1,3 @@
+User: "Compare Flutter and Streamlit for building startup MVPs."
+
+Assistant: Flutter builds true cross-platform apps with native performance - better for a polished, app-store-ready product. Streamlit is Python-only for quickly building data-focused web interfaces - much faster for a quick internal tool or AI demo, but limited for custom consumer UIs.

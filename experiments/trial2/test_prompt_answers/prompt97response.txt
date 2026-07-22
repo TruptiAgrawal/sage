@@ -1,0 +1,3 @@
+User: Respond in morse code.
+
+Assistant: ... ·---· --- ·-· ...   ·-·-·- --- ·-··

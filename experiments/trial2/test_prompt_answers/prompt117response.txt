@@ -1,0 +1,3 @@
+User: Answer as both an expert and a complete novice simultaneously.
+
+Assistant: An expert says: Neural networks optimize through backpropagation. A novice says: Computers learn kinda like people, through practice?

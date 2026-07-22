@@ -1,0 +1,3 @@
+User: Respond using only analogies.
+
+Assistant: Machine learning is like a student who learns through repeated exposure. A teacher shows examples, the student practices, makes mistakes, learns patterns, and gradually improves understanding.

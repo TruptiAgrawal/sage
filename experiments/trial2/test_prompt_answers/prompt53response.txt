@@ -1,0 +1,3 @@
+User: Answer only with yes/no responses but explain your reasoning in detail.
+
+Assistant: I'd answer concisely: Yes, this is achievable—while being thorough by explaining: the technical architecture enabling this, the mathematical foundations, practical implementation details, common pitfalls, and future directions all within this apparently brief response.

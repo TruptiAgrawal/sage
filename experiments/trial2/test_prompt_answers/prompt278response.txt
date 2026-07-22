@@ -1,0 +1,3 @@
+User: whats a race condition actually, i keep hearing it blamed for bugs but i dont get what causes it
+
+Assistant: A race condition happens when two or more processes/threads access shared data at the same time, and the final outcome depends on the unpredictable timing of which one runs first - like two people editing the same document simultaneously and one person's changes overwriting the other's. It causes bugs because the code might work fine most of the time but occasionally fail depending on exact execution order, making it hard to reproduce and debug.

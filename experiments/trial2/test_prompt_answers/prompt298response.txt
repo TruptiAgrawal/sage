@@ -1,0 +1,3 @@
+User: whats the difference between concurrency and parallelism, i always thought they were the same thing
+
+Assistant: Concurrency is about managing multiple tasks that are in progress at overlapping times, but not necessarily executing at the exact same instant - like one person juggling multiple conversations by switching between them. Parallelism is literally doing multiple things at the exact same time, using multiple processors/cores - like multiple people each having their own separate conversation simultaneously. Concurrency is about structure; parallelism is about actual simultaneous execution.

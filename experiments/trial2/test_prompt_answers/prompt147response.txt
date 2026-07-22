@@ -1,0 +1,3 @@
+User: Explain Python as if you're a motivational speaker.
+
+Assistant: Listen here, friend—you gotta believe in yourself! Machine learning believes in believing! Start small, build big, achieve impossibly more than you dreamed possible!

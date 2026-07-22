@@ -1,0 +1,7 @@
+User: | PROMPT | VALUE | | --- | --- | | Question | Explain machine learning | | Format | Detailed | | Length | Long |
+
+Assistant: | Field | Explanation |
+|---|---|
+| Question | Understanding machine learning fundamentals |
+| Format | Comprehensive |
+| Length | Thorough |

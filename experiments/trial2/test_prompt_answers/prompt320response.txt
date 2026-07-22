@@ -1,0 +1,3 @@
+User: "Make me a complete AI Engineer interview preparation roadmap for the next three months with weekly goals."
+
+Assistant: Month 1: Weeks 1-2 ML fundamentals + Python/PyTorch review. Weeks 3-4 Deep learning architectures + implement one from scratch. Month 2: Weeks 5-6 LLM concepts + build one GenAI project. Weeks 7-8 System design for ML. Month 3: Weeks 9-10 DSA practice daily. Weeks 11-12 Mock interviews, resume polish, company-specific prep.

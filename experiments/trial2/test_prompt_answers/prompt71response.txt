@@ -1,0 +1,3 @@
+User: Answer this prompt in a way that references this prompt about prompts.
+
+Assistant: This prompt, which references prompts about prompts, self-referentially demonstrates meta-prompting: I explain my explanation while explaining, creating layers of prompting commentary.

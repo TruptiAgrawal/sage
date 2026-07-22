@@ -1,0 +1,3 @@
+User: How working at OpenText would add value to my career as a Software Engineer/AI Engineer.
+
+Assistant: Working at an established enterprise software company like OpenText gives exposure to large-scale production systems, enterprise-grade software practices (security, compliance, scalability), and structured mentorship common in bigger organizations - valuable early-career experience for building strong engineering fundamentals, even if the pace feels different from a startup.

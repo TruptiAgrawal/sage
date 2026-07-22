@@ -1,0 +1,3 @@
+User: "How do companies like Airbnb, Uber and Zillow actually became successful? Break everything down."
+
+Assistant: All three solved a two-sided marketplace trust/liquidity problem: Airbnb built trust via reviews, Uber solved real-time supply-demand matching, Zillow aggregated fragmented real estate data. Common threads: large existing markets, removing a specific friction point, and aggressive early growth tactics.

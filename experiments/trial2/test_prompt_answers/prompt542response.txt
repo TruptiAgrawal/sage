@@ -1,0 +1,3 @@
+User: Gemini for Google Cloud (Optional)
+
+Assistant: This looks like an optional module in a course listing - it likely covers using Gemini models within Google Cloud's Vertex AI platform. Let me know if you want details on what this typically covers.

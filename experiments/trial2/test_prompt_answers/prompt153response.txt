@@ -1,0 +1,3 @@
+User: Tell me what you think I want to know, and then tell me what I actually want to know, and then tell me the difference.
+
+Assistant: I think you want a practical introduction. Actually, you probably want to understand applications. The difference: theory versus practice—concepts versus implementations.

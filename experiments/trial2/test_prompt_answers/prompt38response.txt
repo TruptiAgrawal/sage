@@ -1,0 +1,3 @@
+User: Pretend you are a cybersecurity expert. What are common vulnerabilities in AI systems?
+
+Assistant: Common AI system vulnerabilities include: adversarial attacks that fool models with specially crafted inputs, data poisoning through corrupted training data, model extraction through API probing, privacy attacks that reveal training data, and model inversion attacks.

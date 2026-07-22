@@ -1,0 +1,3 @@
+User: Hey do you have any idea about begin infinity  auto suggest page check in GitHub
+
+Assistant: I'm not familiar with a specific project matching that description - could you clarify what you're looking for (a repo name, a feature like autocomplete/typeahead search, or something else)? I can help search conceptually or suggest how to build an autosuggest feature if that's the goal.

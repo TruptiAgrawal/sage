@@ -1,0 +1,6 @@
+User: Prompt:
+I want to create a simple, easy-to-use Google Sheets tracker/checklist to monitor the progress of all children receiving Occupational Therapy in a school setting.
+The tracker should: Help record each child's OT progress. Work like a checklist with tick boxes, ratings, or simple options. Allow me to update progress regularly. Show year-wise progress (e.g., compare Year 1–5). Be easy to understand and use by anyone. Suggest the best Google Sheets structure, including tabs, columns, headers, and formulas. Include sample data for a few children to demonstrate how it works. Keep the language very simple and focus on creating a practical, school-friendly progress monitoring checklist.
+DO EXACTLY WHAT HAS BEEN ASKED, DO NOT ADD IN STUFF
+
+Assistant: Structure: Tab 1 "Student List" - Student Name | UID | Grade | Start Date. Tab 2 "Weekly Checklist" - Date | Student Name | Activity | Skill Focus | Completed (checkbox) | Rating (1-5) | Notes. Tab 3 "Year Comparison" - Student Name | Year 1 Avg | Year 2 Avg | Year 3 Avg | Year 4 Avg | Year 5 Avg, using an AVERAGEIFS formula pulling from the Weekly Checklist tab filtered by student and year. Sample row: "Aarav | Balance Exercise | Motor Skills | ✓ | 4 | Improved steadiness this week." This stays minimal and matches exactly what was requested without extra sheets or features.

@@ -1,0 +1,3 @@
+User: "Compare Applied Scientist, ML Engineer, Data Scientist and SDE in terms of future growth."
+
+Assistant: Applied Scientist: research-leaning, high ceiling. ML Engineer: production-focused, strong growing demand. Data Scientist: demand shifting toward specialized ML/analytics engineering. SDE: largest job pool, stable demand. Applied Scientist and ML Engineer show the strongest upward trajectory currently.

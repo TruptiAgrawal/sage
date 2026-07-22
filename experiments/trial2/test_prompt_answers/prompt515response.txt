@@ -1,0 +1,3 @@
+User: what does electro Luminous means
+
+Assistant: Electroluminescence is the phenomenon where a material emits light directly in response to an electric current or electric field passing through it, without needing heat (unlike incandescent light). It's the principle behind LEDs and OLED displays.

@@ -1,0 +1,3 @@
+User: i have to explain what an api is to my non tech friend who thinks im just "clicking buttons all day", how do i put it simply
+
+Assistant: An API is like a waiter at a restaurant. You (the app) don't go into the kitchen (the other system) yourself - you tell the waiter (the API) what you want, they take your order to the kitchen, and bring back what you asked for. It's just a standard way for two pieces of software to talk to each other without needing to know how the other one works internally.

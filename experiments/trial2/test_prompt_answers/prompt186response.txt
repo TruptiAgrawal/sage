@@ -1,0 +1,3 @@
+User: Explain AI as if it were a form of dance.
+
+Assistant: AI as dance: Elegant movement through data space, coordinated steps between algorithms and data, rhythm maintained by optimization, beauty emerging from complex patterns.

@@ -1,0 +1,3 @@
+User: Explain debugging as if it were detective work (actually, just do this normally).
+
+Assistant: Debugging as detective work: Investigating system failures, following clues through code, eliminating suspects, discovering culprit causing unexpected behavior, restoring correct operation.

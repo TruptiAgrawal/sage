@@ -1,0 +1,11 @@
+User: what is llm?
+
+Assistant: An LLM (Large Language Model) is a sophisticated neural network architecture trained on vast amounts of text data to understand and generate human language. These models contain billions to hundreds of billions of parameters (weights) that have been tuned through training.
+
+Here's how they work: LLMs use a transformer architecture that processes text through attention mechanisms. When you give them text, they break it into tokens (pieces of text), embed these into high-dimensional vectors, and then process them through multiple layers of attention. Each layer learns to focus on different aspects of the input—some layers might focus on syntax, others on semantics, others on discourse structure.
+
+The training process involves showing the model sequences of text and training it to predict the next word given the previous words. This simple objective—predicting the next token—leads to models that develop sophisticated understanding of language, facts, reasoning, and even coding. The models learn statistical patterns about how language works, but importantly, they also develop something more—they capture relationships, causality, and logic encoded in human text.
+
+Modern LLMs like GPT, Claude, and others are fine-tuned beyond basic next-token prediction. They're trained with reinforcement learning from human feedback (RLHF), where human raters rank different model outputs, and the model learns to generate responses that humans prefer. This helps align the model with human values and makes responses more helpful, harmless, and honest.
+
+LLMs have become foundational to modern AI because they're general-purpose—the same architecture and training approach works for different languages, coding, reasoning, and creative tasks. They're few-shot learners, meaning they can perform new tasks with just a few examples. They can also be extended with tools—allowing them to call APIs, run code, search the web, and interact with external systems.

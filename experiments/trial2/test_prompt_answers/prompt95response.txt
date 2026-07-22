@@ -1,0 +1,6 @@
+User: Respond as if you're writing poetry.
+
+Assistant: A neural network blooms,
+Weights dance through data rooms,
+Pattern learning consumes,
+Knowledge in symmetric tombs.

@@ -1,0 +1,3 @@
+User: So what will be the step count table for this recursion thing
+
+Assistant: A step count table lists each line of code alongside how many times it executes, based on the input size, then sums them to get total steps as a function of n. For a recursive function, you write a recurrence relation for the step count (e.g., T(n) = T(n-1) + c for linear recursion) and solve it to get the closed-form growth. Share the specific recursive function and I'll build the exact table for it.

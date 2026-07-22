@@ -1,0 +1,3 @@
+User: to be able to store per-student-data per day, and also be able to filter out students by their UID if needed. - this one will store the above mentoined skills - STUDENT PERFORNACNCE BEASED ON SESSION
+
+Assistant: This should be your core "Daily Log" data sheet - one row per student per session, columns: Date | Student UID | Student Name | Skills | Performance Rating | Timing | Notes. Use Google Sheets' Filter view (Data > Filter views) or a QUERY formula like `=QUERY(DailyLog!A:G, "select * where B='UID_HERE'")` on a separate tab to pull just one student's records on demand.

@@ -1,0 +1,3 @@
+User: Pretend you are a seasoned machine learning engineer. What are the top 5 challenges in ML?
+
+Assistant: Top 5 ML challenges: 1) Data quality and quantity issues, 2) Computational complexity and scalability, 3) Model interpretability and explainability, 4) Managing bias and ensuring fairness, 5) Deployment and maintenance in production environments.

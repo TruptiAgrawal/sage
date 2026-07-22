@@ -1,0 +1,3 @@
+User: Create a presentation outline for a seminar on Cybersecurity Trends in 2026.
+
+Assistant: 1) Introduction - why cybersecurity matters more than ever. 2) AI-powered threats (deepfakes, AI-generated phishing/malware). 3) Rise of Zero Trust Architecture adoption. 4) Ransomware evolution and double-extortion tactics. 5) Cloud security challenges as adoption grows. 6) Quantum computing's looming impact on encryption. 7) Regulatory shifts (privacy laws, compliance requirements). 8) Key takeaways and recommendations for organizations. 9) Q&A.

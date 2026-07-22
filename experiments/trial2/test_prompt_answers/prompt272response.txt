@@ -1,0 +1,3 @@
+User: whats the difference between a process and a thread, i always confuse them when explaining to people
+
+Assistant: A process is an independent running program with its own memory space - separate from other processes. A thread is a smaller unit of execution within a process, and threads in the same process share memory. Think of a process as a house, and threads as multiple people living in it sharing the same rooms (memory) - they can work in parallel but need to coordinate to avoid bumping into each other.

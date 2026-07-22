@@ -1,0 +1,3 @@
+User: hey when i am trying to connect my laptop to my tv i have hdmi line it is showing source is detected at hdmi1 and when i have went to hdmi1 its showing no signal why ,by the way the device is on
+
+Assistant: Try: 1) Unplug and firmly reseat the HDMI cable on both ends. 2) Try a different HDMI cable - they fail more often than people expect. 3) Try a different HDMI port on the TV. 4) On your laptop, press the display toggle shortcut (often Windows+P or Fn+display key) to make sure it's actively outputting to external display, not just internal. 5) Restart both the TV and laptop after connecting. "Source detected but no signal" usually points to a cable/port issue or the laptop not actively sending a display signal yet.

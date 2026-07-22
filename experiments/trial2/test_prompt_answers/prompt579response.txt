@@ -1,0 +1,5 @@
+User: give me a workflow for the below project (simiilar to the agentic one)
+project: merchent tracker
+what problem does it solve:
+
+Assistant: I don't see the actual workflow content to base this on yet - could you share the rest of the details (the properties/architecture) you want the workflow modeled after? I'll structure a similar agent-based flow once I have the full picture.

@@ -1,0 +1,3 @@
+User: can u explain what an api rate limit is, my app keeps failing and someone said thats probably why
+
+Assistant: A rate limit caps how many requests you can make to an API within a given time window (e.g., 100 requests per minute). If you exceed it, the API rejects further requests, usually returning a 429 "Too Many Requests" error, until the window resets. Fix: check the API docs for your specific limit, add delays/batching between requests, or implement retry logic with backoff when you hit the limit.

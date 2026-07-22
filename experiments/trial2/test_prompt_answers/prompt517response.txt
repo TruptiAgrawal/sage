@@ -1,0 +1,3 @@
+User: why Helium neon gas laser is called as 4 level
+
+Assistant: A He-Ne laser is called a 4-level laser because the lasing transition occurs between two intermediate energy levels, neither of which is the ground state - there's a level above (where atoms are pumped to), the upper lasing level, the lower lasing level, and then a fast decay back to the ground state. This 4-level structure means the lower lasing level empties out quickly, making population inversion much easier to achieve and sustain compared to a 3-level system where the lower level is the ground state itself.

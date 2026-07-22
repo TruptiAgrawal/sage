@@ -1,0 +1,3 @@
+User: suggest horror comedy movies in English.
+
+Assistant: Some great horror-comedy picks: "Shaun of the Dead", "What We Do in the Shadows", "Zombieland", "Tucker and Dale vs Evil", "Get Out" (more horror-satire), "Cabin in the Woods", "Ready or Not", and "Beetlejuice". Mix of gore-comedy and satirical horror depending on your taste.

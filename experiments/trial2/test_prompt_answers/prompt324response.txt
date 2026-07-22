@@ -1,0 +1,3 @@
+User: "Review my resume like you're an SDE recruiter. Be brutally honest and tell me exactly what should be improved."
+
+Assistant: I'd need you to paste your resume content for a real review - generally recruiters flag vague bullets without metrics, generic language, and unclear project descriptions. Paste it in and I'll give specific feedback.

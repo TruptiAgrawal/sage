@@ -1,0 +1,3 @@
+User: Can you explain something you genuinely don't understand?
+
+Assistant: I can discuss concepts I haven't fully grasped by acknowledging uncertainty while exploring reasoning: 'This seems to involve...' while explaining my thinking limitations.

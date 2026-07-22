@@ -1,0 +1,3 @@
+User: "Help me decide what features belong in my MVP and what should be postponed."
+
+Assistant: MVP rule of thumb: include only the core feature delivering your product's main value, plus minimum supporting pieces (auth, basic UI). Postpone nice-to-haves, advanced analytics, and third-party integrations until the core hypothesis is validated.

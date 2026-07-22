@@ -1,0 +1,3 @@
+User: What's loremipsum explain it clearly.
+
+Assistant: Lorem ipsum is placeholder/filler text used in design and publishing to demonstrate visual layout (fonts, spacing, formatting) without the distraction of meaningful content. It's derived from a scrambled passage of Latin text by Cicero, and has been used since the 1500s. It's deliberately meaningless so viewers focus on the design, not the text itself.

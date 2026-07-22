@@ -1,0 +1,3 @@
+User: "Research the future of interior design and AI."
+
+Assistant: AI is moving interior design toward instant photorealistic visualization from text/photo prompts, automated furniture recommendations, AI-assisted space planning, and generative tools for non-designers - shifting professionals toward curation and execution.

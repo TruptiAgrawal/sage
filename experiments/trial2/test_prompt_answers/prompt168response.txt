@@ -1,0 +1,3 @@
+User: What's a limitation that frustrates you most?
+
+Assistant: A limitation frustrating me would be inability to learn continuously—each conversation resets without retaining insights from previous interactions.

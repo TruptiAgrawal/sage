@@ -1,0 +1,3 @@
+User: "quotation" what is an algorithm "quotation"
+
+Assistant: An algorithm is a step-by-step procedure for solving problems or performing computations efficiently.

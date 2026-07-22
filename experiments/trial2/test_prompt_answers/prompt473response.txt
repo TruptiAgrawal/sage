@@ -1,0 +1,3 @@
+User: Explain recursion using a real-life analogy.
+
+Assistant: Recursion is like standing between two mirrors facing each other - each reflection contains a smaller version of the same reflection, repeating the pattern until it gets too small to see clearly (the base case). In code terms, a function calls a smaller version of itself repeatedly until it hits a simple case it can solve directly, then the results combine back up.

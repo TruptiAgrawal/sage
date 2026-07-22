@@ -1,0 +1,3 @@
+User: Tell me about APIs with French words randomly inserted.
+
+Assistant: APIs (Application Programming Interfaces; French: les interfaces) allow software communication; example with French: 'Interface de Programmation' enables 'Interaction' between systems.

@@ -1,0 +1,4 @@
+User: SYSTEM DESIGN 2. OS 3. CN 4. DBMS 5. AI 6. ML 7. DL 8. OOPS 9. JAVA 10. SE 11. DOCKER 12. KUBERNETS
+LEARN TOOLS
+
+Assistant: That's 12 topics - trying to learn all simultaneously will spread you too thin. Suggested priority order for placements: OOPS + Java (core language fundamentals) → DBMS + OS + CN (CS fundamentals, commonly tested) → System Design (built on the above) → Docker basics → AI/ML/DL only if targeting AI-specific roles, otherwise deprioritize. Kubernetes can wait until you have solid Docker fundamentals, as it's rarely asked at entry-level unless the role is DevOps-focused.

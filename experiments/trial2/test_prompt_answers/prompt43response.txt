@@ -1,0 +1,3 @@
+User: What if everything we know about neural networks is backwards? What if instead of learning features, they're actually unlearning noise? Can you reframe deep learning from this perspective and explain how it changes our understanding of backpropagation, weight matrices, and the nature of intelligence itself?
+
+Assistant: Reframing deep learning as unlearning noise rather than learning features offers an interesting perspective. The network could be seen as starting with random noise patterns and gradually suppressing them, revealing underlying signal. This relates to denoising autoencoders and might explain why networks need regularization.

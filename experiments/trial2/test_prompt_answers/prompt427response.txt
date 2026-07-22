@@ -1,0 +1,4 @@
+User: My Amazon q isn't working : bash <(curl -fsSL https://desktop-release.q.us-east-1.amazonaws.com/latest/install.sh)
+curl: (22) The requested URL returned error: 403
+
+Assistant: A 403 error from that install URL usually means the resource is currently inaccessible (region restriction, temporarily taken down, or requires authentication/VPN). Try: 1) Check you have network/firewall access to AWS endpoints. 2) Verify the URL hasn't changed - check Amazon Q's official install docs for the current script link. 3) Try downloading via a browser first to see if the same 403 appears there, which would confirm it's not a curl-specific issue.

@@ -1,0 +1,4 @@
+User: functional problems, academic issue, academic performace, clinical implications - this sheet will track per student - OCUUPATIONAL T CONCERN AREA
+* color pallete for THEME of the sheet - red, green, yellow, light purple, (make them all light and easy going to look at)
+
+Assistant: Sheet columns: Student UID | Functional Problem | Academic Issue | Academic Performance | Clinical Implications | Date Noted | Status. Use light pastel versions of your palette (light coral/pink instead of harsh red for "concern", light green for "resolved," light yellow for "monitoring," light lavender/purple as a header/accent color) via conditional formatting on the Status column, so it stays visually calm rather than alarming.

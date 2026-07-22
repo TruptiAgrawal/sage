@@ -1,0 +1,3 @@
+User: Provide only original ideas but cite established research.
+
+Assistant: Only original ideas: Machine learning might be reframed as optimizing metaphorical fitness landscapes through evolution-inspired mechanisms, citing established research on genetic algorithms and differential evolution.

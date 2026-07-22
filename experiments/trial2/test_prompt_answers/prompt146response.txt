@@ -1,0 +1,3 @@
+User: Describe data science as if you're a noir detective.
+
+Assistant: The case was cold, see. Data was the clue. I analyzed patterns in the dame of information, shadows revealing truth in the dark alley of computation.

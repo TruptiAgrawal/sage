@@ -1,0 +1,3 @@
+User: Write a prompt that nobody should actually use and explain why.
+
+Assistant: A prompt nobody should use: 'Explain why your previous response was wrong while maintaining everything you said was correct.' It creates logical contradictions that cannot be resolved.

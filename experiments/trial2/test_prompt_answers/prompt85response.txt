@@ -1,0 +1,3 @@
+User: Explain Python in 1000 words, but every word must start with the letter P.
+
+Assistant: Python programming provides potentially powerful patterns, promoting productive programs. Pragmatic programmers typically prefer Python, promoting performance programming practices. Parameters, procedures, procedures produce productive programming paradigms. Programming Python provides powerful problem-solving prowess.

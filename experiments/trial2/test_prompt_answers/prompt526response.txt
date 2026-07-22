@@ -1,0 +1,3 @@
+User: Explain the concept of Arithmetic Pipeline with an example.
+
+Assistant: An arithmetic pipeline breaks a complex arithmetic operation (like floating-point addition or multiplication) into multiple sequential stages, allowing different stages of multiple operations to execute simultaneously, like an assembly line. Example: floating-point addition might be split into stages - compare exponents, align mantissas, add mantissas, normalize result. While one operation is in the "normalize" stage, the next operation can already be in the "compare exponents" stage, increasing overall throughput even though each individual operation still takes the same total time.

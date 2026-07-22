@@ -1,0 +1,3 @@
+User: Generative AI for Developers
+
+Assistant: This is typically a hands-on course module teaching developers to integrate generative AI (via APIs like Vertex AI, Gemini) into applications - covering prompt design, API usage, and building AI-powered features. Let me know if you'd like a breakdown of core concepts.

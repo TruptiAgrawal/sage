@@ -1,0 +1,3 @@
+User: explain the difference between a compiler and an interpreter, i always forget and it comes up in every interview somehow
+
+Assistant: A compiler translates the entire source code into machine code (or another language) all at once before running it, producing a standalone executable - like translating a whole book before anyone reads it. An interpreter translates and executes code line-by-line as it runs, without a separate compiled output - like a live translator reading aloud sentence by sentence. Compiled code tends to run faster; interpreted code is often easier to debug and more portable.

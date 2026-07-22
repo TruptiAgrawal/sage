@@ -1,0 +1,3 @@
+User: The key do's and don'ts during the hiring process and interview.
+
+Assistant: Do's: research the company's products beforehand, be specific about your project contributions with metrics, ask thoughtful questions about the role/team. Don'ts: don't badmouth previous experiences/companies, don't give vague "I don't know" without attempting to reason through a problem, and don't skip preparing basic CS fundamentals even for enterprise-focused roles.

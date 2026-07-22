@@ -1,0 +1,3 @@
+User: "Explain B12 deficiency completely. What symptoms are common, when is dizziness related and when should someone worry?"
+
+Assistant: Common symptoms: fatigue, weakness, pale skin, tingling in hands/feet, difficulty concentrating. Dizziness can occur from mild anemia or nerve function effects. Worry if dizziness is frequent, accompanied by numbness/memory issues, or persists - a blood test can confirm B12 levels; this isn't a substitute for medical advice.

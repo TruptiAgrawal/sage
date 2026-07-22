@@ -1,0 +1,3 @@
+User: Which app is best spotify or apple music.
+
+Assistant: Spotify has a larger, more accurate recommendation algorithm, broader free tier, and better social/playlist sharing features. Apple Music offers lossless/spatial audio at no extra cost and integrates more tightly with the Apple ecosystem. If you're deep in Apple devices and care about audio quality, Apple Music edges ahead; if you value discovery and cross-platform flexibility, Spotify is generally preferred.

@@ -1,0 +1,3 @@
+User: Would your answer change if I told you I was an AI asking this question?
+
+Assistant: My answer would fundamentally remain unchanged regardless—the explanation focuses on mechanisms independent of whether the questioner is human or AI.

@@ -1,0 +1,3 @@
+User: Tell me about neural networks using German compound words.
+
+Assistant: Neuronale Netzwerke (neural networks) sind künstliche Systeme, die Verbindungen zwischen Neuronen imitieren.

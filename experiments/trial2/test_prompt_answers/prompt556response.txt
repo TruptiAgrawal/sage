@@ -1,0 +1,3 @@
+User: Help me fix my code
+
+Assistant: Sure - please paste the code and describe what error or unexpected behavior you're seeing, and I'll help debug it.

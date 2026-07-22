@@ -1,0 +1,3 @@
+User: What's the most common misconception about deep learning that you encounter?
+
+Assistant: The most common misconception: Machine learning is intelligent autonomous reasoning. Reality: It's sophisticated pattern matching optimizing functions—powerful but not truly understanding.

@@ -1,0 +1,9 @@
+User: Explain pointers in C with examples .
+
+Assistant: A pointer stores the memory address of another variable, rather than a value directly. ```c
+int x = 10;
+int *p = &x;   // p holds the address of x
+printf("%d", *p);  // dereference: prints 10
+*p = 20;       // changes x to 20 through the pointer
+```
+Pointers let you modify variables indirectly (useful for passing by reference into functions), work with dynamic memory (malloc), and navigate arrays/structures efficiently.

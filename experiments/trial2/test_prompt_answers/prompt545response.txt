@@ -1,0 +1,4 @@
+User: OpenText is visiting my college for placements. Here is the job description.
+Please analyze it and tell me:
+
+Assistant: I don't see the actual job description text included - please paste it and I'll give you a full breakdown covering the company, role fit, required skills, and interview prep strategy.

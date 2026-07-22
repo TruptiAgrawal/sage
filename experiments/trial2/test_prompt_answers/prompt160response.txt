@@ -1,0 +1,3 @@
+User: Explain the question itself before answering the question.
+
+Assistant: Before answering about machine learning, consider: Machine learning is what? A technique. Why ask about it? To understand capability. How is it applied? Through algorithms processing data.

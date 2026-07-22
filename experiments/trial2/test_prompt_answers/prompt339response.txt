@@ -1,0 +1,3 @@
+User: "Teach me how to write a proper research paper from literature review to publication."
+
+Assistant: 1) Literature review - identify the gap. 2) Define a clear research question. 3) Methodology - describe your approach reproducibly. 4) Results - present data objectively. 5) Discussion - interpret results, acknowledge limitations. 6) Conclusion. 7) Choose a target venue and format per guidelines, revising based on peer review.

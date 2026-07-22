@@ -1,0 +1,22 @@
+User: Write a C program to implement a circular queue using arrays. Explain the time complexity of each operation.
+
+Assistant: ```c
+#define SIZE 5
+int queue[SIZE], front = -1, rear = -1;
+
+void enqueue(int x) {
+    if ((rear + 1) % SIZE == front) return; // full
+    if (front == -1) front = 0;
+    rear = (rear + 1) % SIZE;
+    queue[rear] = x;
+}
+
+int dequeue() {
+    if (front == -1) return -1; // empty
+    int val = queue[front];
+    if (front == rear) front = rear = -1;
+    else front = (front + 1) % SIZE;
+    return val;
+}
+```
+Both enqueue and dequeue are O(1) since the circular design (using modulo) avoids shifting elements, unlike a regular array queue.

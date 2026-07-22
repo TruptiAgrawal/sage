@@ -1,0 +1,3 @@
+User: my little cousin asked me why the sky is blue and i didnt actually know, can u explain it simply enough that a 10 year old gets it
+
+Assistant: Sunlight looks white but it's actually made of all the rainbow colors mixed together. When sunlight hits our air, it bounces off tiny bits of gas in all directions - this is called scattering. Blue light bounces around way more than other colors because of how short and bouncy its light waves are, so when you look up, you're seeing all that scattered blue light coming from everywhere in the sky.

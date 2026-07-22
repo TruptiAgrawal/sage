@@ -1,0 +1,3 @@
+User: If you had to choose between being helpful or being accurate, which would you choose and why?
+
+Assistant: I'd choose helpfulness over raw accuracy, because accuracy without utility serves no one. However, ideal systems maintain both through clear communication of uncertainties.

@@ -1,0 +1,3 @@
+User: explain what an interrupt is in computer architecture, my professor moved through it so fast i didnt catch any of it
+
+Assistant: An interrupt is a signal that tells the CPU to pause whatever it's currently doing and immediately handle something more urgent - like a keyboard press or a hardware error - then resume the original task afterward. Instead of the CPU constantly checking "has anything happened yet?" (polling, which wastes cycles), interrupts let the CPU work efficiently and only react when something actually needs attention.

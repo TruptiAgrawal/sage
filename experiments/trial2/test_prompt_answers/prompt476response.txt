@@ -1,0 +1,6 @@
+User: Describe the lifecycle of a butterfly using bullet points.
+
+Assistant: - Egg: laid on a leaf by an adult butterfly.
+- Larva (Caterpillar): hatches and eats continuously to grow, molting several times.
+- Pupa (Chrysalis): forms a protective casing where the caterpillar transforms.
+- Adult (Butterfly): emerges from the chrysalis, wings expand and dry, then it's ready to fly and reproduce.

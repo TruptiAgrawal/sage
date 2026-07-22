@@ -1,0 +1,16 @@
+User: How to use Hashmat in cop to find the string compression
+
+Assistant: Using a hash map (unordered_map in C++) for string compression: iterate through the string, count consecutive occurrences of each character, and build a new string with character+count pairs. ```cpp
+string compress(string s) {
+    string result = "";
+    int n = s.length();
+    for (int i = 0; i < n; ) {
+        char ch = s[i];
+        int count = 0;
+        while (i < n && s[i] == ch) { i++; count++; }
+        result += ch + to_string(count);
+    }
+    return result;
+}
+```
+A hash map is more useful for counting non-consecutive character frequencies, while this run-length approach handles the classic "string compression" problem directly.

@@ -1,0 +1,3 @@
+User: so we're building a small app and i need to explain to my non technical teammate why we need a database instead of just a spreadsheet
+
+Assistant: A spreadsheet breaks down once multiple people need to read/write data at the same time - it wasn't built for concurrent access, so changes can overwrite each other or corrupt. A database is built for exactly that: it handles simultaneous users, enforces data rules (like "email must be unique"), scales to much larger data volumes, and lets your app query specific info instantly instead of loading the whole file every time.

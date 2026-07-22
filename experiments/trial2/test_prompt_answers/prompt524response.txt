@@ -1,0 +1,3 @@
+User: Peripheral Devices
+
+Assistant: Peripheral devices are external hardware components connected to a computer to provide input, output, or additional storage - not part of the core CPU/memory. Examples: input devices (keyboard, mouse, scanner), output devices (monitor, printer, speakers), and storage devices (external hard drives, USB drives). They communicate with the CPU through I/O interfaces and controllers, often using interrupts or DMA to transfer data efficiently.

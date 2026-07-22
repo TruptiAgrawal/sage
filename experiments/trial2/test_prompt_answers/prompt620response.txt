@@ -1,0 +1,5 @@
+User: and only give me the lines for the gothub link
+in similar fashion as about linkdein: hard link
+(just those indv lines so i can paste intead of Github
+
+Assistant: For a LaTeX resume-style hyperlink line matching a LinkedIn hard-link format: `\href{https://github.com/yourusername}{\raisebox{-0.05\height}\faGithub\ GitHub}` (using the fontawesome package) - swap in your actual GitHub URL and this will render as a clickable icon+text link matching your LinkedIn line's style.

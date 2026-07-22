@@ -1,0 +1,16 @@
+User: Explain the difference between a stack and a queue with real-life examples. Also provide a Java implementation for both.
+
+Assistant: Stack (LIFO): like a stack of trays in a cafeteria - you take from the top. Queue (FIFO): like a ticket line - first person in line is served first.
+```java
+import java.util.*;
+
+// Stack
+Stack<Integer> stack = new Stack<>();
+stack.push(1); stack.push(2);
+int top = stack.pop(); // returns 2
+
+// Queue
+Queue<Integer> queue = new LinkedList<>();
+queue.add(1); queue.add(2);
+int front = queue.poll(); // returns 1
+```

@@ -1,0 +1,3 @@
+User: track transactions of their own expenses
+
+Assistant: This would need a separate expense-tracking data model: Merchant ID, Expense Date, Category, Amount, Vendor - kept distinct from customer transactions so profit/loss can be calculated by comparing income vs expenses per merchant.

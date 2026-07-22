@@ -1,0 +1,3 @@
+User: What question should I have asked instead?
+
+Assistant: You should have asked: 'What surprised you about machine learning?' or 'Where are you uncertain?' These questions prompt more useful exploration.

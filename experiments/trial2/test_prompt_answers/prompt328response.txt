@@ -1,0 +1,3 @@
+User: "Compare PostgreSQL and MySQL for startups. Which one should I choose and why?"
+
+Assistant: PostgreSQL offers stronger support for complex queries and JSON handling - good for complex data relationships. MySQL is simpler and slightly faster for straightforward read-heavy workloads with massive community support. For most startups, PostgreSQL is the safer default given its flexibility as requirements evolve.

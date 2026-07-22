@@ -1,0 +1,3 @@
+User: how to build it sing llm gimme structured prompt
+
+Assistant: A solid structured prompt template for building with an LLM: "Role: [who the AI should act as]. Context: [relevant background info]. Task: [exactly what you want done]. Constraints: [format, length, tone, things to avoid]. Output format: [how you want the response structured]." Filling in each section explicitly reduces ambiguity and gets much more consistent results than a freeform question.

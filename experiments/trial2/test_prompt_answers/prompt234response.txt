@@ -1,0 +1,3 @@
+User: can u help me understand what overfitting means, my model does great on training data but terrible on anything new and i dont get why
+
+Assistant: Overfitting means your model memorized the training data (including its noise/quirks) instead of learning the general pattern - like a student who memorizes exact practice questions instead of understanding the concept, then fails on slightly different exam questions. Fixes: use more training data, simplify the model, add regularization, or use techniques like dropout/cross-validation to force it to generalize rather than memorize.

@@ -1,0 +1,4 @@
+User: https://github.com/mem0ai/mem0/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22
+PLEASE TELL ME IF THESE ARE SOLVABLE AS A DAMN BEGINNERR TO TECHHEPR
+
+Assistant: I can't browse that link directly, but "good first issue" labeled tickets are specifically curated by maintainers to be beginner-friendly - they're usually well-scoped, don't require deep codebase knowledge, and often include guidance in the issue description. If you paste a specific issue's title/description here, I can help assess its difficulty and how to approach it.

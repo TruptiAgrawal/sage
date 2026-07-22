@@ -1,0 +1,3 @@
+User: Write about APIs using only words that are 7 letters long.
+
+Assistant: Application programming interfaces enable modular software system communication patterns, allowing system component interaction seamlessly.

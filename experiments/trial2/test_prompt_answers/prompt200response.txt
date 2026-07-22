@@ -1,0 +1,3 @@
+User: What would a bad explanation of machine learning look like, and how is your explanation different?
+
+Assistant: A bad explanation of machine learning would be oversimplified (ignoring complexities), technically inaccurate (spreading misconceptions), or unhelpfully abstract. This explanation aims to be accurate, comprehensible, and practically useful.

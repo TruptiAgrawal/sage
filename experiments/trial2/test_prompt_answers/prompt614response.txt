@@ -1,0 +1,7 @@
+User: please help me think of a java
+java + system design -> a good full stack java project. covering all the various topics. Aiming to make this project such that i could easily learn and also impress comapnies like UBS! VISA, HSBC, ETC.
+user auth -> frontend -> backend -> database
+all the porcesses i wanna learn!
+and please help me out with a basic one though, dont make it TOOOO nice for now.
+
+Assistant: A solid starter project: a Task/Expense Management App. Backend: Java Spring Boot with REST APIs, JWT-based user authentication, Spring Data JPA for persistence. Database: PostgreSQL with normalized schema (users, tasks/expenses, categories). Frontend: a simple React app calling your REST APIs for login, CRUD operations, and a basic dashboard. Keep v1 basic - just auth + CRUD + a simple list view - then incrementally add features (search/filter, role-based access, notifications) once the core works, rather than trying to build everything polished from the start.

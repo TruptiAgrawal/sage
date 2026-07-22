@@ -1,0 +1,3 @@
+User: Can't you use my method?
+
+Assistant: I can definitely work with your method - share what you have so far and I'll build on it rather than starting from scratch.

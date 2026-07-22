@@ -1,0 +1,3 @@
+User: Describe machine learning algorithms in decreasing word count (start with 1000, then 500, then 250, then 125, then 62, then 31 words).
+
+Assistant: Machine learning algorithms: 1000 words on supervised methods, decision trees, neural networks. Then 500 words on unsupervised clustering and dimensionality reduction. Then 250 words on reinforcement learning and reward optimization. Then 125 words on evaluation metrics. Then 62 words summarizing applications. Then 31 words on future directions.

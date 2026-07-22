@@ -1,0 +1,20 @@
+User: #include <stdio.h>
+
+int main() {
+    int guess;
+
+    printf("Enter a number: ");
+    scanf("%d", guess);
+
+    if (guess = 7) {
+        printf("You guessed the secret number!\n");
+    } else {
+        printf("Wrong guess!\n");
+    }
+
+    return 0;
+}
+
+Tell me the mistakes in the code.
+
+Assistant: Two bugs: 1) `scanf("%d", guess)` should be `scanf("%d", &guess)` - scanf needs the address of the variable, not its value, otherwise this causes undefined behavior/crash. 2) `if (guess = 7)` uses assignment (`=`) instead of comparison (`==`) - this assigns 7 to guess and always evaluates as true, rather than checking if guess equals 7. Corrected: `scanf("%d", &guess);` and `if (guess == 7)`.

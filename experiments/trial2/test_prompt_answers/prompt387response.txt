@@ -1,0 +1,3 @@
+User: "How would Amazon solve this problem?"
+
+Assistant: Share the specific problem and I'll reason through it using Amazon's typical approach - customer obsession, data-driven iteration, and operational efficiency at scale.

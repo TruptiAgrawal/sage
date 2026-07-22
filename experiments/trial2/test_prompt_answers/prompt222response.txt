@@ -1,0 +1,3 @@
+User: we're planning a trip for like 4 people on a tight budget, can u suggest how we should split up planning tasks so nobody does everything
+
+Assistant: Split by category: Person 1 - transportation (flights/trains, comparing prices). Person 2 - accommodation (hostels, splitting Airbnb costs). Person 3 - daily itinerary/activities (free or cheap things to do). Person 4 - food/budget tracking (shared expense app, meal planning). Set a shared doc or group chat with deadlines for each person's research so it doesn't all pile up last minute.

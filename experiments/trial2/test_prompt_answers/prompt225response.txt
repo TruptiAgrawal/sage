@@ -1,0 +1,3 @@
+User: can u explain what a rest api is, i keep hearing it in interviews but i just nod along and dont actually get it
+
+Assistant: A REST API is a set of rules for how apps talk to a server over the web using standard HTTP methods: GET (read data), POST (create), PUT/PATCH (update), DELETE (remove). "REST" means it's stateless - each request contains everything needed, the server doesn't remember previous requests. Data is usually exchanged as JSON. So when you hit an endpoint like `GET /users/5`, you're asking the server to return info about user 5, following this predictable structure.

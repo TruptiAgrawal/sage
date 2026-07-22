@@ -1,0 +1,3 @@
+User: "Research companies that are investing the most in Generative AI."
+
+Assistant: Microsoft (OpenAI partnership, Copilot), Google (Gemini, DeepMind), Amazon (Bedrock), Meta (Llama), and NVIDIA (AI infrastructure) - plus broad enterprise spending across most large tech companies.

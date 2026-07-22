@@ -1,0 +1,3 @@
+User: i think my code has a memory leak but i cant find where, can u look at this and tell me what might be causing it: a python script that appends to a global list inside a loop that runs forever
+
+Assistant: That's very likely your leak. A global list that keeps getting appended to inside an infinite loop grows unbounded forever since nothing ever removes old entries - Python's garbage collector can't free memory still referenced by that list. Fix: either cap the list size (pop old entries once it exceeds a limit), use a bounded structure like `collections.deque(maxlen=N)`, or periodically clear/process and discard the data instead of keeping it all in memory.

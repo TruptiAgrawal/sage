@@ -1,0 +1,3 @@
+User: Tell me about transfer learning. --> Follow-up: Explain why you answered the way you did.
+
+Assistant: Transfer learning applies knowledge from one task to improve performance on another related task. I chose explanations emphasizing practical benefits because understanding real-world applications motivates learning.

@@ -1,0 +1,3 @@
+User: Create a prompt that describes the process of creating prompts about creating prompts.
+
+Assistant: A prompt describing prompt-creation: Consider requesting an explanation while requesting explanation of the explanation-request, creating fractal-like recursive prompt structures.

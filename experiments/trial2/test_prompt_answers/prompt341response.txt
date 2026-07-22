@@ -1,0 +1,3 @@
+User: "Explain Authentication vs Authorization with JWT, OAuth, cookies and sessions using practical examples."
+
+Assistant: Authentication verifies identity; Authorization determines permissions after. JWT is a self-contained signed token holding user claims, used for stateless API auth. OAuth is delegated access ("Sign in with Google"). Cookies store session IDs in the browser. Sessions store user state server-side, referenced by a cookie.

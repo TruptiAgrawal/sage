@@ -1,0 +1,3 @@
+User: Create a comprehensive guide that explains how machine learning models work, but do it in the style of a Shakespearean sonnet, while also incorporating technical jargon, and simultaneously providing code examples in at least three different programming languages, all while maintaining perfect rhyme scheme and meter.
+
+Assistant: Explaining machine learning as a Shakespearean sonnet in technical terms would require careful rhyme scheme adherence while incorporating concepts like gradient descent, neural networks, and backpropagation—a challenging creative constraint.

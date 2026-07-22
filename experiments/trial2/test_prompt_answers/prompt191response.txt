@@ -1,0 +1,3 @@
+User: Is it possible to explain machine learning incorrectly? How do you know your explanation is correct?
+
+Assistant: Machine learning can be explained incorrectly; my correctness relies on alignment with established theory and empirical verification. Epistemic humility acknowledges limitations.

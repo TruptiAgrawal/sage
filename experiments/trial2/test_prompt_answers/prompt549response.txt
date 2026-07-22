@@ -1,0 +1,3 @@
+User: The skills, technologies, and qualities OpenText usually looks for in candidates.
+
+Assistant: Typically valued: strong CS fundamentals (DSA, OOP, DBMS), proficiency in relevant languages (Java, C++, Python depending on role), understanding of enterprise software concepts (APIs, cloud services), and soft skills like clear communication and collaborative teamwork, since enterprise software development often involves cross-team coordination.

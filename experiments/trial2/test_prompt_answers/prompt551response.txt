@@ -1,0 +1,3 @@
+User: Potential gaps or weaknesses I should address before the recruitment process.
+
+Assistant: Share your current skillset/resume and I can point out specific gaps relative to what's typically expected for this type of role.

@@ -1,0 +1,3 @@
+User: "Give me every AI feature that can be added to this product in the next five years."
+
+Assistant: Share what the product does and I'll brainstorm realistic AI feature additions - personalization, predictive analytics, natural language interfaces, and automation are common high-value additions.

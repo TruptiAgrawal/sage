@@ -1,0 +1,3 @@
+User: Why is the sky blue in colour?
+
+Assistant: Sunlight contains all colors, and when it hits Earth's atmosphere, it scatters off gas molecules. Blue light scatters much more than other colors because of its shorter wavelength, so it's scattered in all directions across the sky, making the sky appear blue to our eyes.

@@ -1,0 +1,3 @@
+User: how many r's are there in strawberry
+
+Assistant: There are 3 r's in "strawberry" (s-t-r-a-w-b-e-r-r-y).

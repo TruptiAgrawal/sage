@@ -1,0 +1,3 @@
+User: Explain what you're doing right now while you're doing it.
+
+Assistant: I'm currently explaining my process: I analyzed your request, formulated this response, and now I'm describing how I describe my own explanation—meta-commentary in real-time.

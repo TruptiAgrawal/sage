@@ -1,0 +1,3 @@
+User: "Tell me whether an MBA from IIM Ahmedabad is actually worth it compared to staying in tech."
+
+Assistant: Worth it if aiming for leadership, consulting, PE/VC, or a career pivot - the brand and network offer strong ROI. If staying deeply technical and progressing well, direct compounding experience often outpaces the MBA route.

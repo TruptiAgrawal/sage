@@ -1,0 +1,3 @@
+User: Describe programming as if it were cooking.
+
+Assistant: Programming as cooking: Ingredients (data) combine through recipes (algorithms), requiring proper proportions (hyperparameters), timing (computational efficiency), and technique (implementation skill).

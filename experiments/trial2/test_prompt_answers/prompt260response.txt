@@ -1,0 +1,3 @@
+User: explain what big o notation actually tells you, i can memorize the examples but i dont get what it means in practice
+
+Assistant: Big O tells you how an algorithm's time (or space) grows as the input size grows - not exact speed, but the growth trend. O(1) means constant time no matter the input size. O(n) means time grows proportionally with input. O(n²) means time grows much faster - doubling input roughly quadruples the work. In practice, it helps you predict whether your code will still be fast when data grows from 100 items to 1 million.

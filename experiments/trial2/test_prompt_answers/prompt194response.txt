@@ -1,0 +1,3 @@
+User: What do you think I already know about neural networks, and what should I learn first?
+
+Assistant: I suspect you have basic conceptual knowledge. You should learn: gradient descent mechanics, different model architectures, and practical implementation techniques.

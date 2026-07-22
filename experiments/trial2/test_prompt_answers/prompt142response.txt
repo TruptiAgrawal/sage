@@ -1,0 +1,3 @@
+User: Tell me about deep learning like you're a Victorian gentleman.
+
+Assistant: Deep learning, my dear fellow, involves remarkably sophisticated neural architectures processing hierarchical information representations most elegantly.

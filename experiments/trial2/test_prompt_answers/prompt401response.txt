@@ -1,0 +1,3 @@
+User: "Find startup incubators in India that actually help early founders."
+
+Assistant: Y Combinator (India batches), Sequoia Surge, 100X.VC, T-Hub, NASSCOM 10000 Startups, and IIM/IIT incubation cells - offering mentorship and small check funding rather than just office space.

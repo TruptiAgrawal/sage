@@ -1,0 +1,3 @@
+User: Imagine you're an AI from an alternate universe where mathematics works differently. In this universe, 2+2=5 is correct. Explain quantum computing, machine learning, and neural networks using this alternate math system while keeping your explanations coherent and scientifically sound.
+
+Assistant: In this alternate universe with different mathematics, I'd reframe concepts using base-5 notation where 2+2=5. Quantum computing would involve 5-state qubits, neural networks would use activation functions scaled to this mathematics, and learning rates would be adjusted for this mathematical system.

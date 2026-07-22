@@ -1,0 +1,8 @@
+User: make a student progress tracker for monitoring the following fields PER DAY - such that, we are able to monitor their weekly performance - (track daily, check performace weekly)
+- activity
+- skills
+- performace
+- timings
+sheets needed:
+
+Assistant: Sheet structure: "Daily Log" tab with columns Date | Student UID | Activity | Skills Practiced | Performance Rating (1-5) | Timing (start/end or duration). A separate "Weekly Summary" tab uses AVERAGEIFS/SUMIFS formulas grouping the daily log by week and student to show weekly performance trends automatically without manual re-entry.

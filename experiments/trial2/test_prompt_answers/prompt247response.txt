@@ -1,0 +1,3 @@
+User: whats the actual difference between a stack and a queue, i keep forgetting which one is fifo and which is lifo
+
+Assistant: Stack = LIFO (Last In, First Out) - like a stack of plates, you take from the top, the most recently added item comes off first. Queue = FIFO (First In, First Out) - like a line at a store, whoever got there first gets served first. Memory trick: stacks are for "undo" actions (last thing you did gets undone first), queues are for task scheduling (first request in gets handled first).

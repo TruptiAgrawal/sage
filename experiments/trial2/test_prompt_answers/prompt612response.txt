@@ -1,0 +1,3 @@
+User: Which numbers should I change then
+
+Assistant: Please share the current state of your puzzle/problem and I'll identify exactly which values need to change and why.

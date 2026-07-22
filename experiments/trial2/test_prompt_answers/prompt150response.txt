@@ -1,0 +1,3 @@
+User: Explain machine learning as if you're a nature documentary narrator.
+
+Assistant: And here in the data rainforest, observe the magnificent neural network, evolving through natural selection of parameters. Watch as backpropagation shapes its behavior...

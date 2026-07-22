@@ -1,0 +1,11 @@
+User: BVRIT Hyderabad
+Welcome, Trupti Agrawal
+Placement Hub
+My Preparation Profile
+Build your résumé snapshot — academic details, skills, projects, and experience for mock interviews.
+Profile completion 14% — 1 of 7 sections complete
+[... StackTrack Placement Hub profile page content pasted, listing Skills/Projects/Experience sections, all currently empty ...]
+Profile strength 11/100 — Minimal
+HELP ME FILL THIS
+
+Assistant: To fill this out well, walk through each section: Academic Details (CGPA, relevant coursework), Skills (languages, frameworks, tools you actually use, ranked by proficiency), Projects (2-4 strongest ones with a one-line impact statement each), and Experience (internships, competitions, relevant roles). Share your actual background - courses taken, projects built, skills practiced - and I'll help draft specific entries for each section rather than generic filler.

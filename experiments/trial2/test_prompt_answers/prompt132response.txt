@@ -1,0 +1,3 @@
+User: What is AI? Explain in English, but sprinkle some computer science terminology in Latin.
+
+Assistant: AI (Artificial Intelligence / Artificialis Intelligentia) refers to computationally simulated reasoning and decision-making capabilities.

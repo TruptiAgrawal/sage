@@ -1,0 +1,3 @@
+User: my friend asked me to review her resume before she sends it out tomorrow morning, i dont really know what recruiters look for, what should i tell her to fix
+
+Assistant: Tell her to check: 1) Quantify achievements with numbers ("increased X by 20%" not "helped improve X"). 2) Use strong action verbs (built, led, designed) instead of passive phrasing. 3) Tailor it to the job - keywords from the posting matter for ATS filters. 4) Keep formatting clean and consistent, one page if possible. 5) No typos - read it backwards line by line to catch them. Recruiters skim in seconds, so clarity beats cleverness.

@@ -1,0 +1,3 @@
+User: give a fun name to this project
+
+Assistant: "TaskWhisperer" - captures both the task management core and the AI-parsing natural-language feature in a memorable, fun way.

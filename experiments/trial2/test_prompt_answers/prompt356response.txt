@@ -1,0 +1,3 @@
+User: "Explain this research paper like I'm an engineering student. Break down every section into simple language."
+
+Assistant: Share the paper (title, abstract, or full text) and I'll break it down section by section in plain language.

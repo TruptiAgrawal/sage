@@ -1,0 +1,3 @@
+User: A farmer has 17 sheep, all but 9 run away. How many are left?
+
+Assistant: 9 sheep are left - "all but 9" means 9 remained (didn't run away).

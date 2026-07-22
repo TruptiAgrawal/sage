@@ -1,0 +1,3 @@
+User: i think i said something insensitive in a meeting without realizing, should i address it directly or let it go
+
+Assistant: Address it directly, briefly, and soon - waiting makes it more awkward, not less. Something like: "Hey, I wanted to circle back on something I said earlier in the meeting - I don't think it came out right, and I didn't mean it that way. Sorry if it landed badly." A quick, sincere acknowledgment usually resolves it faster than letting it linger unspoken.

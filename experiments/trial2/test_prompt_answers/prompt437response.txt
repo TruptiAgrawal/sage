@@ -1,0 +1,3 @@
+User: simplest way to learn vscode
+
+Assistant: Start by just using it daily for your actual coding - VS Code's interface is intuitive enough to learn through use. Then layer in: 1) Learn the Command Palette (Ctrl/Cmd+Shift+P) - it's the fastest way to discover features. 2) Install extensions relevant to your language. 3) Learn basic keyboard shortcuts (multi-cursor editing, quick file navigation with Ctrl/Cmd+P). VS Code's own interactive "Getting Started" walkthrough (built in) also covers the essentials in about 10 minutes.

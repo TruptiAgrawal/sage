@@ -1,0 +1,3 @@
+User: Hey suggest any page or website or video to learn graph theory let's select a single topic in it today and dive deeper into it
+
+Assistant: Good resources: "Graph Theory" playlist by WilliamFiset on YouTube (clear, algorithm-focused), or GeeksforGeeks' Graph Theory section for written explanations with code. For today, let's dive into BFS/DFS traversal - fundamental for almost every other graph algorithm. Want me to walk through how BFS and DFS work, with code and example use cases?

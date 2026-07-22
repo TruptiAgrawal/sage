@@ -1,0 +1,3 @@
+User: helps merchents market in sales
+
+Assistant: This looks like a feature/problem point for your merchant tracker project - if you want, I can help expand this into a fuller feature description (e.g., which marketing channels, what data drives recommendations) once I see the complete project scope.

@@ -1,0 +1,3 @@
+User: "Pretend you're McKinsey. Give me a complete industry report."
+
+Assistant: Share the specific industry and I'll structure a report covering market size, key players, trends, and strategic recommendations.

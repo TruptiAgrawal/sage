@@ -1,0 +1,3 @@
+User: Compare SQL and NoSQL databases.
+
+Assistant: SQL databases use structured tables with fixed schemas and support complex joins/transactions with strong consistency (ACID) - good for structured, relational data. NoSQL databases (document, key-value, graph, column-family) offer flexible schemas and horizontal scalability, better suited for large-scale, unstructured, or rapidly evolving data. Choose SQL for financial/transactional systems needing strict consistency; choose NoSQL for high-volume, flexible-schema applications like real-time analytics or content management.

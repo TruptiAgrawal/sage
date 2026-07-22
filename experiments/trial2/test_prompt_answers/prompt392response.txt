@@ -1,0 +1,3 @@
+User: "What skills will still matter after AI automates programming?"
+
+Assistant: System design/architecture judgment, business context understanding, debugging complex production issues, security/reliability thinking, and effectively directing AI-generated code.

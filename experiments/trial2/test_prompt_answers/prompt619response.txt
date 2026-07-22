@@ -1,0 +1,3 @@
+User: KEEP EVERYTHING AS IT IS. BUT, CHANGE THE FONT INTO A SINGLE FONT - TIMES ROMAN. JUST THE FONT, NOTHING ELSE.
+
+Assistant: Understood - if this is a LaTeX document, add `\usepackage{times}` (or `\usepackage{newtxtext,newtxmath}` for a more complete Times New Roman-style package) to the preamble, which switches the entire document to Times Roman without altering any other formatting or content.

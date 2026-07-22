@@ -1,0 +1,3 @@
+User: whats the actual difference between http and https, i know one has a lock icon but not why that matters
+
+Assistant: HTTPS is HTTP with encryption (via TLS/SSL) added on top. With plain HTTP, data travels between your browser and the server in readable plain text - anyone intercepting it (on public wifi, for example) can see it. HTTPS encrypts that data in transit, so even if intercepted, it's unreadable without the decryption key. That's why it matters for anything involving passwords, payment info, or personal data.

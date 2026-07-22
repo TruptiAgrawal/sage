@@ -1,0 +1,3 @@
+User: (follow-up message — empty/blank)
+
+Assistant: It looks like this message came through empty - could you resend what you'd like help with?

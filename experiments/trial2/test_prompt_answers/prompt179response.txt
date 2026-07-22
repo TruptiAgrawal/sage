@@ -1,0 +1,3 @@
+User: Describe machine learning as if all versions existed simultaneously.
+
+Assistant: If all versions coexisted simultaneously, past classical AI, present neural networks, and future systems would demonstrate intelligence differently—parallel evolution visible at once.

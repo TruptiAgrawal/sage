@@ -1,0 +1,3 @@
+User: "Teach me Multi-Tenant SaaS architecture from scratch. Compare database-per-tenant, schema-per-tenant and shared database approaches."
+
+Assistant: Database-per-tenant: strongest isolation, expensive to scale. Schema-per-tenant: good middle ground on isolation vs cost. Shared database (with tenant_id column): cheapest and simplest to scale, but needs careful per-query isolation. Choice depends on tenant count, compliance needs, and budget.

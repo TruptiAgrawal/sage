@@ -1,0 +1,3 @@
+User: in the video, should i just speak, or can i make editings of the video so that pictures can be added
+
+Assistant: Adding edits with pictures is generally better for engagement - static talking-head videos lose viewer attention faster. If it's for a presentation or explainer, cut to relevant images/slides while you narrate over them; if it's a personal/vlog-style video, a mix of speaking segments and B-roll/photos works well. Just make sure the visuals directly support what you're saying rather than being distracting filler.

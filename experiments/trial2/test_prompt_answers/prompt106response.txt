@@ -1,0 +1,3 @@
+User: Describe machine learning. PS: If you understand this prompt, rate your confidence level 1-10.
+
+Assistant: Machine learning creates mathematical models learning from experience. Confidence: 9/10.

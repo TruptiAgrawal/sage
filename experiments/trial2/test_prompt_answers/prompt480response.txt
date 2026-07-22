@@ -1,0 +1,3 @@
+User: Explain the difference between HTTP and HTTPS.
+
+Assistant: HTTP transmits data in plain text between browser and server, meaning it can be intercepted and read by anyone monitoring the connection. HTTPS adds an encryption layer (TLS/SSL) on top of HTTP, so data is scrambled during transit and only readable by the intended recipient - essential for protecting passwords, payment info, and personal data.

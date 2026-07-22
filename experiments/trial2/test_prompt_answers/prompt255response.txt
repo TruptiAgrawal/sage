@@ -1,0 +1,3 @@
+User: whats the difference between authentication and authorization, i mix them up every single time in interviews
+
+Assistant: Authentication answers "who are you?" - verifying identity, like logging in with a password. Authorization answers "what are you allowed to do?" - determining permissions after identity is confirmed, like whether you can access admin settings. Memory trick: AuthN (authentication) comes first (Number), AuthZ (authorization) comes after (Zeroing in on permissions).

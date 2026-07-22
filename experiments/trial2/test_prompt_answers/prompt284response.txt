@@ -1,0 +1,3 @@
+User: can u explain what an index does in a database, like why it makes queries faster
+
+Assistant: An index is a separate data structure (often a sorted tree) that lets the database jump directly to relevant rows instead of scanning the entire table row by row. It's like a book's index - instead of reading every page to find a topic, you check the index and go straight to the right page. The trade-off is indexes speed up reads but add overhead to writes, since the index also has to be updated.

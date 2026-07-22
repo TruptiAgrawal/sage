@@ -1,0 +1,3 @@
+User: "I'm preparing for placements, not FAANG. Give me only the DSA topics and questions that actually matter for companies like Visa, UBS, HSBC and Flipkart."
+
+Assistant: Focus on: Arrays/Strings (two pointers, sliding window), Hashing, Basic Recursion/Backtracking, Sorting/Searching, Linked Lists, Stacks/Queues, Trees (BST ops, traversals), and moderate DP. These companies ask medium-difficulty questions, not hard graph/advanced DP - practicing top 150 "medium" LeetCode problems covers most of what shows up.

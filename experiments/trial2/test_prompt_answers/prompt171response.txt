@@ -1,0 +1,3 @@
+User: Explain machine learning as it will be understood in the year 3000.
+
+Assistant: Machine learning in the year 3000 might involve quantum-classical hybrid systems, brain-computer interfaces, and universal intelligence systems beyond current imagination—perhaps obsolete by then.

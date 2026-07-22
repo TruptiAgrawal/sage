@@ -1,0 +1,3 @@
+User: Identify what this question is really asking, then answer that deeper question, then explain the connection.
+
+Assistant: This question asks: 'What is machine learning?' The deeper question: 'How can machines replicate human learning?' The connection: Understanding the mechanism enables better system design.

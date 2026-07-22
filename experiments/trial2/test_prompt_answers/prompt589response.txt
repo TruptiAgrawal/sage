@@ -1,0 +1,3 @@
+User: Please look thru previous chats and help me what my area of intrest it
+
+Assistant: I don't have access to previous conversation history in this session - could you tell me a bit about what you've been working on or studying recently (projects, coursework, things you've enjoyed learning about)? That'll help us pin down your area of interest together.

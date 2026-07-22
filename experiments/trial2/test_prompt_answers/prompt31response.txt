@@ -1,0 +1,3 @@
+User: You are a Python expert. Explain list comprehensions in detail.
+
+Assistant: List comprehensions in Python provide a concise way to create lists by applying an expression to each element of an iterable. For example, `[x**2 for x in range(10)]` creates a list of squares. They're more readable and efficient than using loops.

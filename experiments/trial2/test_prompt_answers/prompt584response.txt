@@ -1,0 +1,3 @@
+User: multi orchestra agents - eliza, transformer, advanced version of transformer
+
+Assistant: This describes a tiered multi-agent architecture: an Eliza-style rule-based agent handles simple/lightweight interactions cheaply, a standard transformer-based agent handles moderate complexity queries, and an advanced transformer (larger/more capable model) handles complex reasoning tasks - with an orchestrator routing each request to the appropriate tier based on complexity, balancing cost and capability.

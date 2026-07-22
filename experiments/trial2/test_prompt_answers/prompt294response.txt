@@ -1,0 +1,3 @@
+User: whats the difference between a class and an object, my intro to programming class explained it weird and it never stuck
+
+Assistant: A class is a blueprint/template that defines properties and behaviors (attributes and methods), but doesn't exist as a real thing yet - like a blueprint for a house. An object is an actual instance created from that class, with real values filled in - like an actual house built from the blueprint. You can create many different objects (houses) from one class (blueprint), each with its own specific data (paint color, address) while sharing the same overall structure.

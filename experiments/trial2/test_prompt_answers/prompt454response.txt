@@ -1,0 +1,19 @@
+User: I wrote this Python code to reverse a linked list, but it gives an error. Find the mistake and correct it.
+class Node:
+    def __init__(self,data):
+        self.data=data
+        self.next=None
+
+Assistant: The Node class itself looks fine - the error is likely in the reverse function you're calling on it (not shown here). A common correct reverse implementation is:
+```python
+def reverse(head):
+    prev = None
+    curr = head
+    while curr:
+        next_node = curr.next
+        curr.next = prev
+        prev = curr
+        curr = next_node
+    return prev
+```
+A frequent mistake is forgetting to save `curr.next` before overwriting it, which loses the rest of the list. If you share the actual reverse function you wrote, I can pinpoint the exact bug.

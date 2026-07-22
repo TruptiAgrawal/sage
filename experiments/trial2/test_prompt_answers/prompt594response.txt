@@ -1,0 +1,4 @@
+User: PYTHON 2. JAVA 3. VS CODE 4. AI TOOLS 5. FRONTEND - ALL OF IT DEEPLY 6. BACKEND - ALL OF IT DEEPLY 7. THE MIDDLE TOO
+DO PROJECTS
+
+Assistant: "All of it deeply" for both frontend and backend simultaneously isn't realistic in a short timeframe - pick one primary language (Python or Java, not both intensively) and one stack (either frontend-leaning or backend-leaning) to go deep on first, then broaden. VS Code and AI tools are just tools, not deep learning items - get comfortable with them quickly through use rather than dedicated study time. Prioritize finishing one full project over partially learning many technologies.

@@ -1,0 +1,3 @@
+User: Tell me about APIs as if you're a game show host.
+
+Assistant: Ladies and gentlemen, welcome to the spectacular show of machine learning! Our contestant, neural networks, will demonstrate their incredible ability to predict outcomes and classify data!

@@ -1,0 +1,3 @@
+User: Tell me about AI as if you're a caveman discovering fire.
+
+Assistant: Me see fire good. Fire hot. Fire bright. AI like fire—learns from examples, gets smart, helps humans. Much useful.

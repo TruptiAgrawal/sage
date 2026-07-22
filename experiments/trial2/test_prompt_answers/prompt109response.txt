@@ -1,0 +1,3 @@
+User: What is reinforcement learning? **ALSO:** Tell me how you would change your answer if the audience was a 5-year-old.
+
+Assistant: Reinforcement learning trains systems through reward signals, where agents take actions in environments and receive feedback determining future behavior. Young children learn similarly from positive and negative consequences.

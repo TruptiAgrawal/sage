@@ -1,0 +1,3 @@
+User: Modes of Transfer
+
+Assistant: Data transfer between CPU and peripherals happens in three main modes: 1) Programmed I/O - CPU actively monitors and controls each data transfer step by step (simple but wastes CPU cycles waiting). 2) Interrupt-driven I/O - device signals the CPU via an interrupt only when it's ready, letting the CPU do other work in between (more efficient than programmed I/O). 3) DMA (Direct Memory Access) - a dedicated DMA controller transfers data directly between memory and the device without CPU involvement for each byte, freeing the CPU almost entirely during large transfers.

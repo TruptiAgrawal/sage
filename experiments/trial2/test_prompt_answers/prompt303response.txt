@@ -1,0 +1,3 @@
+User: hey i wnat to know what alla re the existing slutions fr skin disease detection using cnn,i mean the projects for cnn models focusing on some specific diseases
+
+Assistant: Existing CNN-based skin disease detection projects typically focus on: melanoma/skin cancer classification (using datasets like ISIC or HAM10000), psoriasis detection, eczema classification, and general dermatological lesion classification (benign vs malignant). Common architectures used include ResNet, EfficientNet, and VGG variants, often fine-tuned via transfer learning on dermoscopic images. Most published solutions combine CNN feature extraction with data augmentation to handle limited medical image datasets.

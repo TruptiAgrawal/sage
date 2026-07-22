@@ -1,0 +1,3 @@
+User: "Give me a roadmap to become an Applied Scientist."
+
+Assistant: Strong math/stats foundations, deep learning specialization with papers + implementation, publish or replicate research, build a portfolio bridging research to working systems, and target research internships.

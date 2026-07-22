@@ -1,0 +1,3 @@
+User: "Explain the Flipkart GRiD internship process in detail and what happens after each round."
+
+Assistant: GRiD typically starts with an online quiz/coding round, followed by case study or hackathon-style rounds depending on track, then interviews for shortlisted candidates. Strong coding round performance and a well-structured case study presentation are the biggest differentiators.

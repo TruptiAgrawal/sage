@@ -1,0 +1,3 @@
+User: Heyyyyy explain the working of a p-n junction diode with a neat diagram and simple language.
+
+Assistant: A p-n junction diode is formed by joining p-type (extra positive charge carriers/holes) and n-type (extra electrons) semiconductor material. At the junction, electrons and holes combine, creating a "depletion region" with no free charge carriers, which acts as a barrier. Forward bias (positive to p-side, negative to n-side) shrinks this barrier and lets current flow easily. Reverse bias (opposite polarity) widens the barrier and blocks current flow. This one-way current behavior is why diodes are used for rectification (converting AC to DC). I can't draw a diagram here, but picture two blocks joined in the middle with a thin depletion zone between them.
