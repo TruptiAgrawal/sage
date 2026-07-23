@@ -1,20 +1,69 @@
 # SAGE — Smart Advisor for Generative modEls
 
-Predicting LLM token usage and response quality from prompt features, and
-estimating the token/cost/quality tradeoff across models for a given prompt.
+Predicting LLM token usage and response quality from prompt features.
 
-Goal, for any input prompt:
+## Problem Statement
 
-| Model  | Input Tok | Output Tok | Cost  | Quality   |
-| ------ | --------- | ---------- | ----- | --------- |
-| Claude | 1800      | 300        | $0.60 | Average   |
-| llama3 | 1900      | 350        | $2.50 | Good      |
-| Groq   | 2000      | 420        | $5.60 | Excellent |
+Writing effective prompts for Large Language Models (LLMs) is challenging. Users have no way to predict token usage, cost, or response quality before submitting a prompt, leading to wasted resources and suboptimal results. There is no feedback mechanism to help users improve their prompt-writing skills or optimize costs proactively.
 
-## Pipeline
+## What SAGE Does
 
-Each phase reads the previous phase's output and writes its own; earlier
-files are never modified in place.
+- **Predicts performance metrics** before API calls: input tokens, output tokens, cost, and quality (1-10 scale)
+- **Trains on real data**: 1000 annotated prompts with actual token counts, costs, and quality ratings (80/20 train-test split)
+- **Provides instant feedback**: Helps users refine prompts to improve quality and reduce costs without trial-and-error
+- **Validates accuracy**: Model performance measured on held-out test data using MAE, RMSE, and F1 score
+- **Accessible via CLI**: Command-line interface for quick prompt analysis; browser extension planned
+
+**Key Value:** Optimize prompts and control costs before making API calls, not after.
+
+## How It Works
+
+SAGE uses machine learning to predict LLM performance metrics from prompt features.
+
+### Pipeline
+
+1. **Data Collection**: 1000 prompts with actual token counts, costs, and quality ratings
+2. **Feature Engineering**: Extract structural and semantic features from prompts
+   - Length, complexity, code/JSON/markdown detection
+   - Semantic indicators: reasoning, creative, factual, tool-use
+3. **Training**: 80/20 train-test split using RandomForest, CatBoost, and LightGBM
+4. **Prediction**: Given a new prompt, predict:
+   - Input tokens
+   - Output tokens
+   - Cost (based on model pricing)
+   - Quality (1-10 scale)
+5. **Validation**: Held-out test set ensures model reliability
+
+### Model Performance
+
+Evaluated on test data using:
+- **Token Prediction**: MAE, RMSE, R²
+- **Quality Prediction**: Accuracy, F1 score, confusion matrix
+
+Results saved in `results/{model_family}/` as JSON.
+
+## Dataset
+
+Located in `dataset/raw_datasets/`, the dataset contains 1000 prompts with:
+
+| Column | Description |
+|--------|-------------|
+| Model Name | LLM used (e.g., claude-opus-4-8) |
+| Prompt | The input text |
+| Input Tokens | Actual token count of the prompt |
+| Output Tokens | Actual token count of the response |
+| Cost | API cost for this prompt-response pair |
+| Quality Category | Rating (1-10 scale) based on response quality |
+
+**Split:**
+- Training: 80% (800 prompts)
+- Testing: 20% (200 prompts)
+
+Quality is determined by analyzing input/output token distribution and response characteristics.
+
+## Technical Pipeline Details
+
+Each phase reads the previous phase's output and writes its own; earlier files are never modified in place.
 
 1. **Raw data** — `dataset/raw_datasets/dataset{1..6}.csv`, one file per
    model: `Model Name, Prompt, Input Tokens, Output Tokens, Quality, Feedback`.
@@ -59,6 +108,44 @@ Each training script writes its held-out metrics to
 accuracy/macro-F1/classification report/confusion matrix for the quality
 predictor) so the model families can be compared without re-running
 training.
+
+## Usage
+
+```bash
+# Predict tokens, cost, and quality for a prompt
+uv run python predict.py "Explain quantum computing in simple terms"
+
+# Output example:
+# Model: claude-3-5-sonnet
+# Input Tokens: 7
+# Output Tokens: 120 (predicted)
+# Cost: $0.0021
+# Quality: 8/10
+```
+
+Use `--backend catboost` or `--backend lightgbm` to choose the model.
+
+## Model Evaluation
+
+After training, the model is evaluated on 200 held-out test prompts. Metrics are saved in `results/`:
+
+**Token Predictor:**
+- MAE (Mean Absolute Error): Average prediction error
+- RMSE: Root mean squared error
+- R²: Proportion of variance explained
+
+**Quality Predictor:**
+- Accuracy: Percentage of correct predictions
+- F1 Score: Balance between precision and recall
+- Confusion Matrix: Shows prediction patterns
+
+View metrics:
+```bash
+cat results/catboost/token_predictor.json
+cat results/catboost/quality_predictor.json
+```
+
+## Running the Pipeline
 
 Dependencies are managed with [uv](https://github.com/astral-sh/uv) via the
 root `pyproject.toml`/`uv.lock`; `uv run python ...` picks up the project's
