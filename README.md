@@ -12,9 +12,73 @@ Writing effective prompts for Large Language Models (LLMs) is challenging. Users
 - **Trains on real data**: 1000 annotated prompts with actual token counts, costs, and quality ratings (80/20 train-test split)
 - **Provides instant feedback**: Helps users refine prompts to improve quality and reduce costs without trial-and-error
 - **Validates accuracy**: Model performance measured on held-out test data using MAE, RMSE, and F1 score
-- **Accessible via CLI**: Command-line interface for quick prompt analysis; browser extension planned
+- **Accessible via CLI and Browser Extension**: Predict directly from the terminal or from any supported LLM web UI
 
 **Key Value:** Optimize prompts and control costs before making API calls, not after.
+
+---
+
+## Browser Extension (Recommended)
+
+SAGE ships with a Chrome extension that shows a live prediction panel beside the prompt box on ChatGPT, Claude, Gemini, and Perplexity — no copy-pasting required.
+
+### Quick Start (one command)
+
+```bash
+git clone https://github.com/saikeerthanakavuri/sage.git
+cd sage
+bash browser-extension/setup.sh
+```
+
+That single command:
+1. Installs `uv` (Python package manager) if not already present
+2. Installs all Python dependencies
+3. Prints exactly where to point Chrome's **Load unpacked**
+4. Starts the prediction server on `http://localhost:5050`
+
+### Load the extension in Chrome
+
+After running the setup command, follow the printed instructions:
+
+1. Open Chrome → go to `chrome://extensions/`
+2. Enable **Developer mode** (toggle, top-right)
+3. Click **Load unpacked**
+4. Select the folder: `browser-extension/extension/`
+5. The ⚡ SAGE icon appears in your toolbar
+
+> The extension only needs to be loaded once. Every subsequent session just run `bash browser-extension/setup.sh` to start the server.
+
+### How the extension works
+
+| Moment | What SAGE shows |
+|--------|----------------|
+| While typing | **PREDICTING** — ML estimate of tokens/cost/quality before you send |
+| After pressing Enter | **WAITING** — watching for the LLM to finish |
+| LLM response done | **ACTUAL** — real token count read from the page + cost + quality |
+
+- Click the ⚡ icon to **open/close** the panel
+- **Drag** the panel header to move it anywhere on screen
+- Low-quality prompts show a 💡 tip explaining why and how to improve
+
+### Supported sites
+
+| Site | Detected as |
+|------|-------------|
+| chatgpt.com | GPT-4o |
+| claude.ai | Claude |
+| gemini.google.com | Gemini |
+| perplexity.ai | Perplexity AI |
+
+### Quality score (1-10)
+
+| Label | Score |
+|-------|-------|
+| Bad | 2 |
+| Average | 5 |
+| Good | 7 |
+| Excellent | 9 |
+
+---
 
 ## How It Works
 
@@ -177,16 +241,26 @@ uv run python predict.py "your prompt here"
 ## Layout
 
 ```
+browser-extension/  Chrome extension + FastAPI prediction server
+  setup.sh          one-command setup: installs deps, starts server, prints load instructions
+  server/
+    server.py       FastAPI server — loads CatBoost models, exposes /predict and /analyze
+  extension/
+    manifest.json   Chrome Manifest v3
+    content.js      injected into LLM pages — panel, predictions, drag support
+    panel.css       floating panel styles
+    background.js   relays toolbar icon click to content script
+    icons/          16×48×128 PNG icons
 dataset/            pipeline scripts + data at each phase (raw_datasets -> cleaned -> merged)
 models/             trained model artifacts (RandomForest .joblib, CatBoost .cbm, LightGBM .txt) + per-family training scripts
 results/            held-out eval metrics (MAE/RMSE/R2, accuracy/F1), one subdir per model family (rf/, catboost/, lightgbm/), JSON per task
-predict.py           CLI: prompt in -> tokens/cost/quality table out, per trained model
+predict.py          CLI: prompt in -> tokens/cost/quality table out, per trained model
 script.sh           runs the full pipeline end-to-end (see above)
-pyproject.toml      project deps for uv (catboost, lightgbm, numpy, pandas, scikit-learn, joblib)
+pyproject.toml      project deps for uv (catboost, lightgbm, fastapi, uvicorn, numpy, pandas, scikit-learn, joblib)
 prompts/            held-out prompt lists used to generate/test data
 experiments/trial1/ early static token-counting + pricing prototype (superseded, own pyproject.toml/requirements.txt)
 experiments/trial2/ agent-loop token tracer + response/chat analysis prototype (superseded, own requirements.txt)
 ```
 
 `experiments/` holds earlier prototypes kept for reference; the active
-pipeline is `dataset/` + `models/` + `predict.py`.
+pipeline is `dataset/` + `models/` + `predict.py` + `browser-extension/`.
