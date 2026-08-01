@@ -1,0 +1,54 @@
+{
+  "model_type": "random_forest",
+  "task": "token_predictor",
+  "scope": "dataset6.csv (claude-opus-4-8 only)",
+  "timestamp": "2026-07-23T05:57:38.425521+00:00",
+  "train_rows": 500,
+  "test_rows": 125,
+  "metrics": {
+    "input_tokens": {
+      "mae": 1.6874371524771523,
+      "rmse": 5.765232723706491,
+      "r2": 0.7902023563847524
+    },
+    "output_tokens": {
+      "mae": 30.585781971139976,
+      "rmse": 48.43989007052617,
+      "r2": -0.12823285656588057
+    }
+  },
+  "top_features": [
+    {
+      "name": "char_count",
+      "importance": 0.49000857002345233
+    },
+    {
+      "name": "avg_word_length",
+      "importance": 0.20550290885632327
+    },
+    {
+      "name": "word_count",
+      "importance": 0.12862785572627985
+    },
+    {
+      "name": "unique_words",
+      "importance": 0.07752336797760198
+    },
+    {
+      "name": "sentence_count",
+      "importance": 0.030720939951455098
+    },
+    {
+      "name": "reasoning_prompt",
+      "importance": 0.028893825499322158
+    },
+    {
+      "name": "creative_prompt",
+      "importance": 0.026602974286884653
+    },
+    {
+      "name": "prompt_depth",
+      "importance": 0.011442052215711042
+    }
+  ]
+}

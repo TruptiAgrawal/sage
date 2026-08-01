@@ -1,0 +1,101 @@
+{
+  "model_type": "random_forest",
+  "task": "quality_predictor",
+  "scope": "dataset6.csv (claude-opus-4-8 only)",
+  "timestamp": "2026-07-23T05:57:39.536958+00:00",
+  "train_rows": 500,
+  "test_rows": 125,
+  "accuracy": 0.472,
+  "macro_f1": 0.3577611019471485,
+  "classification_report": {
+    "Bad": {
+      "precision": 0.06666666666666667,
+      "recall": 0.16666666666666666,
+      "f1-score": 0.09523809523809523,
+      "support": 6.0
+    },
+    "Average": {
+      "precision": 0.6349206349206349,
+      "recall": 0.5,
+      "f1-score": 0.5594405594405595,
+      "support": 80.0
+    },
+    "Good": {
+      "precision": 0.3829787234042553,
+      "recall": 0.46153846153846156,
+      "f1-score": 0.4186046511627907,
+      "support": 39.0
+    },
+    "accuracy": 0.472,
+    "macro avg": {
+      "precision": 0.361522008330519,
+      "recall": 0.37606837606837606,
+      "f1-score": 0.3577611019471485,
+      "support": 125.0
+    },
+    "weighted avg": {
+      "precision": 0.529038568051334,
+      "recall": 0.472,
+      "f1-score": 0.4932180377761773,
+      "support": 125.0
+    }
+  },
+  "confusion_matrix": {
+    "labels": [
+      "Bad",
+      "Average",
+      "Good"
+    ],
+    "matrix": [
+      [
+        1,
+        5,
+        0
+      ],
+      [
+        11,
+        40,
+        29
+      ],
+      [
+        3,
+        18,
+        18
+      ]
+    ]
+  },
+  "top_features": [
+    {
+      "name": "char_count",
+      "importance": 0.24068230223109055
+    },
+    {
+      "name": "avg_word_length",
+      "importance": 0.23008930367574398
+    },
+    {
+      "name": "unique_words",
+      "importance": 0.17258184641979063
+    },
+    {
+      "name": "word_count",
+      "importance": 0.17060648906128237
+    },
+    {
+      "name": "creative_prompt",
+      "importance": 0.09354863895516136
+    },
+    {
+      "name": "reasoning_prompt",
+      "importance": 0.04713043130985764
+    },
+    {
+      "name": "sentence_count",
+      "importance": 0.03075091161146693
+    },
+    {
+      "name": "prompt_depth",
+      "importance": 0.010019148241110772
+    }
+  ]
+}
