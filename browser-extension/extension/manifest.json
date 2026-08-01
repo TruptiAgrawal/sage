@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "SAGE — Prompt Advisor",
-  "version": "3.3.0",
+  "version": "3.4.0",
   "description": "Click the SAGE icon on any LLM page to see predicted tokens, cost and quality beside your prompt box.",
 
   "permissions": ["activeTab", "scripting", "tabs"],

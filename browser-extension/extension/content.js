@@ -12,9 +12,9 @@
 
   const PREDICT_URL = "http://localhost:5050/predict";
   const ANALYZE_URL = "http://localhost:5050/analyze";
-  const DEBOUNCE_MS   = 600;
+  const DEBOUNCE_MS   = 300;   // wait after typing stops before predicting
   const MIN_CHARS     = 10;
-  const STREAM_SETTLE = 1800;
+  const STREAM_SETTLE = 800;   // ms of DOM silence = response done streaming
   const MAX_WAIT_MS   = 90000;
 
   // ── site config ───────────────────────────────────────────────────────────
@@ -384,7 +384,7 @@
       const responseText = getResponseText(site);
       if (!responseText) {
         retries++;
-        if (retries < 3) { setTimeout(() => waitAndAnalyze(site, promptText), 2500); return; }
+        if (retries < 3) { setTimeout(() => waitAndAnalyze(site, promptText), 1000); return; }
         setBody(`<span class="sp-error">Could not read response from page.</span>`);
         setBadge("idle");
         return;
@@ -440,7 +440,7 @@
       const text = getInputText(inputEl);
       if (text.length < MIN_CHARS) return;
       lastPrompt = text;
-      setTimeout(() => waitAndAnalyze(site, lastPrompt), 600);
+      setTimeout(() => waitAndAnalyze(site, lastPrompt), 300);
     }
 
     inputEl.addEventListener("keydown", (e) => {
