@@ -5,11 +5,13 @@ description = "SAGE - Smart Advisor for Generative modEls: predict LLM token usa
 requires-python = ">=3.11"
 dependencies = [
     "catboost>=1.2",
+    "fastapi>=0.115",
     "joblib>=1.5",
     "lightgbm>=4.7",
     "numpy>=2.0",
     "pandas>=2.2",
     "scikit-learn>=1.9",
+    "uvicorn>=0.32",
 ]
 
 [tool.uv]

@@ -1,0 +1,166 @@
+/* =============================================================
+   SAGE panel — injected beside the LLM input box
+   All rules use !important to avoid site style conflicts.
+   ============================================================= */
+
+#sage-panel {
+  all: initial;
+  position: fixed !important;
+  z-index: 2147483647 !important;
+  width: 300px !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+  font-size: 13px !important;
+  background: #1e1e2e !important;
+  border: 1px solid #45475a !important;
+  border-radius: 12px !important;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.55) !important;
+  color: #cdd6f4 !important;
+  overflow: hidden !important;
+  box-sizing: border-box !important;
+  display: none !important;
+}
+
+#sage-panel * {
+  box-sizing: border-box !important;
+  font-family: inherit !important;
+  line-height: normal !important;
+}
+
+/* ── header ── */
+#sage-panel-header {
+  display: flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  padding: 8px 10px !important;
+  background: #181825 !important;
+  border-bottom: 1px solid #313244 !important;
+  user-select: none !important;
+  cursor: move !important;
+}
+
+#sage-panel-title {
+  font-weight: 700 !important;
+  font-size: 13px !important;
+  color: #cba6f7 !important;
+  flex-shrink: 0 !important;
+}
+
+#sage-panel-site {
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  flex-shrink: 0 !important;
+}
+
+/* mode badge */
+.sp-badge {
+  font-size: 9px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.5px !important;
+  padding: 2px 6px !important;
+  border-radius: 4px !important;
+  text-transform: uppercase !important;
+  flex-shrink: 0 !important;
+}
+.sp-badge-idle    { background: #313244 !important; color: #585b70 !important; }
+.sp-badge-predict { background: #1a2a3a !important; color: #89b4fa !important; }
+.sp-badge-waiting { background: #2a2a1e !important; color: #f9e2af !important; }
+.sp-badge-actual  { background: #1e3a2a !important; color: #a6e3a1 !important; }
+
+/* close button */
+#sage-panel-close {
+  all: unset !important;
+  margin-left: auto !important;
+  cursor: pointer !important;
+  color: #585b70 !important;
+  font-size: 18px !important;
+  line-height: 1 !important;
+  flex-shrink: 0 !important;
+}
+#sage-panel-close:hover { color: #f38ba8 !important; }
+
+/* ── body ── */
+#sage-panel-body {
+  padding: 10px !important;
+  min-height: 50px !important;
+}
+
+.sp-hint {
+  display: block !important;
+  color: #6c7086 !important;
+  font-size: 12px !important;
+  font-style: italic !important;
+  text-align: center !important;
+  padding: 8px 0 !important;
+}
+
+.sp-error {
+  display: block !important;
+  color: #f38ba8 !important;
+  font-size: 12px !important;
+  padding: 6px 0 !important;
+  line-height: 1.5 !important;
+  white-space: pre-wrap !important;
+}
+
+/* ── result card ── */
+.sp-card {
+  background: #181825 !important;
+  border: 1px solid #313244 !important;
+  border-radius: 8px !important;
+  padding: 10px !important;
+}
+
+.sp-model {
+  font-weight: 700 !important;
+  color: #cba6f7 !important;
+  font-size: 13px !important;
+  margin-bottom: 8px !important;
+}
+
+.sp-grid {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 6px 8px !important;
+}
+
+.sp-stat  { display: flex !important; flex-direction: column !important; gap: 1px !important; }
+.sp-label { font-size: 10px !important; color: #6c7086 !important; text-transform: uppercase !important; letter-spacing: 0.4px !important; }
+.sp-val   { font-size: 14px !important; font-weight: 700 !important; color: #cdd6f4 !important; }
+
+/* quality bar */
+.sp-qrow   { display: flex !important; align-items: center !important; gap: 8px !important; margin-top: 8px !important; }
+.sp-qtrack { flex: 1 !important; height: 6px !important; background: #313244 !important; border-radius: 3px !important; overflow: hidden !important; }
+.sp-qfill  { height: 100% !important; border-radius: 3px !important; transition: width 0.4s ease !important; }
+.sp-qtext  { font-size: 12px !important; font-weight: 700 !important; color: #cdd6f4 !important; white-space: nowrap !important; min-width: 40px !important; }
+
+.sp-note {
+  font-size: 10px !important;
+  color: #45475a !important;
+  margin-top: 6px !important;
+  text-align: right !important;
+  font-style: italic !important;
+}
+
+/* ── quality tip ── */
+.sp-tip {
+  display: flex !important;
+  gap: 6px !important;
+  align-items: flex-start !important;
+  margin-top: 8px !important;
+  background: #2a2a1e !important;
+  border: 1px solid #3a3a20 !important;
+  border-radius: 6px !important;
+  padding: 7px 8px !important;
+}
+
+.sp-tip-icon {
+  font-size: 13px !important;
+  flex-shrink: 0 !important;
+  line-height: 1.4 !important;
+}
+
+.sp-tip span:last-child {
+  font-size: 11px !important;
+  color: #f9e2af !important;
+  line-height: 1.5 !important;
+}
