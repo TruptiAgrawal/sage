@@ -29,6 +29,7 @@ RESULTS_PATH = REPO_ROOT / "results" / "catboost" / "quality_predictor.json"
 NUMERIC_FEATURES = [
     "char_count", "word_count", "line_count", "sentence_count",
     "unique_words", "avg_word_length", "prompt_depth",
+    "prompt_complexity_score",
 ]
 BOOL_FEATURES = [
     "has_code", "has_json", "has_markdown", "has_math", "has_xml",
@@ -42,9 +43,9 @@ CLASS_ORDER = ["Bad", "Average", "Good", "Excellent"]
 
 def build_model() -> CatBoostClassifier:
     return CatBoostClassifier(
-        iterations=500,
+        iterations=800,
         depth=6,
-        learning_rate=0.05,
+        learning_rate=0.03,
         loss_function="MultiClass",
         auto_class_weights="Balanced",
         random_seed=42,

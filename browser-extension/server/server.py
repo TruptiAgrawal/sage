@@ -47,6 +47,7 @@ NUMERIC_FEATURES = [
     "unique_words",
     "avg_word_length",
     "prompt_depth",
+    "prompt_complexity_score",
 ]
 BOOL_FEATURES = [
     "has_code",
@@ -69,6 +70,19 @@ PRICING = {
     "Groq-llama-3.3-70b-versatile": {"input": 0.59,  "output": 0.79},
     "DeepSeek V4 Flash":            {"input": 0.14,  "output": 0.28},
     "deepseek-reasoner":            {"input": 0.55,  "output": 2.19},
+    "ChatGPT GPT-5.5":              {"input": 2.50,  "output": 10.00},
+    "Perplexity":                   {"input": 0.20,  "output": 0.20},
+    # Gemini variants — edit to match current Google AI Studio / Vertex rates
+    "gemini-1.5-flash":             {"input": 0.075, "output": 0.30},
+    "gemini-1.5-pro":               {"input": 1.25,  "output": 5.00},
+    "gemini-2.0-flash":             {"input": 0.10,  "output": 0.40},
+    "gemini-2.0-pro":               {"input": 1.25,  "output": 5.00},
+    "gemini-2.5-flash":             {"input": 0.15,  "output": 0.60},
+    "gemini-2.5-pro":               {"input": 1.25,  "output": 10.00},
+    "gemini-3.1-pro":               {"input": 1.25,  "output": 5.00},
+    "gemini-3.5-flash":             {"input": 0.15,  "output": 0.60},
+    "gemini-3.5-pro":               {"input": 1.25,  "output": 5.00},
+    "gemini-3.6-flash":             {"input": 0.15,  "output": 0.60},
 }
 
 # ---------------------------------------------------------------------------
@@ -95,10 +109,18 @@ _output_model.load_model(str(CATBOOST_DIR / "token_predictor_output_tokens.cbm")
 _quality_model = CatBoostClassifier()
 _quality_model.load_model(str(CATBOOST_DIR / "quality_predictor.cbm"))
 
-# Derive the model list from the quality classifier's training classes so we
-# never hard-code it here and it stays in sync with whatever was trained.
-_TRAINED_MODELS: list[str] = list(PRICING.keys())
+# Check whether token models were trained with log1p transform
+_LOG_TRANSFORM = False
+_meta_path = CATBOOST_DIR / "token_predictor_meta.json"
+if _meta_path.exists():
+    import json as _json
+    _LOG_TRANSFORM = _json.loads(_meta_path.read_text()).get("log_transform", False)
+
+# Derive the model list from the quality classifier's actual training classes
+# so we never silently drop models that exist in the model but not in PRICING.
+_TRAINED_MODELS: list[str] = list(_quality_model.classes_)
 print(f"Models available: {_TRAINED_MODELS}", flush=True)
+print(f"Log-transform active: {_LOG_TRANSFORM}", flush=True)
 print("Server ready.", flush=True)
 
 # ---------------------------------------------------------------------------
@@ -198,6 +220,11 @@ def predict(req: PredictRequest) -> PredictResponse:
 
     input_preds  = np.clip(_input_model.predict(X),  a_min=0, a_max=None)
     output_preds = np.clip(_output_model.predict(X), a_min=0, a_max=None)
+
+    if _LOG_TRANSFORM:
+        input_preds  = np.clip(np.expm1(input_preds),  a_min=0, a_max=None)
+        output_preds = np.clip(np.expm1(output_preds), a_min=0, a_max=None)
+
     quality_preds = _quality_model.predict(X).ravel()
 
     predictions: list[ModelPrediction] = []

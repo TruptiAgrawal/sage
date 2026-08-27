@@ -30,6 +30,7 @@ RESULTS_PATH = REPO_ROOT / "results" / "catboost" / "token_predictor.json"
 NUMERIC_FEATURES = [
     "char_count", "word_count", "line_count", "sentence_count",
     "unique_words", "avg_word_length", "prompt_depth",
+    "prompt_complexity_score",
 ]
 BOOL_FEATURES = [
     "has_code", "has_json", "has_markdown", "has_math", "has_xml",
@@ -42,9 +43,9 @@ TARGETS = ["input_tokens", "output_tokens"]
 
 def build_model() -> CatBoostRegressor:
     return CatBoostRegressor(
-        iterations=500,
+        iterations=800,
         depth=6,
-        learning_rate=0.05,
+        learning_rate=0.03,
         loss_function="RMSE",
         random_seed=42,
         cat_features=CATEGORICAL_FEATURES,
@@ -64,6 +65,10 @@ def main():
         X, y, test_size=0.2, random_state=42, stratify=df["model"]
     )
 
+    # Log-transform token targets: counts are right-skewed (max 4096 vs median ~79).
+    # Train on log1p(y), then expm1 predictions back to token space for metrics.
+    y_train_log = np.log1p(y_train)
+
     print(f"Train rows: {len(X_train)}  Test rows: {len(X_test)}\n")
     print(f"{'Target':<15}{'MAE':>10}{'RMSE':>10}{'R2':>10}")
 
@@ -72,8 +77,10 @@ def main():
     metrics = {}
     for target in TARGETS:
         model = build_model()
-        model.fit(X_train, y_train[target])
-        preds = np.clip(model.predict(X_test), a_min=0, a_max=None)
+        model.fit(X_train, y_train_log[target])
+        # predict in log space, invert back
+        preds_log = model.predict(X_test)
+        preds = np.clip(np.expm1(preds_log), a_min=0, a_max=None)
 
         mae = mean_absolute_error(y_test[target], preds)
         rmse = root_mean_squared_error(y_test[target], preds)
@@ -92,6 +99,12 @@ def main():
         print(f"  {name:<35}{imp:.2f}")
 
     print(f"\nSaved models to {MODEL_DIR}/token_predictor_<target>.cbm")
+
+    # Save a small metadata file so predict.py knows to invert log-transform
+    import json as _json
+    (MODEL_DIR / "token_predictor_meta.json").write_text(
+        _json.dumps({"log_transform": True})
+    )
 
     RESULTS_PATH.parent.mkdir(exist_ok=True)
     RESULTS_PATH.write_text(json.dumps({

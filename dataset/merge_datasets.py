@@ -30,11 +30,15 @@ SOURCE_FILES = [
     "dataset4_features.csv",
     "dataset5_features.csv",
     "dataset6_features.csv",
+    "dataset7_features.csv",
+    "dataset8_features.csv",
+    "dataset9_features.csv",
 ]
 
 FEATURE_FIELDS = [
     "char_count", "word_count", "line_count", "sentence_count",
     "unique_words", "avg_word_length", "prompt_depth",
+    "prompt_complexity_score",
     "has_code", "has_json", "has_markdown", "has_math", "has_xml",
     "reasoning_prompt", "creative_prompt", "tool_usage_prompt", "rag_prompt",
 ]

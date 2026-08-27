@@ -39,6 +39,7 @@ EXCLUDED_MODELS = {"llama3", "opencode/big-pickle"}
 FEATURE_FIELDS = [
     "char_count", "word_count", "line_count", "sentence_count",
     "unique_words", "avg_word_length", "prompt_depth",
+    "prompt_complexity_score",
     "has_code", "has_json", "has_markdown", "has_math", "has_xml",
     "reasoning_prompt", "creative_prompt", "tool_usage_prompt", "rag_prompt",
 ]

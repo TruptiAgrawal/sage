@@ -1,48 +1,48 @@
 {
   "model_type": "random_forest",
   "task": "quality_predictor",
-  "timestamp": "2026-07-22T21:08:48.890636+00:00",
-  "train_rows": 991,
-  "test_rows": 248,
-  "accuracy": 0.6330645161290323,
-  "macro_f1": 0.6351724795121021,
+  "timestamp": "2026-08-27T04:06:22.821661+00:00",
+  "train_rows": 1431,
+  "test_rows": 358,
+  "accuracy": 0.6033519553072626,
+  "macro_f1": 0.6056977545378807,
   "classification_report": {
     "Bad": {
-      "precision": 0.5423728813559322,
-      "recall": 0.8,
-      "f1-score": 0.6464646464646465,
-      "support": 40.0
+      "precision": 0.5606060606060606,
+      "recall": 0.74,
+      "f1-score": 0.6379310344827587,
+      "support": 50.0
     },
     "Average": {
-      "precision": 0.7211538461538461,
-      "recall": 0.6944444444444444,
-      "f1-score": 0.7075471698113207,
-      "support": 108.0
+      "precision": 0.5232558139534884,
+      "recall": 0.42857142857142855,
+      "f1-score": 0.4712041884816754,
+      "support": 105.0
     },
     "Good": {
-      "precision": 0.5961538461538461,
-      "recall": 0.3875,
-      "f1-score": 0.4696969696969697,
-      "support": 80.0
+      "precision": 0.6764705882352942,
+      "recall": 0.5948275862068966,
+      "f1-score": 0.6330275229357798,
+      "support": 116.0
     },
     "Excellent": {
-      "precision": 0.5757575757575758,
-      "recall": 0.95,
-      "f1-score": 0.7169811320754716,
-      "support": 20.0
+      "precision": 0.625,
+      "recall": 0.7471264367816092,
+      "f1-score": 0.680628272251309,
+      "support": 87.0
     },
-    "accuracy": 0.6330645161290323,
+    "accuracy": 0.6033519553072626,
     "macro avg": {
-      "precision": 0.6088595373553001,
-      "recall": 0.7079861111111111,
-      "f1-score": 0.6351724795121021,
-      "support": 248.0
+      "precision": 0.5963331156987108,
+      "recall": 0.6276313628899836,
+      "f1-score": 0.6056977545378807,
+      "support": 358.0
     },
     "weighted avg": {
-      "precision": 0.6402701203480318,
-      "recall": 0.6330645161290323,
-      "f1-score": 0.6217300823204658,
-      "support": 248.0
+      "precision": 0.6028428819293672,
+      "recall": 0.6033519553072626,
+      "f1-score": 0.5978179996120899,
+      "support": 358.0
     }
   },
   "confusion_matrix": {
@@ -54,63 +54,63 @@
     ],
     "matrix": [
       [
-        32,
-        6,
-        2,
-        0
-      ],
-      [
-        13,
-        75,
-        19,
+        37,
+        5,
+        7,
         1
       ],
       [
-        14,
-        22,
-        31,
-        13
+        16,
+        45,
+        17,
+        27
+      ],
+      [
+        13,
+        23,
+        69,
+        11
       ],
       [
         0,
-        1,
-        0,
-        19
+        13,
+        9,
+        65
       ]
     ]
   },
   "top_features": [
     {
       "name": "char_count",
-      "importance": 0.15422529959226425
+      "importance": 0.1322145158816199
     },
     {
-      "name": "model_claude-opus-4-8",
-      "importance": 0.15109297585963624
+      "name": "prompt_complexity_score",
+      "importance": 0.1139716138658726
     },
     {
       "name": "model_Groq-llama-3.3-70b-versatile",
-      "importance": 0.1368905760278201
+      "importance": 0.10652664734885606
     },
     {
-      "name": "word_count",
-      "importance": 0.11305008827853273
+      "name": "model_claude-opus-4-8",
+      "importance": 0.1050607821062175
     },
     {
       "name": "avg_word_length",
-      "importance": 0.10492078785293452
+      "importance": 0.0992880992138029
+    },
+    {
+      "name": "word_count",
+      "importance": 0.0943801178366378
     },
     {
       "name": "unique_words",
-      "importance": 0.09646404137732019
+      "importance": 0.09374808037684959
     },
     {
-      "name": "model_DeepSeek V4 Flash",
-      "importance": 0.0758487333193242
-    },
-    {
-      "name": "model_deepseek-reasoner",
-      "importance": 0.07164882585378692
+      "name": "model_ChatGPT GPT-5.5",
+      "importance": 0.05366009350394891
     }
   ]
 }

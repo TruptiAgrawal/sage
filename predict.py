@@ -35,6 +35,7 @@ NUMERIC_FEATURES = [
     "unique_words",
     "avg_word_length",
     "prompt_depth",
+    "prompt_complexity_score",
 ]
 BOOL_FEATURES = [
     "has_code",
@@ -57,6 +58,19 @@ PRICING = {
     "Groq-llama-3.3-70b-versatile": {"input": 0.59, "output": 0.79},
     "DeepSeek V4 Flash": {"input": 0.14, "output": 0.28},
     "deepseek-reasoner": {"input": 0.55, "output": 2.19},
+    "ChatGPT GPT-5.5": {"input": 2.50, "output": 10.00},
+    "Perplexity": {"input": 0.20, "output": 0.20},
+    # Gemini variants — edit to match current Google AI Studio / Vertex rates
+    "gemini-1.5-flash":  {"input": 0.075, "output": 0.30},
+    "gemini-1.5-pro":    {"input": 1.25,  "output": 5.00},
+    "gemini-2.0-flash":  {"input": 0.10,  "output": 0.40},
+    "gemini-2.0-pro":    {"input": 1.25,  "output": 5.00},
+    "gemini-2.5-flash":  {"input": 0.15,  "output": 0.60},
+    "gemini-2.5-pro":    {"input": 1.25,  "output": 10.00},
+    "gemini-3.1-pro":    {"input": 1.25,  "output": 5.00},
+    "gemini-3.5-flash":  {"input": 0.15,  "output": 0.60},
+    "gemini-3.5-pro":    {"input": 1.25,  "output": 5.00},
+    "gemini-3.6-flash":  {"input": 0.15,  "output": 0.60},
 }
 
 
@@ -107,8 +121,19 @@ def predict_catboost(prompt_row: dict, models: list) -> tuple:
         ["model"] + FEATURE_ORDER
     ]
 
-    input_preds = np.clip(input_model.predict(X), a_min=0, a_max=None)
+    input_preds  = np.clip(input_model.predict(X),  a_min=0, a_max=None)
     output_preds = np.clip(output_model.predict(X), a_min=0, a_max=None)
+
+    # Invert log1p transform if the model was trained in log space
+    meta_path = CATBOOST_DIR / "token_predictor_meta.json"
+    if meta_path.exists():
+        import json
+        if json.loads(meta_path.read_text()).get("log_transform"):
+            input_preds  = np.expm1(input_preds)
+            output_preds = np.expm1(output_preds)
+            input_preds  = np.clip(input_preds,  a_min=0, a_max=None)
+            output_preds = np.clip(output_preds, a_min=0, a_max=None)
+
     quality_preds = quality_model.predict(X).ravel()
 
     tokens = {
@@ -140,8 +165,18 @@ def predict_lightgbm(prompt_row: dict, models: list) -> tuple:
     ]
     X["model"] = X["model"].astype("category")
 
-    input_preds = np.clip(input_model.predict(X), a_min=0, a_max=None)
+    input_preds  = np.clip(input_model.predict(X),  a_min=0, a_max=None)
     output_preds = np.clip(output_model.predict(X), a_min=0, a_max=None)
+
+    # Invert log1p transform if models were trained in log space
+    meta_path = LIGHTGBM_DIR / "token_predictor_meta.json"
+    if meta_path.exists():
+        if json.loads(meta_path.read_text()).get("log_transform"):
+            input_preds  = np.expm1(input_preds)
+            output_preds = np.expm1(output_preds)
+            input_preds  = np.clip(input_preds,  a_min=0, a_max=None)
+            output_preds = np.clip(output_preds, a_min=0, a_max=None)
+
     quality_probs = quality_model.predict(X)
     quality_preds = [quality_classes[i] for i in np.argmax(quality_probs, axis=1)]
 

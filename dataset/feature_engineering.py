@@ -30,6 +30,9 @@ SOURCE_FILES = [
     "dataset4.csv",
     "dataset5.csv",
     "dataset6.csv",
+    "dataset7.csv",
+    "dataset8.csv",
+    "dataset9.csv",
 ]
 
 SENTENCE_SPLIT_RE = re.compile(r"[.!?]+(?:\s|$)")
@@ -84,32 +87,60 @@ def extract_features(prompt: str) -> dict:
     unique_words = len(set(w.lower() for w in words))
     avg_word_length = round(sum(len(w) for w in words) / word_count, 2) if word_count else 0.0
 
-    lines = prompt.splitlines() or [prompt]
-    sentences = [s for s in SENTENCE_SPLIT_RE.split(prompt) if s.strip()]
+    lines = prompt.splitlines() or [""]
+    # sentence_count: split on sentence-ending punctuation; always at least 1
+    # for non-empty prompts, 0 for genuinely empty strings.
+    sentence_parts = [s for s in SENTENCE_SPLIT_RE.split(prompt) if s.strip()]
+    sentence_count = len(sentence_parts) if sentence_parts else (1 if prompt.strip() else 0)
+
+    has_code     = bool(CODE_RE.search(prompt))
+    has_json     = bool(JSON_RE.search(prompt))
+    has_markdown = bool(MARKDOWN_RE.search(prompt))
+    has_math     = bool(MATH_RE.search(prompt))
+    has_xml      = bool(XML_RE.search(prompt))
+    is_reasoning = bool(REASONING_WORDS.search(prompt))
+    is_creative  = bool(CREATIVE_WORDS.search(prompt))
+    is_tool      = bool(TOOL_USAGE_WORDS.search(prompt))
+    is_rag       = bool(RAG_WORDS.search(prompt))
+
+    # Composite complexity score: weighted sum of structural/semantic signals.
+    # Normalised char count (capped at 500 chars = 1.0) + structural bonuses.
+    complexity = min(len(prompt) / 500.0, 1.0)
+    complexity += 0.2 * has_code
+    complexity += 0.1 * has_json
+    complexity += 0.1 * has_markdown
+    complexity += 0.15 * has_math
+    complexity += 0.15 * is_reasoning
+    complexity += 0.1 * is_creative
+    complexity += 0.1 * is_tool
+    complexity += 0.1 * is_rag
+    complexity = round(complexity, 4)
 
     return {
         "char_count": len(prompt),
         "word_count": word_count,
         "line_count": len(lines),
-        "sentence_count": max(len(sentences), 1 if prompt.strip() else 0),
+        "sentence_count": sentence_count,
         "unique_words": unique_words,
         "avg_word_length": avg_word_length,
         "prompt_depth": prompt_depth(prompt),
-        "has_code": bool_str(bool(CODE_RE.search(prompt))),
-        "has_json": bool_str(bool(JSON_RE.search(prompt))),
-        "has_markdown": bool_str(bool(MARKDOWN_RE.search(prompt))),
-        "has_math": bool_str(bool(MATH_RE.search(prompt))),
-        "has_xml": bool_str(bool(XML_RE.search(prompt))),
-        "reasoning_prompt": bool_str(bool(REASONING_WORDS.search(prompt))),
-        "creative_prompt": bool_str(bool(CREATIVE_WORDS.search(prompt))),
-        "tool_usage_prompt": bool_str(bool(TOOL_USAGE_WORDS.search(prompt))),
-        "rag_prompt": bool_str(bool(RAG_WORDS.search(prompt))),
+        "prompt_complexity_score": complexity,
+        "has_code": bool_str(has_code),
+        "has_json": bool_str(has_json),
+        "has_markdown": bool_str(has_markdown),
+        "has_math": bool_str(has_math),
+        "has_xml": bool_str(has_xml),
+        "reasoning_prompt": bool_str(is_reasoning),
+        "creative_prompt": bool_str(is_creative),
+        "tool_usage_prompt": bool_str(is_tool),
+        "rag_prompt": bool_str(is_rag),
     }
 
 
 FEATURE_FIELDS = [
     "char_count", "word_count", "line_count", "sentence_count",
     "unique_words", "avg_word_length", "prompt_depth",
+    "prompt_complexity_score",
     "has_code", "has_json", "has_markdown", "has_math", "has_xml",
     "reasoning_prompt", "creative_prompt", "tool_usage_prompt", "rag_prompt",
 ]

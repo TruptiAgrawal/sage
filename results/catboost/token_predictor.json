@@ -1,53 +1,53 @@
 {
   "model_type": "catboost",
   "task": "token_predictor",
-  "timestamp": "2026-07-22T21:08:52.698915+00:00",
-  "train_rows": 991,
-  "test_rows": 248,
+  "timestamp": "2026-08-27T04:04:54.220626+00:00",
+  "train_rows": 1431,
+  "test_rows": 358,
   "metrics": {
     "input_tokens": {
-      "mae": 1.8924105773866933,
-      "rmse": 3.4679412715056257,
-      "r2": 0.9616886727983662
+      "mae": 1.9883158021265421,
+      "rmse": 4.569748712969153,
+      "r2": 0.9348769744890841
     },
     "output_tokens": {
-      "mae": 61.17110689454616,
-      "rmse": 117.32877665865843,
-      "r2": 0.599179863624976
+      "mae": 105.43326527554076,
+      "rmse": 304.865053249346,
+      "r2": 0.37297280837983304
     }
   },
   "top_features": [
     {
       "name": "model",
-      "importance": 36.57639235836724
+      "importance": 57.304950931689405
     },
     {
       "name": "char_count",
-      "importance": 28.36074285175096
-    },
-    {
-      "name": "word_count",
-      "importance": 14.918773892858837
+      "importance": 15.5446709844168
     },
     {
       "name": "unique_words",
-      "importance": 11.446836636036139
+      "importance": 12.805608203600212
+    },
+    {
+      "name": "word_count",
+      "importance": 9.488405852300897
+    },
+    {
+      "name": "prompt_complexity_score",
+      "importance": 2.331495722400111
     },
     {
       "name": "avg_word_length",
-      "importance": 5.534490054006765
+      "importance": 1.7323381679009835
     },
     {
       "name": "sentence_count",
-      "importance": 2.1657784922975307
-    },
-    {
-      "name": "reasoning_prompt",
-      "importance": 0.506891491113676
+      "importance": 0.3420944840873133
     },
     {
       "name": "creative_prompt",
-      "importance": 0.28802810380491195
+      "importance": 0.17958364490257614
     }
   ]
 }

@@ -31,6 +31,7 @@ RESULTS_PATH = REPO_ROOT / "results" / "lightgbm" / "quality_predictor.json"
 NUMERIC_FEATURES = [
     "char_count", "word_count", "line_count", "sentence_count",
     "unique_words", "avg_word_length", "prompt_depth",
+    "prompt_complexity_score",
 ]
 BOOL_FEATURES = [
     "has_code", "has_json", "has_markdown", "has_math", "has_xml",
