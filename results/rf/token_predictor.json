@@ -1,53 +1,53 @@
 {
   "model_type": "random_forest",
   "task": "token_predictor",
-  "timestamp": "2026-08-27T04:06:20.717396+00:00",
-  "train_rows": 1431,
-  "test_rows": 358,
+  "timestamp": "2026-09-23T17:03:56.913639+00:00",
+  "train_rows": 9431,
+  "test_rows": 2358,
   "metrics": {
     "input_tokens": {
-      "mae": 4.537082019754506,
-      "rmse": 9.122144347295249,
-      "r2": 0.7404961467316304
+      "mae": 0.5789392834046042,
+      "rmse": 2.67713252666449,
+      "r2": 0.9989552952218244
     },
     "output_tokens": {
-      "mae": 105.55155921445099,
-      "rmse": 301.66086558293165,
-      "r2": 0.38608388621889866
+      "mae": 160.20796823192578,
+      "rmse": 224.2203260027314,
+      "r2": 0.16095189300250534
     }
   },
   "top_features": [
     {
       "name": "char_count",
-      "importance": 0.14938518862405956
-    },
-    {
-      "name": "prompt_complexity_score",
-      "importance": 0.1376792352514595
-    },
-    {
-      "name": "model_claude-opus-4-8",
-      "importance": 0.13645435009063597
-    },
-    {
-      "name": "model_deepseek-reasoner",
-      "importance": 0.1091678193122477
-    },
-    {
-      "name": "model_ChatGPT GPT-5.5",
-      "importance": 0.10085157995413656
+      "importance": 0.22983911891668532
     },
     {
       "name": "avg_word_length",
-      "importance": 0.09173089263424146
+      "importance": 0.14340662356506428
     },
     {
-      "name": "model_Perplexity",
-      "importance": 0.06224558222035249
+      "name": "prompt_complexity_score",
+      "importance": 0.1307829212417939
     },
     {
       "name": "unique_words",
-      "importance": 0.03954624430242123
+      "importance": 0.1256989698746163
+    },
+    {
+      "name": "has_code",
+      "importance": 0.07427786625608655
+    },
+    {
+      "name": "model_claude-opus-4-8",
+      "importance": 0.0613739748359401
+    },
+    {
+      "name": "word_count",
+      "importance": 0.05041079978448629
+    },
+    {
+      "name": "sentence_count",
+      "importance": 0.03209819050903611
     }
   ]
 }

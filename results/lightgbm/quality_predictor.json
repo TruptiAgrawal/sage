@@ -1,48 +1,48 @@
 {
   "model_type": "lightgbm",
   "task": "quality_predictor",
-  "timestamp": "2026-08-27T04:06:13.275894+00:00",
-  "train_rows": 1431,
-  "test_rows": 358,
-  "accuracy": 0.5418994413407822,
-  "macro_f1": 0.5439117751622413,
+  "timestamp": "2026-09-23T17:05:18.562461+00:00",
+  "train_rows": 9431,
+  "test_rows": 2358,
+  "accuracy": 0.9346904156064462,
+  "macro_f1": 0.9028913577067881,
   "classification_report": {
     "Bad": {
-      "precision": 0.5384615384615384,
-      "recall": 0.56,
-      "f1-score": 0.5490196078431373,
-      "support": 50.0
+      "precision": 0.7724137931034483,
+      "recall": 0.8421052631578947,
+      "f1-score": 0.8057553956834532,
+      "support": 133.0
     },
     "Average": {
-      "precision": 0.45535714285714285,
-      "recall": 0.4857142857142857,
-      "f1-score": 0.4700460829493088,
-      "support": 105.0
+      "precision": 0.8736842105263158,
+      "recall": 0.9100877192982456,
+      "f1-score": 0.8915145005370569,
+      "support": 456.0
     },
     "Good": {
-      "precision": 0.5929203539823009,
-      "recall": 0.5775862068965517,
-      "f1-score": 0.5851528384279476,
-      "support": 116.0
+      "precision": 0.9695290858725761,
+      "recall": 0.9391771019677997,
+      "f1-score": 0.9541117673784644,
+      "support": 1118.0
     },
     "Excellent": {
-      "precision": 0.5925925925925926,
-      "recall": 0.5517241379310345,
-      "f1-score": 0.5714285714285714,
-      "support": 87.0
+      "precision": 0.9572519083969465,
+      "recall": 0.9631336405529954,
+      "f1-score": 0.9601837672281777,
+      "support": 651.0
     },
-    "accuracy": 0.5418994413407822,
+    "accuracy": 0.9346904156064462,
     "macro avg": {
-      "precision": 0.5448329069733937,
-      "recall": 0.5437561576354679,
-      "f1-score": 0.5439117751622413,
-      "support": 358.0
+      "precision": 0.8932197494748216,
+      "recall": 0.9136259312442339,
+      "f1-score": 0.9028913577067881,
+      "support": 2358.0
     },
     "weighted avg": {
-      "precision": 0.5448879707837412,
-      "recall": 0.5418994413407822,
-      "f1-score": 0.5430107097032456,
-      "support": 358.0
+      "precision": 0.9364866602437282,
+      "recall": 0.9346904156064462,
+      "f1-score": 0.9353149568555825,
+      "support": 2358.0
     }
   },
   "confusion_matrix": {
@@ -54,63 +54,63 @@
     ],
     "matrix": [
       [
-        28,
-        14,
-        7,
+        112,
+        8,
+        12,
         1
       ],
       [
         14,
-        51,
-        22,
-        18
+        415,
+        14,
+        13
       ],
       [
-        10,
-        25,
-        67,
+        19,
+        35,
+        1050,
         14
       ],
       [
         0,
-        22,
         17,
-        48
+        7,
+        627
       ]
     ]
   },
   "top_features": [
     {
       "name": "avg_word_length",
-      "importance": 10697.0
+      "importance": 12629.0
     },
     {
       "name": "char_count",
-      "importance": 8662.0
+      "importance": 10771.0
     },
     {
       "name": "prompt_complexity_score",
-      "importance": 8454.0
+      "importance": 10406.0
     },
     {
       "name": "word_count",
-      "importance": 3258.0
+      "importance": 4587.0
     },
     {
       "name": "unique_words",
-      "importance": 2849.0
+      "importance": 3852.0
     },
     {
       "name": "model",
-      "importance": 2194.0
+      "importance": 2838.0
     },
     {
       "name": "sentence_count",
-      "importance": 1247.0
+      "importance": 1884.0
     },
     {
-      "name": "creative_prompt",
-      "importance": 418.0
+      "name": "prompt_depth",
+      "importance": 793.0
     }
   ]
 }
