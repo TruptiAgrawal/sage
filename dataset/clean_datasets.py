@@ -29,6 +29,7 @@ SOURCE_FILES = [
     "dataset7.csv",   # ChatGPT GPT-5.5  (TSV, Quality Category column)
     "dataset8.csv",   # Gemini variants   (CSV, lowercase headers, extra response col)
     "dataset9.csv",   # Perplexity        (CSV, has "Okay" quality label + corrupt rows)
+    "dataset10.csv",  # GPT-4o            (10,000 prompts from Downloads/prompts)
 ]
 
 FIELDNAMES = ["Model Name", "Prompt", "Input Tokens", "Output Tokens", "Quality", "Feedback"]
@@ -63,6 +64,8 @@ MODEL_NAME_MAP = {
     "gemini-3.6-flash": "gemini-3.6-flash",
     # dataset9
     "perplexity": "Perplexity",
+    # dataset10
+    "gpt-4o": "GPT-4o",
 }
 
 

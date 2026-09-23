@@ -33,6 +33,7 @@ SOURCE_FILES = [
     "dataset7.csv",
     "dataset8.csv",
     "dataset9.csv",
+    "dataset10.csv",
 ]
 
 SENTENCE_SPLIT_RE = re.compile(r"[.!?]+(?:\s|$)")

@@ -33,6 +33,7 @@ SOURCE_FILES = [
     "dataset7_features.csv",
     "dataset8_features.csv",
     "dataset9_features.csv",
+    "dataset10_features.csv",
 ]
 
 FEATURE_FIELDS = [
